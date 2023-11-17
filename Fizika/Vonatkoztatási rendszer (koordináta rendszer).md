@@ -89,6 +89,7 @@ megadhatjuk. Az ábrán az M-pont helyzetét megadhatjuk a descartes-i koordiná
 
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
+
 $$
 x_M = r*sinθ*cosφ
 \\
