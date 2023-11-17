@@ -37,7 +37,7 @@ z ≡ |\underline{z}| = \sqrt{a^2 + b^2} \text{ - modulusz }
 \end{cases}$
 
 Nagyon fontos megjegyezni, hogy azok a komplex számok, amelyek egy adott sugarú
-körön helyezkednek el (pl. |z| sugarú kör az ábrán, z és z$_1$), különböző valós, illetve
+körön helyezkednek el (pl. |z| sugarú kör az ábrán, z és $z_1$), különböző valós, illetve
 imaginárius résszel rendelkeznek, azonos a moduluszuk de különböző a fázisszögük.
 Nagyon fontos képlet az ún. Euler-képlet, amely az exponenciális függvény és a komplex
 számok közötti kapcsolatot termeti meg a trigonometriai függvények lineáris kombinációjaként.

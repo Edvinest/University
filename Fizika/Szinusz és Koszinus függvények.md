@@ -21,7 +21,7 @@ $$
 T = \frac{2π}{ω} \\\text{és}\\ ν = \frac{1}{T}
 $$
 
-(a frekvencia mértékegysége 1s$^{− 1}$ = 1Hz).
+(a frekvencia mértékegysége $1s^{− 1}$ = 1Hz).
 $α_0$ szerepe:
 
 - mivel időben lejátszódó folyamatokat fogunk tanulmányozni, szükségünk van egy

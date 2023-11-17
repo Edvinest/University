@@ -33,20 +33,20 @@ Ez a mozgásra jellemző középsebesség egy „átlag” információt nyújt 
 mozgását, helyváltoztatását illetően. Ez sok esetben fontos és elégséges információ lehet.
 Például abban az esetben amikor csak arra az információra van szükség, hogy egy autó az A
 és B város közötti 100 km-es távolságot (nem utat, amely a pályát jelenti, hanem légvonalban
-mért távolságot) 2 óra alatt teszi meg, akkor az autó középsebessége v$_k$ = 100⁄2 =
+mért távolságot) 2 óra alatt teszi meg, akkor az autó középsebessége $v_k$ = 100⁄2 =
 50 (km⁄h). Mivel két települést általában nem egyenes útszakasz köt össze, a megtett út nem
 100 km és nagy valószínűséggel a sebesség sem állandó, így ez az információ nem elégséges,
 hiszen nem tudunk pontos információt arról, hogy az autó a mozgás egy adott pillanatban a
 pálya meghatározott pontjában mekkora sebességgel rendelkezett.
-Az ábra 1-es és 2-es pontja között egy görbült pályaszakaszon mozog az anyagi pont, de a sebességet a Δr⃗$_{21}$ = r⃗$_2$ − r⃗$_1$ vektor Δr$_{21}$ moduluszával közelítjük meg, ami pontatlan információ. Megfigyelhető az is, hogy ebben az esetben a sebességvektor iránya is a Δr⃗$_{21}$-nek megfelelő irányítás.
+Az ábra 1-es és 2-es pontja között egy görbült pályaszakaszon mozog az anyagi pont, de a sebességet a Δr⃗$_{21}$ = r⃗$_2$ − r⃗$_1$ vektor Δ$r_{21}$ moduluszával közelítjük meg, ami pontatlan információ. Megfigyelhető az is, hogy ebben az esetben a sebességvektor iránya is a Δr⃗$_{21}$-nek megfelelő irányítás.
 
 ![Screenshot from 2023-11-13 08-24-21.png](Kinematika/Screenshot_from_2023-11-13_08-24-21.png)
 
 A pálya egyes szakaszaira vonatkozó egyre pontosabb információhoz jutunk abban az
 esetben, ha az 1-es ponthoz képest egyre közelebbi pontokat vizsgálunk, így egyre rövidebb
 időtartományokban vizsgáljuk a mozgást. Az ábrán először az 1-es és 3-as pontok közötti
-pályaszakaszt a Δr⃗$_{31}$ = r⃗$_3$ − r⃗$_1$ vektor Δr$_{31}$ moduluszával, majd az 1-es és 4-es pontok közötti
-pályaszakaszt a Δr⃗$_{41}$ = r⃗$_4$ − r⃗$_1$ vektor Δr$_{41}$ moduluszával közelítjük meg. Minden esetben
+pályaszakaszt a Δr⃗$_{31}$ = r⃗$_3$ − r⃗$_1$ vektor Δ$r_{31}$ moduluszával, majd az 1-es és 4-es pontok közötti
+pályaszakaszt a Δr⃗$_{41}$ = r⃗$_4$ − r⃗$_1$ vektor Δ$r_{41}$ moduluszával közelítjük meg. Minden esetben
 megfigyelhető a számítható sebességvektor irányának változása. Határértékben addig
 csökkentjük az időtartamot, amíg Δt → 0, így ekkor kapjuk a lehető legjobb közelítést az
 anyagi pontnak a pálya egy adott pontjában jellemző sebességére. Ezt a sebességet
@@ -146,7 +146,7 @@ Az ábrán az anyagi pont egy R sugarú körpályán az 1-es ponttól a 2-es pon
 értékű sebességgel halad, tehát |v⃗$_1$| = |v⃗$_2$| = v. Annak ellenére, hogy a sebesség értéke állandó,
 mégis van sebességváltozás vektoriális szinten, hiszen a v⃗$_1$ és a v⃗$_2$ vektorok más iránnyal és
 irányítással rendelkeznek. Ez egy olyan fajta gyorsulást eredményez, amely nem vezet a sebesség
-értékének változáshoz. A szerkesztéshez a v⃗$_2$ vektort önmagával párhuzamosan eltoljuk a v⃗$_1$vektor kezdőpontjába, majd a háromszögszabálynak megfelelően meghúzzuk a Δv⃗ = v⃗$_2$ − v⃗$_1$ vektort a v⃗$_1$ csúcspontjától a v⃗$_2$ csúcspontjáig irányítva.
+értékének változáshoz. A szerkesztéshez a v⃗$_2$ vektort önmagával párhuzamosan eltoljuk a $\vec{v}_1$ vektor kezdőpontjába, majd a háromszögszabálynak megfelelően meghúzzuk a Δv⃗ = v⃗$_2$ − v⃗$_1$ vektort a v⃗$_1$ csúcspontjától a v⃗$_2$ csúcspontjáig irányítva.
 Az anyagi pont gyorsulása
 
 $$
@@ -155,14 +155,14 @@ $$
 
 Látható az ábrán, hogy a sebességváltozás és ennek megfelelően a gyorsulás iránya
 megegyezik a sugár irányával irányítása pedig a kör középpontja felé mutató. Ezt a gyorsulást
-normális gyorsulásnak nevezzük és a$_n$-el szokás jelölni.
+normális gyorsulásnak nevezzük és $a_n$-el szokás jelölni.
 
 ![Screenshot from 2023-11-13 09-22-21.png](Kinematika/Screenshot_from_2023-11-13_09-22-21.png)
 
 Mivel az 1-es pontra mutató helyzetvektor és az 1-es ponthoz húzott érintő, illetve a 2-es
 pontra mutató helyzetvektor és a 2-es ponthoz húzott érintő merőleges szárú szögeket zárnak be,
 az 1-es pontban látható két sebességvektor és a két helyzetvektor között ugyanaz a Δθ szög
-található. Ezért a 3 − 1 − 4$_∆$-ben Δv ≅ vΔθ és az 1 − 0 − 2$_∆$-ben Δs = RΔθ. Ennek megfelelően
+található. Ezért a 3 − 1 − $4_∆$-ben Δv ≅ vΔθ és az 1 − 0 − $2_∆$-ben Δs = RΔθ. Ennek megfelelően
 a gyorsulás modulusza
 
 $$
@@ -239,7 +239,7 @@ $$
 ### Sebességtörvény
 
 Az anyagi pont sebességtörvényét a gyorsulás definíciójából, integrálás útján vezethetjük
-le, ahol v$_0$ a sebesség a t$_0$ kezdeti pillanatban és az a gyorsulás állandó.
+le, ahol $v_0$ a sebesség a $t_0$ kezdeti pillanatban és az a gyorsulás állandó.
 
 $$
 \int_{v_0}^{v}dv =\int_{t_0}^{t}adt=a\int_{t_0}^{t}dt\\
@@ -247,13 +247,13 @@ v − v_0 = a(t − t_0) ⇒ v = v_0 + a(t − t_0) \text{ (5.)}
 $$
 
 **Megjegyzés:** attól függően, hogy ki hogyan értelmezi a kezdeti feltételek megjelenítését ebben az
-egyenletben több alakban is használatos a sebességtörvény. Abban az esetben, amikor a kezdeti időpillanatot nullának tekintjük t$_0$ = 0, az egyenletből egyszerűen elhagyjuk a t$_0$-t és a következő alakban írjuk fel v = v$_0$ + at. Van olyan forma is, amikor az eltelt időtartamot t − t$_0$ = Δt-vel
-jelöljük v = v$_0$ + aΔt.
+egyenletben több alakban is használatos a sebességtörvény. Abban az esetben, amikor a kezdeti időpillanatot nullának tekintjük $t_0$ = 0, az egyenletből egyszerűen elhagyjuk a $t_0$-t és a következő alakban írjuk fel v = $v_0$ + at. Van olyan forma is, amikor az eltelt időtartamot t − $t_0$ = Δt-vel
+jelöljük v = $v_0$ + aΔt.
 
 ### Mozgástörvény
 
 Az anyagi pont mozgástörvényét a sebesség definíciójából, integrálás útján vezethetjük le,
-ahol x$_0$ és v$_0$ a hely-koordináta és sebesség a t$_0$ kezdeti pillanatban és az a gyorsulás állandó.
+ahol $x_0$ és $v_0$ a hely-koordináta és sebesség a $t_0$ kezdeti pillanatban és az a gyorsulás állandó.
 
 $$
 \int_{x_0}^{x}dx = \int_{t_0}^{t}vdt= \int{t_0}^{t}(v_0 + at)dt = \\v_0\int_{t_0}^{t}dt+a\int_{t_0}^{t}tdt = v_0(t-t_0) + a\frac{(t-t_0)^2}{2}
@@ -263,9 +263,9 @@ $$
 
 Megjegyzés: attól függően, hogy ki hogyan értelmezi a kezdeti feltételek megjelenítését ebben az
 egyenletben több alakban is használatos a mozgástörvény. Abban az esetben, amikor a kezdeti
-időpillanatot és a kezdő koordinátát nullának tekintjük t$_0$ = 0 és x$_0$ = 0, az egyenletből egyszerűen elhagyjuk a t$_0$-t és x$_0$-t és az egyenletet a következő alakban írjuk fel x = v$_0$t + a$\frac{t^2}{2}$.
-Van olyan forma is, amikor az eltelt időtartamot t − t$_0$ = Δt ≡ t-vel és a megtett utat x − x$_0$ =
-Δx ≡ d jelöljük, akkor az egyenletet a Δx = v$_0$Δt +a$\frac{Δt^2}{2}$ vagy d = v$_0$t + a$\frac{t^2}{2}$ alakban írhatjuk fel.
+időpillanatot és a kezdő koordinátát nullának tekintjük $t_0$ = 0 és $x_0$ = 0, az egyenletből egyszerűen elhagyjuk a $t_0$-t és $x_0$-t és az egyenletet a következő alakban írjuk fel x = $v_0$ t + $a\frac{t^2}{2}$.
+Van olyan forma is, amikor az eltelt időtartamot t − $t_0$ = Δt ≡ t-vel és a megtett utat x − $x_0$ =
+Δx ≡ d jelöljük, akkor az egyenletet a Δx = $v_0$Δt +$a\frac{Δt^2}{2}$ vagy d = $v_0$ t + $a\frac{t^2}{2}$ alakban írhatjuk fel.
 
 ### Egyenes vonalú egyenletes mozgás
 
@@ -285,10 +285,10 @@ körmozgás sajátosságainak figyelembevételére
 
 ![Screenshot from 2023-11-13 15-26-59.png](Kinematika/Screenshot_from_2023-11-13_15-26-59.png)
 
-Az ábrán az anyagi pont egy R sugarú körön a t$_0$ = 0 pillanatban az 1.-es pontban v$_1$
-sebességgel halad és az 0-1. egyenes θ$_1$ szöget zár be a vonatkoztatási rendszer x-tengelyével.
+Az ábrán az anyagi pont egy R sugarú körön a $t_0$ = 0 pillanatban az 1.-es pontban $v_1$
+sebességgel halad és az 0-1. egyenes $\text{θ}_1$ szöget zár be a vonatkoztatási rendszer x-tengelyével.
 Tegyük fel, hogy az anyagi pont ∆t idő múlva már a 2.-es pontban található, ahol a sebessége már
-v$_2$ > v$_1$. Ez idő alatt a z anyagi pont által megtett út megegyezik a ∆s körív hosszúságával. A
+$v_2$ > $v_1$. Ez idő alatt a z anyagi pont által megtett út megegyezik a ∆s körív hosszúságával. A
 középponti szög mértékének definícióját felhasználva ∆s = R(θ$_2$ − θ$_1$) = R∆θ. Ha ∆t → 0 akkor
 
 ds = Rdθ. Differenciáljuk ezt az egyenletet és kapjuk az (7.) összefügést.
@@ -336,7 +336,7 @@ $$
 [β]_{SI} =\frac{[ω]_{SI}}{[t]_{SI}}= 1\frac{rad}{s^2}
 $$
 
-A sebességtörvény levezetéséhez a (5.) összefüggésből indulunk ki úgy, hogy t$_0$ = 0
+A sebességtörvény levezetéséhez a (5.) összefüggésből indulunk ki úgy, hogy $t_0$ = 0
 helyettesítünk, majd az összefüggést elosztjuk a pályasugárral és megkapjuk az egyenletesen
 változó körmozgás sebességtörvényét (12.), ahol ω$_0$ a kezdeti szögsebesség.
 
@@ -344,9 +344,9 @@ $$
 \frac{v}{R}=\frac{v_0}{R}+\frac{a}{R}t ⇒ ω = ω_0 + βt \text{ (12.)}
 $$
 
-A mozgástörvény levezetéséhez a (6.) összefüggésből indulunk ki úgy, hogy t$_0$ = 0
+A mozgástörvény levezetéséhez a (6.) összefüggésből indulunk ki úgy, hogy $t_0$ = 0
 helyettesítünk, majd az összefüggést elosztjuk a pályasugárral és megkapjuk az egyenletesen
-változó körmozgás mozgástörvényét (12.), ahol ω$_0$ a kezdeti szögsebesség és (x − x$_0$)⁄R az 1. és pontok közötti középponti szöget jelenti (előző ábra).
+változó körmozgás mozgástörvényét (12.), ahol ω$_0$ a kezdeti szögsebesség és (x − $x_0$)⁄R az 1. és pontok közötti középponti szöget jelenti (előző ábra).
 
 $$
 \frac{x − x_0}{R}=\frac{v_0}{R}t +\frac{a}{R}\frac{t^2}{2}⇒ ∆θ = ω_0t + β\frac{t^2}{2} \text{ (13.)}
