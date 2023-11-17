@@ -93,8 +93,8 @@ megadhatjuk. Az ábrán az M-pont helyzetét megadhatjuk a descartes-i koordiná
 ![Screenshot from 2023-11-12 16-12-05.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-12_16-12-05.png)
 
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
-poláris koordináták között.
-<br>
+poláris koordináták között.  
+
 $$
 x_M = r*sinθ*cosφ\\
 y_M = r*sinθ*sinφ\\
