@@ -70,18 +70,13 @@ megadhatjuk. A következő ábrán az 1-pont helyzetét megadhatjuk a descartes-
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
 
-$$x_1 = r_1*cosφ_1$$
-
-<center>és</center>
-
-$$y_1 = r_1 * sinφ_1$$
-
-<center>vagy</center>
-
-$$r_1 = \sqrt{x_1^2 + y_1^2}$$
-<center>és</center>
-
-$$tgφ_1 = \frac{y_1}{x_1}$$
+$$x_1 = r_1*cosφ_1\\
+és\\
+y_1 = r_1 * sinφ_1\\
+vagy\\
+r_1 = \sqrt{x_1^2 + y_1^2}\\
+és\\
+tgφ_1 = \frac{y_1}{x_1}$$
 
 ### 3 dimenzió
 
