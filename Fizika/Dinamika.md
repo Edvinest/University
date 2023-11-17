@@ -79,7 +79,7 @@ $$
 
 Szemléltessük a hatás-visszahatás törvényét egy m tömegű anyagi ponttal, amit egy vízszintes felületre helyezünk (az anyagi pontot a szokásos módon egy négyzettel jelöljük, hiszen rajzon kiterjedés nélküli pontot semmiképpen sem tudunk ábrázolni). A gravitációs tér részéről függőlegesen lefele hat a G⃗ = mg⃗ súlyerő, míg ezzel ellentétesen felfele hat az ezt kiegyensúlyozó merőleges nyomóerő, N⃗⃗ = −G⃗ = −mg⃗, N = G = mg.
 
-![Screenshot from 2023-11-13 21-16-07.png](Dinamika%208e511fb55e7745138272d20ae6adc8ed/Screenshot_from_2023-11-13_21-16-07.png)
+![Screenshot from 2023-11-13 21-16-07.png](Dinamika.png)
 
 ### Az erőhatások függetlenségének törvénye
 
