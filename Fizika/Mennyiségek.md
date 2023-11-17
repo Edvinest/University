@@ -29,7 +29,7 @@ Az általánosan használt jelölés egy nyíl az adott fizikai mennyiséget jel
 helyzetvektor r⃗, sebességvektor v⃗, erő F⃗, impulzus p⃗ stb. (megjegyzés: könyvekben és internetes oldalakon is találhatunk olyan jelölésformát, amikor a vektoriális mennyiséget vastagított betűvel
 jelölik: pl. sebességvektor **v**).
 
-![Screenshot from 2023-11-10 21-58-15.png](Mennyise%CC%81gek%2030e10ca624334daba86dee0b04519ab0/Screenshot_from_2023-11-10_21-58-15.png)
+![Screenshot from 2023-11-10 21-58-15.png](Mennyise%CC%81gek/Screenshot_from_2023-11-10_21-58-15.png)
 
 **Megjegyzés:** alkalmazásoktól függően megkülönböztetünk szabad- és kötött vektorokat. Kötött vektorok esetében az ábrán látható minden jellemző rögzített, míg szabad vektorok esetén a
 vektor elcsúsztatható (megváltozhat a tartóegyenese (AB) illetve a támadópontja (A)).

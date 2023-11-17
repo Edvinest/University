@@ -40,7 +40,7 @@ hiszen nem tudunk pontos információt arról, hogy az autó a mozgás egy adott
 pálya meghatározott pontjában mekkora sebességgel rendelkezett.
 Az ábra 1-es és 2-es pontja között egy görbült pályaszakaszon mozog az anyagi pont, de a sebességet a Δr⃗$_{21}$ = r⃗$_2$ − r⃗$_1$ vektor Δr$_{21}$ moduluszával közelítjük meg, ami pontatlan információ. Megfigyelhető az is, hogy ebben az esetben a sebességvektor iránya is a Δr⃗$_{21}$-nek megfelelő irányítás.
 
-![Screenshot from 2023-11-13 08-24-21.png](Kinematika%209cace007ba4c41bf8c182ca8cb1d2fab/Screenshot_from_2023-11-13_08-24-21.png)
+![Screenshot from 2023-11-13 08-24-21.png](Kinematika/Screenshot_from_2023-11-13_08-24-21.png)
 
 A pálya egyes szakaszaira vonatkozó egyre pontosabb információhoz jutunk abban az
 esetben, ha az 1-es ponthoz képest egyre közelebbi pontokat vizsgálunk, így egyre rövidebb
@@ -157,7 +157,7 @@ Látható az ábrán, hogy a sebességváltozás és ennek megfelelően a gyorsu
 megegyezik a sugár irányával irányítása pedig a kör középpontja felé mutató. Ezt a gyorsulást
 normális gyorsulásnak nevezzük és a$_n$-el szokás jelölni.
 
-![Screenshot from 2023-11-13 09-22-21.png](Kinematika%209cace007ba4c41bf8c182ca8cb1d2fab/Screenshot_from_2023-11-13_09-22-21.png)
+![Screenshot from 2023-11-13 09-22-21.png](Kinematika/Screenshot_from_2023-11-13_09-22-21.png)
 
 Mivel az 1-es pontra mutató helyzetvektor és az 1-es ponthoz húzott érintő, illetve a 2-es
 pontra mutató helyzetvektor és a 2-es ponthoz húzott érintő merőleges szárú szögeket zárnak be,
@@ -182,7 +182,7 @@ mutató Δv⃗$_1$ komponens (megegyezik az előző alcímben bevezetett Δv⃗-
 következménye a már bevezetett normális gyorsulás, a másik pedig a pálya érintőjének irányába
 eső Δv⃗$_2$ komponens. Ennek kell a továbbiakban értelmezést adjunk.
 
-![Screenshot from 2023-11-13 09-30-52.png](Kinematika%209cace007ba4c41bf8c182ca8cb1d2fab/Screenshot_from_2023-11-13_09-30-52.png)
+![Screenshot from 2023-11-13 09-30-52.png](Kinematika/Screenshot_from_2023-11-13_09-30-52.png)
 
 Az anyagi pont gyorsulása az alábbi összefüggéssel adható meg.
 
@@ -209,7 +209,7 @@ $$
 
 Abban az esetben, amikor a pálya görbevonalú de nem körpálya, a sebességre vonatkozó megállapításaink igazak, tehát a görbe minden egyes pontjában a pillanatnyi sebesség iránya megegyezik az illető ponthoz húzott érintő irányával (ne tévesszen meg senkit az, hogy az ábrán az 1-es és 2-es pontokban a sebességvektorok nem merőlegesek a helyzetvektorokra, egyik sem „kör sugár”!).
 
-![Screenshot from 2023-11-13 09-38-18.png](Kinematika%209cace007ba4c41bf8c182ca8cb1d2fab/Screenshot_from_2023-11-13_09-38-18.png)
+![Screenshot from 2023-11-13 09-38-18.png](Kinematika/Screenshot_from_2023-11-13_09-38-18.png)
 
 Az eddigiekben használt „sugár” fogalma nem elegendő, hiszen az csak a kör esetében
 használatos. Ezt a fogalmat ki kell terjesszük úgy, hogy csak a görbe egy adott pontjának
@@ -222,7 +222,7 @@ $$
 \lim_{Δs\to{0}}\frac{Δθ}{Δs}=\frac{1}{R} \text{ (3.)}
 $$
 
-![Screenshot from 2023-11-13 09-44-46.png](Kinematika%209cace007ba4c41bf8c182ca8cb1d2fab/Screenshot_from_2023-11-13_09-44-46.png)
+![Screenshot from 2023-11-13 09-44-46.png](Kinematika/Screenshot_from_2023-11-13_09-44-46.png)
 
 ## Az anyagi pontra vonatkozó mozgástörvények
 
@@ -283,7 +283,7 @@ Az egyenletesen változó körmozgásra vonatkozó mozgástörvényeket a sebess
 definícióiból (4.) kiindulva vezethetjük le úgy, hogy bevezetünk néhány új mennyiéget a
 körmozgás sajátosságainak figyelembevételére
 
-![Screenshot from 2023-11-13 15-26-59.png](Kinematika%209cace007ba4c41bf8c182ca8cb1d2fab/Screenshot_from_2023-11-13_15-26-59.png)
+![Screenshot from 2023-11-13 15-26-59.png](Kinematika/Screenshot_from_2023-11-13_15-26-59.png)
 
 Az ábrán az anyagi pont egy R sugarú körön a t$_0$ = 0 pillanatban az 1.-es pontban v$_1$
 sebességgel halad és az 0-1. egyenes θ$_1$ szöget zár be a vonatkoztatási rendszer x-tengelyével.

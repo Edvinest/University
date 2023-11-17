@@ -26,7 +26,7 @@ A komplex számokat a komplex számsíkban ábrázoljuk, ahol a komplex szám eg
 jelöl a síkban. A pontnak a helyzetét (ugyanúgy, mint a kétdimenziós euklideszi térben) két
 koordináta párossal adhatjuk meg.
 
-![Screenshot from 2023-11-12 18-49-19.png](Komplex%20sza%CC%81mok%2051bbb0cf0a7043579022e5098a582626/Screenshot_from_2023-11-12_18-49-19.png)
+![Screenshot from 2023-11-12 18-49-19.png](Komplex%20sza%CC%81mok/Screenshot_from_2023-11-12_18-49-19.png)
 
 Descartes-koordinátáknak megfelelő páros:$\begin{cases}a = Re\verb|{z}| = zcosφ\\
 b = Im\verb|{z}| = zsinφ\end{cases}$
@@ -70,7 +70,7 @@ $\underline{z_3} = \underline{z_1} + \underline{z_2} = a + jb + c + jd = (a + c)
     esetén is). A komplex számok összeadása grafikusan a paralelogramma szabály szerint történik)
     
 
-![Screenshot from 2023-11-12 21-11-20.png](Komplex%20sza%CC%81mok%2051bbb0cf0a7043579022e5098a582626/Screenshot_from_2023-11-12_21-11-20.png)
+![Screenshot from 2023-11-12 21-11-20.png](Komplex%20sza%CC%81mok/Screenshot_from_2023-11-12_21-11-20.png)
 
 - kivonás:
 $\underline{z_4} = \underline{z_1} − \underline{z_2} = \underline{z_1} + \underline{(−z_2}) = a + jb − (c + jd) = (a − c) + j(b − d)$

@@ -87,7 +87,7 @@ Egy test egyidejűleg több erő hatásának is ki lehet téve (sőt a valóság
 így van), amelyek a mozgásállapotát (gyorsulását) meghatározzák. A test gyorsulását az
 egyidejűleg ható erők paralelogramma szabály szerint meghatározható eredője határozza meg úgy, hogy az egyes erők által kifejtett egyedi hatások nem érzékelhetők.
 
-![Screenshot from 2023-11-13 21-17-18.png](Dinamika%208e511fb55e7745138272d20ae6adc8ed/Screenshot_from_2023-11-13_21-17-18.png)
+![Screenshot from 2023-11-13 21-17-18.png](Dinamika/Screenshot_from_2023-11-13_21-17-18.png)
 
 Abban az esetben amikor a testre n-erő hat egyidejűleg, az eredő erő kifejezését a (18.)
 összefüggéssel definiálhatjuk.

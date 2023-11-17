@@ -39,18 +39,18 @@ illetve
 $x_2 = r*cos(α_0 + ω_t) \text{ és }
  y_1 = r*sin(α_0 + ω_t)$
 
-![Screenshot from 2023-11-12 16-38-52.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek%20844816b87565456e88f7e555ebb48ef5/Screenshot_from_2023-11-12_16-38-52.png)
+![Screenshot from 2023-11-12 16-38-52.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek/Screenshot_from_2023-11-12_16-38-52.png)
 
 Figyelembe véve, hogy a szinusz és koszinusz függvények értéktartománya [-1,1] az
 eddigiekben felsorolt jellemzőket a következő ábrák szemléltetik.
 
 $y(t) = sin(α); α = ω_t + α_0\text{ és } α_0 = 0$
 
-![Screenshot from 2023-11-12 16-42-17.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek%20844816b87565456e88f7e555ebb48ef5/Screenshot_from_2023-11-12_16-42-17.png)
+![Screenshot from 2023-11-12 16-42-17.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek/Screenshot_from_2023-11-12_16-42-17.png)
 
 $y(t) = cos(α); α = ω_t + α_0 \text{ és } α_0 = 0$
 
-![Screenshot from 2023-11-12 17-51-49.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek%20844816b87565456e88f7e555ebb48ef5/Screenshot_from_2023-11-12_17-51-49.png)
+![Screenshot from 2023-11-12 17-51-49.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek/Screenshot_from_2023-11-12_17-51-49.png)
 
 ### Hasznos képletek
 

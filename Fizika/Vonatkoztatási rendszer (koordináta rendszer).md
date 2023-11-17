@@ -18,7 +18,7 @@ segítségével fejezzük ki. Az x-tengelyhez hagyományosan az i⃗ - egységve
 szerint az 1-es pont r$_1$ távolságra található az 0-ponttól és a helyzetét r⃗$_1$ = r$_1$i⃗ vektor adja meg,
 míg a 2-es pont r$_2$ távolságra található az 0-ponttól és a helyzetét r⃗$_2$ = −r$_2$i⃗ vektor adja meg.
 
-![Screenshot from 2023-11-12 14-58-00.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)%20f44999466485409d8a48ae34ddd822a8/Screenshot_from_2023-11-12_14-58-00.png)
+![Screenshot from 2023-11-12 14-58-00.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-12_14-58-00.png)
 
 Mivel egyetlen iránnyal van dolgunk szögek használatának tekintetében két lehetőség
 adódik. Abban az esetben amikor két vektor azonos irányítással rendelkezik, az általuk bezárt szög értéke nulla, ha pedig ellentétes irányítással rendelkeznek, az általuk bezárt szög értéke 180 deg (π- radián).
@@ -41,7 +41,7 @@ $$
 
 vektor adja meg.
 
-![Screenshot from 2023-11-12 15-06-50.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)%20f44999466485409d8a48ae34ddd822a8/Screenshot_from_2023-11-12_15-06-50.png)
+![Screenshot from 2023-11-12 15-06-50.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-12_15-06-50.png)
 
 ### 3 dimenzió
 
@@ -56,7 +56,7 @@ $$
 ahol e⃗$_r$ a r⃗-hoz tartozó egységvektor adja meg.
 **Megjegyzés:** az x, y és z koordinátákat Descartes-féle koordinátáknak nevezzük.
 
-![Screenshot from 2023-11-15 16-16-13.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)%20f44999466485409d8a48ae34ddd822a8/Screenshot_from_2023-11-15_16-16-13.png)
+![Screenshot from 2023-11-15 16-16-13.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-15_16-16-13.png)
 
 ## Poláris koordináta rendszer
 
@@ -65,7 +65,7 @@ ahol e⃗$_r$ a r⃗-hoz tartozó egységvektor adja meg.
 Kiindulásként használjuk az ábrán szemléltetett koordináta-rendszert, amelyhez annyi kiegészítést teszünk, hogy egy pont helyzetét egy szög és egy távolság függvényében is
 megadhatjuk. A következő ábrán az 1-pont helyzetét megadhatjuk a descartes-i koordinátákkal (x$_1$, y$_1$), vagy az r$_1$ távolság és a φ$_1$ egy szög (azimut-szög) segítségével (megjegyezzük, hogy a szögek meghatározása is mindig egy vonatkoztatási irányhoz képest történik, az ábrán a vonatkoztatási irány az x-tengely pozitív irányítása – 0 fokos „irány”). Az (r$_1$, φ$_1$) párost nevezzük poláris koordinátáknak.
 
-![Screenshot from 2023-11-12 15-12-17.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)%20f44999466485409d8a48ae34ddd822a8/Screenshot_from_2023-11-12_15-12-17.png)
+![Screenshot from 2023-11-12 15-12-17.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-12_15-12-17.png)
 
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
@@ -88,7 +88,7 @@ kiegészítést teszünk, hogy egy pont helyzetét két szög és egy távolság
 megadhatjuk. Az ábrán az M-pont helyzetét megadhatjuk a descartes-i koordinátákkal
 (x$_M$, y$_M$, z$_M$), vagy az r távolság a φ és a θ szögek segítségével. Az (r, φ, θ) hármast nevezzük poláris koordinátáknak.
 
-![Screenshot from 2023-11-12 16-12-05.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)%20f44999466485409d8a48ae34ddd822a8/Screenshot_from_2023-11-12_16-12-05.png)
+![Screenshot from 2023-11-12 16-12-05.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-12_16-12-05.png)
 
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
