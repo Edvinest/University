@@ -96,9 +96,10 @@ Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descar
 poláris koordináták között.
 
 $$x_M = r*sinθ*cosφ$$
+
 $$y_M = r*sinθ*sinφ$$
 $$z_M = r*cosθ$$
-<center>vagy</center>
+<p align="center">vagy</p>
 
 $$r = \sqrt{x_M^2 + y_M^2 + z_M^2}$$
 $$tgφ = \frac{y_M}{x_M}$$
