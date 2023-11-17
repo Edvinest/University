@@ -70,13 +70,18 @@ megadhatjuk. A következő ábrán az 1-pont helyzetét megadhatjuk a descartes-
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
 
-$$x_1 = r_1*cosφ_1
-\\ és \\
-y_1 = r_1 * sinφ_1
-\\ vagy \\
-r_1 = \sqrt{x_1^2 + y_1^2}
-<br> és \\
-tgφ_1 = \frac{y_1}{x_1}$$
+$$x_1 = r_1*cosφ_1$$
+
+<center>és</center>
+
+$$y_1 = r_1 * sinφ_1$$
+
+<center>vagy</center>
+
+$$r_1 = \sqrt{x_1^2 + y_1^2}$$
+<center>és</center>
+
+$$tgφ_1 = \frac{y_1}{x_1}$$
 
 ### 3 dimenzió
 
@@ -90,16 +95,11 @@ megadhatjuk. Az ábrán az M-pont helyzetét megadhatjuk a descartes-i koordiná
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
 
-$$
-x_M = r*sinθ*cosφ
-\\
-y_M = r*sinθ*sinφ
-\\
-z_M = r*cosθ
-\\\text{vagy}\\
-r = \sqrt{x_M^2 + y_M^2 + z_M^2}
-\\
-tgφ = \frac{y_M}{x_M}
-\\
-tgθ = \frac{\sqrt{x_M^2 + y_M^2}}{z_M}
-$$
+$$x_M = r*sinθ*cosφ$$
+$$y_M = r*sinθ*sinφ$$
+$$z_M = r*cosθ$$
+<center>vagy</center>
+
+$$r = \sqrt{x_M^2 + y_M^2 + z_M^2}$$
+$$tgφ = \frac{y_M}{x_M}$$
+$$tgθ = \frac{\sqrt{x_M^2 + y_M^2}}{z_M}$$
