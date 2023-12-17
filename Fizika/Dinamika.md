@@ -29,7 +29,7 @@ Nagyon fontos az a tény, hogy a test tömeget és a sebességét egyszerre vegy
 sebesség jelenléte miatt ez egy vektoriális mennyiség, amelynek az iránya és irányítása megegyezik a sebesség irányával és irányításával és (14.) adja meg a definícióját.
 
 $$
-p⃗ = mv⃗ \text{ (14.)}
+\vec{p} = m\vec{v} \text{ (14.)}
 $$
 
 Az impulzus származtatott mennyiség, amelynek a mértékegysége:
@@ -43,14 +43,14 @@ alatti impulzusváltozás írja le, amely nem más, mint az erőnek nevezett vek
 (15.) összefüggés a kölcsönhatási erő definícióját adja meg.
 
 $$
-\lim_{Δt\to{0}}\frac{Δp⃗}{Δt}=\frac{dp⃗}{dt} = F⃗ \text{ (15.)}
+\lim_{\Delta t\to{0}}\frac{\Delta \vec{p}}{\Delta t}=\frac{d\vec{p}}{dt} = \vec{F} \text{ (15.)}
 $$
 
 Abban az esetben amikor a test sebessége jóval kisebb a fénysebességnél, a test tömege
 állandónak tekinthető és a (15.) összefüggés a (16.) alakban írható fel.
 
 $$
-F⃗ =\frac{dp⃗}{dt} =\frac{d(mv⃗)}{dt} = m\frac{dv⃗}{dt} = ma⃗ \text{ (16.)}
+\vec{F} =\frac{d\vec{p}}{dt} =\frac{d(m\vec{v})}{dt} = m\frac{d\vec{v}}{dt} = m\vec{a} \text{ (16.)}
 $$
 
 A (16.) képlet szerint az erő iránya és irányítása megegyezik az általa előidézett gyorsulás
@@ -58,7 +58,7 @@ vektor irányával és irányításával, a mértéke pedig annál m-szer nagyob
 Az erő származtatott mennyiség, amelynek a mértékegysége:
 
 $$
-[F]_{SI} = [m]_{SI} ∙ [a]_{SI} = 1kg \frac{m}{s^2} = 1N (Newton)
+[F]_{SI} = [m]_{SI} * [a]_{SI} = 1kg \frac{m}{s^2} = 1N (Newton)
 $$
 
 ### Hatás-visszahatás (kölcsönhatás) törvénye
@@ -69,15 +69,15 @@ egy a testünk súlyának megfelelő ellenerővel. Természetesen hosszan sorolh
 hasonló példát, amivel nap mint nap találkozhatunk. Ez az egyszerű kis példa nem más, mint a
 dinamika harmadik törvényének, vagy más néven a hatás-visszahatás törvényének egy nagyon
 egyszerű megfogalmazása. Általánosan fogalmazva, ha egy A test egy adott irányú és irányítású
-erővel hat egy B testre (F⃗$_{AB}$) akkor a B test egy ugyanolyan irányú és értékű, de fordított irányítású
+erővel hat egy B testre ($\vec{F}_{AB}$) akkor a B test egy ugyanolyan irányú és értékű, de fordított irányítású
 
-erővel hat az A testre (F⃗$_{BA}$). A törvény matematikai alakját a (17.) összefüggés szemlélteti.
+erővel hat az A testre ($\vec{F}_{BA}$). A törvény matematikai alakját a (17.) összefüggés szemlélteti.
 
 $$
-F⃗_{AB} + F⃗_{BA} = 0\text{ , vagy } F⃗_{AB} = −F⃗_{BA}\text{ , vagy skalárisan }F_{AB} = F_{BA}
+\vec{F}_{AB} + \vec{F}_{BA} = 0\text{ , vagy } \vec{F}_{AB} = -\vec{F}_{BA}\text{ , vagy skalárisan }F_{AB} = F_{BA}
 $$
 
-Szemléltessük a hatás-visszahatás törvényét egy m tömegű anyagi ponttal, amit egy vízszintes felületre helyezünk (az anyagi pontot a szokásos módon egy négyzettel jelöljük, hiszen rajzon kiterjedés nélküli pontot semmiképpen sem tudunk ábrázolni). A gravitációs tér részéről függőlegesen lefele hat a G⃗ = mg⃗ súlyerő, míg ezzel ellentétesen felfele hat az ezt kiegyensúlyozó merőleges nyomóerő, N⃗⃗ = −G⃗ = −mg⃗, N = G = mg.
+Szemléltessük a hatás-visszahatás törvényét egy m tömegű anyagi ponttal, amit egy vízszintes felületre helyezünk (az anyagi pontot a szokásos módon egy négyzettel jelöljük, hiszen rajzon kiterjedés nélküli pontot semmiképpen sem tudunk ábrázolni). A gravitációs tér részéről függőlegesen lefele hat a $\vec{G}$ = $m\vec{g}$ súlyerő, míg ezzel ellentétesen felfele hat az ezt kiegyensúlyozó merőleges nyomóerő, $\vec{N}$ = -$\vec{G}$ = $-m\vec{g}$, N = G = mg.
 
 ![Screenshot from 2023-11-13 21-16-07.png](Dinamika/Screenshot_from_2023-11-13_21-16-07.png)
 
@@ -93,20 +93,20 @@ Abban az esetben amikor a testre n-erő hat egyidejűleg, az eredő erő kifejez
 összefüggéssel definiálhatjuk.
 
 $$
-\overline{F}_e = \overline{F}_1 + \overline{F}_2 + ⋯ + \overline{F}_n = \sum_{i=1}^{n}\overline{F}_i \text{ (18.)}
+\overline{F}_e = \overline{F}_1 + \overline{F}_2 + \dots + \overline{F}_n = \sum_{i=1}^{n}\overline{F}_i \text{ (18.)}
 $$
 
 Ha feltételezzük, hogy mindegyik erő a maga gyorsulását eredményezi az (18.)
 összefüggést a (19.) alakba írhatjuk át,
 
 $$
-ma⃗_e = ma⃗_1 + ma⃗_2 + ⋯ + ma⃗_n = m\sum_{i=1}^{n}a⃗_i \text{ (19.)}
+m\vec{a}_e = m\vec{a}_1 + m\vec{a}_2 + \dots + m\vec{a}_n = m\sum_{i=1}^{n}\vec{a}_i \text{ (19.)}
 $$
 
 vagyis a test gyorsulása
 
 $$
-a⃗_e =\frac{\overline{F}_1}{m}+\frac{\overline{F_2}}{m}+ ⋯ +\frac{\overline{F_n}}{m}= a⃗_1 + a⃗_2 + ⋯ + a⃗_n = \sum_{i=1}^{n}a⃗_i \text{ (20.)}
+\vec{a}_e =\frac{\overline{F}_1}{m}+\frac{\overline{F_2}}{m}+ \dots +\frac{\overline{F_n}}{m}= \vec{a}_1 + \vec{a}_2 + \dots + \vec{a}_n = \sum_{i=1}^{n}\vec{a}_i \text{ (20.)}
 $$
 
 amely azt a tény szögezi le, hogy ha egy testre egyidejűleg több erő hat, az egyidejűleg ható erők
@@ -119,5 +119,5 @@ Minden összefüggést, amely közvetlenül Newton második törvényére alapoz
 mozgásegyenletnek nevezzük. Matematikai alakját a (21.) összefüggés definiálja.
 
 $$
-a⃗ =\frac{dv⃗}{dt} =\frac{d^2r⃗}{dt^2} =\frac{F⃗}{m} \text{ (21.)}
+\vec{a} =\frac{d\vec{v}}{dt} =\frac{d^2\vec{r}}{dt^2} =\frac{\vec{F}}{m} \text{ (21.)}
 $$

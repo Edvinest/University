@@ -10,12 +10,12 @@ $$
 Illetve:
 
 $$
-e^{(a−b)} = \frac{e^a}{e^b} = e^ae−b
+e^{(a-b)} = \frac{e^a}{e^b} = e^ae-b
 $$
 
 **Példa:** komplex pillanatnyi feszültséggel való számítás:
 
 $$
 \underline{u}(t) = U_0e^{
-j(φ_0+ωt)} = U_0e^{jφ_0}e^{jωt}
+j(\varphi_0+\omega t)} = U_0e^{j\varphi_0}e^{j\omega t}
 $$

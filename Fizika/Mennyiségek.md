@@ -26,7 +26,7 @@ mindenki tudja azt, hogy hova akar megérkezni és azt is, hogy milyen útvonalo
 fog haladni, amelyek éppen az irány és irányítás jellemzőket takarják.
 
 Az általánosan használt jelölés egy nyíl az adott fizikai mennyiséget jelző betű fölött: pl.
-helyzetvektor r⃗, sebességvektor v⃗, erő F⃗, impulzus p⃗ stb. (megjegyzés: könyvekben és internetes oldalakon is találhatunk olyan jelölésformát, amikor a vektoriális mennyiséget vastagított betűvel
+helyzetvektor $\vec{r}$, sebességvektor $\vec{v}$, erő $\vec{F}$, impulzus $\vec{p}$ stb. (megjegyzés: könyvekben és internetes oldalakon is találhatunk olyan jelölésformát, amikor a vektoriális mennyiséget vastagított betűvel
 jelölik: pl. sebességvektor **v**).
 
 ![Screenshot from 2023-11-10 21-58-15.png](Mennyise%CC%81gek/Screenshot_from_2023-11-10_21-58-15.png)
@@ -37,15 +37,15 @@ vektor elcsúsztatható (megváltozhat a tartóegyenese (AB) illetve a támadóp
 **Támadópont** - az a pont ahol az erő a testre hat, az erő támadáspontjának nevezzük.
 
 Sok esetben szükségünk van olyan vektorra, amely a térbeli irányt és irányítást fejezi ki, a
-modulusza pedig 1-gyel egyenlő. Az ilyen vektor egységvektornak nevezzük. Például egy adott pont helyzetének meghatározására szolgáló r⃗ helyzetvektor esetében az egységvektor definíciója:
+modulusza pedig 1-gyel egyenlő. Az ilyen vektor egységvektornak nevezzük. Például egy adott pont helyzetének meghatározására szolgáló $\vec{r}$ helyzetvektor esetében az egységvektor definíciója:
 
 $$
-e⃗_r = \cfrac{r⃗}{r}
+\vec{e}_r = \cfrac{\vec{r}}{r}
 $$
 
-e⃗ - egységvektor
+$\vec{e}$ - egységvektor
 
-r⃗ - helyzetvektor
+$\vec{r}$ - helyzetvektor
 
 r - térbeli pozíció
 
