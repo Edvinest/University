@@ -17,4 +17,4 @@ a pálya irányába eső komponense (vetülete) akkor az az erő nem végez elmo
 megfelelően mechanikai munkát sem. Az erő pályára merőleges (normális) komponense, F sin $\alpha$ = F$_n$, nem vesz részt a gyorsításban, nem végez mechanikai munkát, azonban fontos szerepe van,
 mivel befolyásolja a súrlódási erő mértékét vagy a feszítő erő értékét.
 
-![Screenshot from 2023-12-13 20-13-48.png](Energia/Screenshot_from_2023-12-13_20-13-48.png)
+![Energia1.png](Energia/Screenshot_from_2023-12-13_20-13-48.png)
