@@ -1,6 +1,6 @@
 <!-- TODO: add all of the pages -->
 
-## Angyagok
+## Tantárgyak
 
 # Algebra
 
