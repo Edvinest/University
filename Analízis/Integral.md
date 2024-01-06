@@ -2,7 +2,7 @@
 
 ### Egyismeretlenes
 
-Pl:
+Pl:  
 $f(a) = \int_0^\frac{\pi}{2} ln\frac{1+a\cos x}{1-a\cos x} * \frac{f}{\cos x}dx = ?; |a|<1 \Rightarrow -1 < a < 1\\
 f'(a) = \int_0^{\frac{\pi}{2}}(ln \frac{1+a\cos x}{1-a\cos x})'_a \frac{dx}{\cos x} = \dots = \frac{\pi}{\sqrt{1-a^2}}\\
 f(a) = \int f'(a) da = \int\frac{\pi}{\sqrt{1-a^2}} = \pi \arcsin a+ C$ C-t még meg kell határozni  
@@ -63,8 +63,8 @@ $\begin{cases}x =r\cos\Theta\\y =r\sin\Theta\end{cases}\qquad ,dx\,dy = \underli
 $\underset{d}{\iint}\underline{(r\cos\Theta)^2}(*)\sqrt{[\underline{(r\cos\Theta)^2}(*) + \underline{(r\sin\Theta)^2}(**)]^3}*\underline{r\,dr\,d\Theta}(***) = \int_0^2(\int_0^2r^6 \cos^2\Theta \, d\Theta)dr\\[12pt]\Theta\in[0,\pi]$
 
 \*: $x^2$  
-**: $y^2$  
-\***: dxdy
+\*\*: $y^2$  
+\*\*\*: dxdy
 
 ## Tripla integrál
 
@@ -77,22 +77,22 @@ $\text{gömb:} \qquad x^2+y^2+z^2 = R^2\\R\in[0,r]$
 ![Tripla_Integral.png](Integralok/Tripla_Integral.png)
 
 Pl:
-$I = \underset{C}{\iiint}\sqrt{x^2+y^2+z^2}\,dx\,dy\,dz = \iiint\sqrt{\underline{(r\cos\varphi\sin\Theta)^2}(*)+\underline{(r\sin\varphi\sin\Theta)^2}(**)+\underline{(r\cos\Theta)^2}(***)} \underline{r^2\sin\Theta}\, dr\, d\varphi\, d\Theta = \dots \\\ [0,r]x[0,\frac{\pi}{2}]x[0,\frac{\pi}{2}]$  
-*: $x^2$    
-**: $y^2$   
-***: $z^2$  
-****: det I
+$I = \underset{C}{\iiint}\sqrt{x^2+y^2+z^2}\,dx\,dy\,dz = \iiint\sqrt{\underline{(r\cos\varphi\sin\Theta)^2}(*)+\underline{(r\sin\varphi\sin\Theta)^2}(**)+\underline{(r\cos\Theta)^2}(***)} \underline{r^2\sin\Theta}\, dr\, d\varphi\, d\Theta = \dots \\\ [0,r]x[0,\frac{\pi}{2}]x[0,\frac{\pi}{2}]$     
+
+\*: $x^2$    
+\*\*: $y^2$   
+\*\*\*: $z^2$   
+\*\*\*\*: det I
 
 ## Görbe ívhossza (görbe grafikonjának a hossza)
 Ha $r: \qquad x = x_{(t)}, y = y_{(t)}, z = z_{(t)}\quad; t\in[a,b]$    
 $L(r) =\int_a^b\sqrt{(x'_{(t)})^2+(y'_{(t)})^2+(z'_{(t)})^2}\,dt$  
 
-Ha $r: \qquad x = x_{(t)}, y = y_{(t)}, z = z_{(t)}\quad; t\in[a,b]\\
-L(r) =\int_a^b\sqrt{(x'_{(t)})^2+(y'_{(t)})^2+(z'_{(t)})^2}\,dt$
+Ha$\quad r: \qquad x = x_{(t)}, y = y_{(t)}, z = z_{(t)}\quad; t\in[a,b]$
+$L(r) =\int_a^b\sqrt{(x'_{(t)})^2+(y'_{(t)})^2+(z'_{(t)})^2}\,dt$
 
-Ha
-
-$f:[a,b]\rightarrow\mathbb{R}\quad f(x) =\dots\\L(f)=\int_a^b\sqrt{1+(f'(x))^2}\,dx$
+Ha $\quad f:[a,b]\rightarrow\mathbb{R}\quad f(x) =\dots$    
+$L(f)=\int_a^b\sqrt{1+(f'(x))^2}\,dx$
 
 ## Elsőfajú görbementi integrál
 
@@ -113,8 +113,8 @@ z'_{(t)}=e^t\end{matrix}\Rightarrow ds=e^t\sqrt{3}dt$
 $\int_0^1[\underline{(e^t\cos t)^2}(*) +\underline{(e^t\sin t)^2}(**)]\underline{\ln e^t}(***)*\underline{e^t\sqrt{3}}(****)\,dt\\[6pt]\uparrow$  
 Az integrál a és b-je a $t$ a és b-je\
 \*: $x^2$\
-**: $y^2$\
-\***: $\ln z$\
+\*\*: $y^2$\
+\*\*\*: $\ln z$\
 \*\*\*\*: ds
 
 ## Másodfajú görbementi integrál
@@ -125,8 +125,8 @@ Pl:\
 $I = \int_r\underline{(y^2-z^2)}(*)dx\,+\underline{2yz}(**)\,dy-\underline{x^2}(***)dz = ?$
 
 \*: P\
-**: Q\
-***: R
+\*\*: Q\
+\*\*\*: R
 
 $\begin{matrix}\frac{\partial P}{\partial y}= \frac{\partial Q}{\partial x}\\[6pt]
 \frac{\partial P}{\partial z} = \frac{\partial R}{\partial x}\\[6pt]
@@ -136,18 +136,18 @@ $r:\begin{cases}x = t\\y=t^2\\z = t^3\end{cases}\quad, t\in[0,1]\qquad \begin{al
 &dy=y'_{(t)}dt = 2t\,dt\\
 &dz = z'_{(t)}\,dt = 3t^2dt\end{aligned}\\[24pt]I = \int_0^1\underline{(t^4 - t^6)}(*)\underline{dt}(**)+\underline{2t^2*t^3}(***)\underline{*2t\,dt}(****)\underline{-t^2}(*****)\underline{3t^2\,dt}(******)=\dots$
 
-*: $y^2-z^2$  
-**: dx  
-***: 2yz  
-****: dy  
-*****: $-x^2$  
-******: dz
+\*: $y^2-z^2$  
+\*\*: dx  
+\*\*\*: 2yz  
+\*\*\*\*: dy  
+\*\*\*\*\*: $-x^2$  
+\*\*\*\*\*\*: dz
 
 ### Ha nem függ az úttól
 ***a. egyik módszer:***  
 pl: $I=\int_{(0,0)}^{(2,3)}\underline{(x+y)}(*)dx +\underline{(x-y)}(**)dy = ?$     
-*: P  
-**: Q  
+\*: P  
+\*\*: Q  
 
 $\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial t} \Rightarrow 1 = 1 \text{ igaz } \Rightarrow \text{ nem függ}$
 ![Gorbementi_integral.png](Integralok/Gorbementi_Integral.png)
@@ -237,10 +237,5 @@ $\underset{S}{\iint}x\cos\alpha+y\cos\beta+z\cos\gamma d\nabla=\underset{Gömb}{
 
 ## Stokes
 
-<<<<<<< HEAD
 $F^*:D\rightarrow\mathbb{R}^3\quad,F*=(P,Q,R),\quad S\in D\\[6pt]\int_rPdx+Qdy+Rdz=\underset{S}{\iint}\begin{bmatrix}\cos\alpha&&\cos\beta&&\cos\gamma\\[3pt]\frac{\partial}{\partial x}&&\frac{\partial}{\partial y}&&\frac{\partial}{\partial z}\\P&&Q&&R\end{bmatrix}d\nabla\\[12pt]\int_r Pdx+Qdy+Rdz=\underset{S}{\iint}(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})\cos\alpha+(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})\cos\beta+(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})cos\gamma\,d\nabla$
 ![Stokes tétel](Integralok/Stokes.png)
-=======
-$F*:D\rightarrow\mathbb{R}^3\quad,F*=(P,Q,R),\quad S\in D\\[6pt]\int_rPdx+Qdy+Rdz=\underset{S}{\iint}\begin{bmatrix}\cos\alpha&&\cos\beta&&\cos\gamma\\[3pt]\frac{\partial}{\partial x}&&\frac{\partial}{\partial y}&&\frac{\partial}{\partial z}\\P&&Q&&R\end{bmatrix}d\nabla\\[12pt]\int_r Pdx+Qdy+Rdz=\underset{S}{\iint}(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})\cos\alpha+(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})\cos\beta+(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})cos\gamma\,d\nabla$
-![Stokes tétel](Integralok/Stokes.png)
->>>>>>> 9974d9a404e7c74a36024c04b09e09c734d25ddd
