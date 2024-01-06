@@ -51,20 +51,18 @@ $$
 
 $(1, 0)\quad y - 0 = m(x-1) => y = m(x-1)\\
 \text{Ha } x \rightarrow 1 => y \rightarrow 0\\[12pt]
-\lim_{x\to 1}\frac{sin[x-m(x-1)-1]}{x-m(x-1)} = 0 \Rightarrow \lim_{\substack{x\to 1\\ y\to 0}}\frac{sin(x+1-1)}{x-y} = 0
-$
+\lim_{x\to 1}\frac{sin[x-m(x-1)-1]}{x-m(x-1)} = 0 \Rightarrow \lim_{\substack{x\to 1\\ y\to 0}}\frac{sin(x+1-1)}{x-y} = 0$
 
 ## Minimum / Maximum pont
 
-$f(x,y) = x^3 + 3xy^2 - 15x - 12y + 4 \qquad x, y >0\\[6pt]
-\begin{aligned}&\frac{\partial f}{\partial x} = 3x^2 + 3y^2 - 15\\[6pt]&\frac{\partial f}{\partial y} = 6xy - 12\end{aligned}
+$f(x,y) = x^3 + 3xy^2 - 15x - 12y + 4 \qquad x, y >0$
+$$\begin{matrix}&\frac{\partial f}{\partial x} = 3x^2 + 3y^2 - 15\\&\frac{\partial f}{\partial y} = 6xy - 12\end{matrix}
  \Rightarrow
 \begin{cases}3x^2+3y^2 - 15 = 0\\6xy-12 = 0
-\end{cases} \Rightarrow \begin{cases}x = 2\\y=1\end{cases} \Rightarrow A(2,1) \text{ stacionárius pont}\\
-\frac{\partial ^2 f}{\partial x^2} = 6x \Rightarrow \frac{\partial ^2 f}{\partial x^2}(A) = 12\\[6pt]
+\end{cases} \Rightarrow \begin{cases}x = 2\\y=1\end{cases} \Rightarrow A(2,1) \text{ stacionárius pont}$$
+$\frac{\partial ^2 f}{\partial x^2} = 6x \Rightarrow \frac{\partial ^2 f}{\partial x^2}(A) = 12\\[6pt]
 \frac{\partial f}{\partial y^2} = 6x \Rightarrow \frac{\partial f}{\partial y^2}(A) = 12\\[6pt]
-\frac{\partial f}{2x2y} = 6y \Rightarrow \frac{\partial f}{2x2y}(A) = 12
-$
+\frac{\partial f}{2x2y} = 6y \Rightarrow \frac{\partial f}{2x2y}(A) = 12$
 
 ![Hessa1.png](Hessa_Matrix/hessa1.png)
 ![Hessa2.png](Hessa_Matrix/hessa2.png)
@@ -72,31 +70,28 @@ $
 $\Delta_1 > 0, \Delta_2>0, \Delta_3 > 0 \qquad \text{minimum pont}\\ \Delta_1 < 0, \Delta_2 > 0, \Delta_3 < 0 \qquad \text{maximum pont}$
 
 ### Ha van plusz feltétel is:
-Pl: $u_{(x, y,z)} = x + y + z \qquad ,F=x^2+y^2+z^2 = \underline{1} \leftarrow \text{mellék feltétel}\\
-L_{(x,y,z,\lambda)} = x+y+z + \lambda *(x^2 + y^2+z^2 - 1)$
+Pl:$\quad u_{(x, y,z)} = x + y + z \qquad ,F=x^2+y^2+z^2 = \underline{1} \leftarrow \text{mellék feltétel}$
+$L_{(x,y,z,\lambda)} = x+y+z + \lambda *(x^2 + y^2+z^2 - 1)$
 
-$\begin{aligned}
-&\frac{\partial L}{\partial x} = 1 + 2\lambda x\\
-&\frac{\partial L}{\partial y} = 1 + 2 \lambda y\\
-&\frac{\partial L}{\partial z} = 1+2\lambda z\\
+$$\begin{matrix}
+&\frac{\partial L}{\partial x} = 1 + 2\lambda x\\[6pt]
+&\frac{\partial L}{\partial y} = 1 + 2 \lambda y\\[6pt]
+&\frac{\partial L}{\partial z} = 1+2\lambda z\\[6pt]
 &\frac{\partial L}{\partial \lambda} = x^2+y^2+z^2-1
-\end{aligned}\begin{cases}1+2\lambda x = 0\\1+2\lambda y = 0\\1+2\lambda z = 0\\x^2+y^2+z^2 - 1 = 0 (*)\end{cases}\Rightarrow x = y = z = \frac{-1}{2\lambda}*\Rightarrow \frac{3}{4\lambda ^2} = 1 \Rightarrow \lambda = \pm \frac{\sqrt{3}}{2}\\
-*: \text{Behelyettesítjük a nevezőbe}
-$
+\end{matrix}\begin{cases}1+2\lambda x = 0\\1+2\lambda y = 0\\1+2\lambda z = 0\\x^2+y^2+z^2 - 1 = 0 (*)\end{cases}\Rightarrow x = y = z = \frac{-1}{2\lambda}*\Rightarrow \frac{3}{4\lambda ^2} = 1 \Rightarrow \lambda = \pm \frac{\sqrt{3}}{2}\\$$
+*: Behelyettesítjük a nevezőbe
+
 Ha $\lambda = \frac{\sqrt{3}}{2} \Rightarrow x = y = z = \frac{-1}{\sqrt{3}}\Rightarrow A(\frac{-1}{\sqrt{3}},\frac{-1}{\sqrt{3}},\frac{-1}{\sqrt{3}}) \text{ stacionárius pont}$
 
-$
-\frac{\partial ^2L}{\partial x^2} = 2\lambda = \sqrt{3} \qquad \frac{\partial^2L}{\partial x\partial y} = 0\\[6pt]
+$\frac{\partial ^2L}{\partial x^2} = 2\lambda = \sqrt{3} \qquad \frac{\partial^2L}{\partial x\partial y} = 0\\[6pt]
 \frac{\partial ^2L}{\partial x^2} = 2\lambda = \sqrt{3} \qquad \frac{\partial^2L}{\partial x\partial z} = 0\\[6pt]
-\frac{\partial ^2L}{\partial x^2} = 2\lambda = \sqrt{3} \qquad \frac{\partial^2L}{\partial y\partial z} = 0
-$
+\frac{\partial ^2L}{\partial x^2} = 2\lambda = \sqrt{3} \qquad \frac{\partial^2L}{\partial y\partial z} = 0$
 
 Ha az eredményben lett volna x, y, z a stac. pontból helyettesítesz be.
 
 ### L másodrendű differenciál függvénye
 $d^2L = \frac{\partial^2L}{\partial x^2}h_1^2+\frac{\partial^2L}{\partial y^2}h_2^2 + \frac{\partial^2L}{\partial z^2}h_3^2 + \frac{\partial^2L}{\partial x\partial y}h_1h_2 + \frac{\partial^2L}{\partial x\partial z}h_1h_3 + \frac{\partial^2L}{\partial y\partial z}h_2h_3\\
-d^2L = \sqrt{3}*(h_1^2 + h_2^2+h_3^2) \qquad > 0 \Rightarrow \text{ pozitív definit} \Rightarrow \text{ minimum pont}
-$
+d^2L = \sqrt{3}*(h_1^2 + h_2^2+h_3^2) \qquad > 0 \Rightarrow \text{ pozitív definit} \Rightarrow \text{ minimum pont}$
 
 pozitív definit => minimum pont\
 negatív definit => maximum pont
@@ -118,14 +113,12 @@ f'(x)=\\
 f''(x) =\\
 \vdots
 f^n(x) = \downarrow \text{ behelyettesítek és kiszámolom}\\
-f(x) = f(0) + \frac{f'(0)}{1!}x + \frac{f''(0)}{2!}x^2 + \dots = \frac{1}{2}+(1- \frac{1}{2^2})x +(1-\frac{1}{2^3})x^2\dots+\bold{(1-\frac{1}{2^{n+1}})x^n} \leftarrow a_n
-$
+f(x) = f(0) + \frac{f'(0)}{1!}x + \frac{f''(0)}{2!}x^2 + \dots = \frac{1}{2}+(1- \frac{1}{2^2})x +(1-\frac{1}{2^3})x^2\dots+\bold{(1-\frac{1}{2^{n+1}})x^n} \leftarrow a_n$
 
 Ha megkell nézni, hogy konvergens vagy divergens:
 
 $R = \lim_{n\to\infty} \frac{a_n}{a_{n+1}} = 1\\
-|x| < R \Rightarrow \quad x\in(-1, 1) \text{ konvergens}
-$
+|x| < R \Rightarrow \quad x\in(-1, 1) \text{ konvergens}$
 
 Lehet ilyen feladat is:
 
@@ -135,8 +128,7 @@ $f(x) = \frac{1}{(1-x+x^2)}\qquad f^5(0) = ?\\[6pt]f(x) =\frac{(1+x)^2}{(1+x)^2(
 t = -x^3\\[6pt]
 \frac{1}{(1+x^3)^2} = 0+1+2t+3t^2+\dots+nt^{n-1} /*(1+x)^2\\[6pt]
 f(x) \rightarrow[\bold{(1+x)^2\frac{1}{(1+x^3)^2}}] = (1+x)^2*(0+1-2x^3+3x^6-4x^9+\dots) = 1+2x+x^2 -2x^4 - 4x^4 - \bold{2x^5} + 3x^6 + \dots\\
-\frac{f^5(0)}{5!} = -2 \Rightarrow f^5(0) = -240
-$
+\frac{f^5(0)}{5!} = -2 \Rightarrow f^5(0) = -240$
 
 ## Taylor sorbafejtés többváltozós függvény esetén
 
@@ -144,8 +136,7 @@ $f(x,y) = ln(x^2 +3y) \qquad Taylor(1,0)[(a,b)]\\[6pt]\frac{\partial f}{\partial
 \frac{\partial f}{\partial y} = \frac{3}{x^2+3x}\\[6pt]
 \frac{\partial ^2 f}{\partial x^2} = \frac{-2x^2 + 6y}{(x^2 + 3y)^2}\\[6pt]
 \frac{\partial ^2 f}{\partial y^2} = \frac{-9}{(x2+3y)^2}\\[6pt]
-\frac{\partial ^2 f}{\partial x \partial y} = \frac{-6x}{(x^2 + 3y)^2}
-$
+\frac{\partial ^2 f}{\partial x \partial y} = \frac{-6x}{(x^2 + 3y)^2}$
 
 Taylor sor:
 
@@ -162,8 +153,7 @@ b_n = \frac{1}{l}\int_{-l}^{l}f(x)*sin\frac{n\pi x}{l}dx\\[6pt]
 \cos n\pi = (-1)^n\\
 \sin n\pi = 0\end{cases}\\[6pt]
 \begin{cases}\cos(-x)=\cos x\\
-\sin(-x) = -\sin x\end{cases}
-$
+\sin(-x) = -\sin x\end{cases}$
 
 Ha f páros => $b_n$ = 0 => cos sor| páros: f(-x) = f(x)\
 Ha f páratlan => $a_n$ = 0 => sin sor| páratlan: f(-x) = -f(x)

@@ -20,18 +20,17 @@ Jel:  $L = \int_a^{\infty}f(x)dx$
 $\int_1^{\infty}f(x)dx = \lim_{t\to\infty}\int_1^tf(x)dx \leftarrow$ így kell kiszámolni  
 pl: $\int_1^{\infty}\frac{x}{(x^2+2)^2}dx=\lim_{t\to\infty}\int_1^t\frac{x}{(x^2+2)^2}dx=\lim_{t\to\infty}\frac{-1}{2(x^2+2)}\Big|_1^t = \frac{1}{6}$  
 
-Konvergencia kritérium: ha az integrál kiszámolása nélkül kell a konvergens/divergens
-Ha $\lim_{x\to\infty}x^L*f(x)=l\quad, l\in\mathbb{R}^*\\[6pt]
-L > 1 \Rightarrow \int_1^{\infty}f(x)dx \text{ konvergens}\\
-L \le 1 \Rightarrow \int_1^{\infty}f(x)dx \text{ divergens}
-$
+Konvergencia kritérium: ha az integrál kiszámolása nélkül kell a konvergens/divergens  
+Ha
+$\lim_{x\to\infty}x^L*f(x)=l\quad, l\in\mathbb{R}^*$  
+$L > 1 \Rightarrow \int_1^{\infty}f(x)dx \text{ konvergens}\\
+L \le 1 \Rightarrow \int_1^{\infty}f(x)dx \text{ divergens}$
 
 pl:
 
 $f(x) = \frac{x}{(x^2+2)^2}\\
 \lim_{x\to\infty}x^3f(x)=\lim_{x\to\infty}\frac{x^4}{x^4+4x^2+4} = 1\\
-L = 3 > 1 \Rightarrow f(x) \text{ konvergens}
-$
+L = 3 > 1 \Rightarrow f(x) \text{ konvergens}$
 
 ## Dupla integrál
 Pl: 
@@ -69,16 +68,16 @@ $\text{gömb:} \qquad x^2+y^2+z^2 = R^2\\R\in[0,r]$
 
 ![Tripla_Integral.png](Integralok/Tripla_Integral.png)
 
-Pl: 
-$
-I = 
-\underset{C}{\iiint}\sqrt{x^2+y^2+z^2}\,dx\,dy\,dz = 
-\iiint\sqrt{\underline{(r\cos\varphi\sin\Theta)^2}(*)+\underline{(r\sin\varphi\sin\Theta)^2}(**)+\underline{(r\cos\Theta)^2}(***)} \underline{r^2\sin\Theta}\, dr\, d\varphi\, d\Theta = \dots \\\ [0,r]x[0,\frac{\pi}{2}]x[0,\frac{\pi}{2}]
-$  
+Pl:
+$I = \underset{C}{\iiint}\sqrt{x^2+y^2+z^2}\,dx\,dy\,dz = \iiint\sqrt{\underline{(r\cos\varphi\sin\Theta)^2}(*)+\underline{(r\sin\varphi\sin\Theta)^2}(**)+\underline{(r\cos\Theta)^2}(***)} \underline{r^2\sin\Theta}\, dr\, d\varphi\, d\Theta = \dots \\\ [0,r]x[0,\frac{\pi}{2}]x[0,\frac{\pi}{2}]$  
+*: $x^2$    
+**: $y^2$   
+***: $z^2$  
+****: det I
 
 ## Görbe ívhossza (görbe grafikonjának a hossza)
-Ha $r: \qquad x = x_{(t)}, y = y_{(t)}, z = z_{(t)}\quad; t\in[a,b]\\
-L(r) =\int_a^b\sqrt{(x'_{(t)})^2+(y'_{(t)})^2+(z'_{(t)})^2}\,dt$  
+Ha $r: \qquad x = x_{(t)}, y = y_{(t)}, z = z_{(t)}\quad; t\in[a,b]$    
+$L(r) =\int_a^b\sqrt{(x'_{(t)})^2+(y'_{(t)})^2+(z'_{(t)})^2}\,dt$  
 
 Ha 
 
@@ -96,11 +95,11 @@ $\int_rf(x,y,z)\,\underline{ds} \leftarrow\text{ ívhossz elem}\\ds = \sqrt{(x'_
 Pl:\
 $\int_r(x^2+y^2)\ln z\,ds = ?\\[12pt]
 r:\begin{cases}x = e^t\cos t\\y =e^t\sin t\\z=e^t\end{cases}\qquad t\in[0,1]\\[24pt]
-\begin{rcases}x'_{(t)}=e^t(\cos t-\sin t)\\
+\begin{matrix}x'_{(t)}=e^t(\cos t-\sin t)\\
 y'_{(t)} =e^t(\sin t+\cos t)\\
-z'_{(t)}=e^t\end{rcases}\Rightarrow ds=e^t\sqrt{3}dt$
+z'_{(t)}=e^t\end{matrix}\Rightarrow ds=e^t\sqrt{3}dt$
 
-$\int_0^1[\underline{(e^t\cos t)^2}(*) +\underline{(e^t\sin t)^2}(**)]\underline{\ln e^t}(***)*\underline{e^t\sqrt{3}}(****)\,dt\\[6pt]\uparrow$ 
+$\int_0^1[\underline{(e^t\cos t)^2}(*) +\underline{(e^t\sin t)^2}(**)]\underline{\ln e^t}(***)*\underline{e^t\sqrt{3}}(****)\,dt\\[6pt]\uparrow$  
 Az integrál a és b-je a $t$ a és b-je\
 *: $x^2$\
 **: $y^2$\
@@ -115,11 +114,11 @@ $I = \int_r\underline{(y^2-z^2)}(*)dx\,+\underline{2yz}(**)\,dy-\underline{x^2}(
 
 *: P\
 **: Q\
-***: R\
+***: R
 
-$\begin{rcases}\frac{\partial P}{\partial y}= \frac{\partial Q}{\partial x}\\
-\frac{\partial P}{\partial z} = \frac{\partial R}{\partial x}\\
-\frac{\partial Q}{\partial z} = \frac{\partial R}{\partial y}\end{rcases}\text{ Ha igazak függ az úttól, ha nem, akkor nem függ}$
+$\begin{matrix}\frac{\partial P}{\partial y}= \frac{\partial Q}{\partial x}\\[6pt]
+\frac{\partial P}{\partial z} = \frac{\partial R}{\partial x}\\[6pt]
+\frac{\partial Q}{\partial z} = \frac{\partial R}{\partial y}\end{matrix}\text{ Ha igazak függ az úttól, ha nem, akkor nem függ}$
 
 $r:\begin{cases}x = t\\y=t^2\\z = t^3\end{cases}\quad, t\in[0,1]\qquad \begin{aligned}&dx=x'_{(t)}dt = dt\\
 &dy=y'_{(t)}dt = 2t\,dt\\
@@ -134,7 +133,7 @@ $r:\begin{cases}x = t\\y=t^2\\z = t^3\end{cases}\quad, t\in[0,1]\qquad \begin{al
 
 ### Ha nem függ az úttól
 ***a. egyik módszer:***  
-pl: $I=\int_{(0,0)}^{(2,3)}\underline{(x+y)}(*)dx +\underline{(x-y)}(**)dy = ?$ 
+pl: $I=\int_{(0,0)}^{(2,3)}\underline{(x+y)}(*)dx +\underline{(x-y)}(**)dy = ?$     
 *: P  
 **: Q  
 
@@ -148,11 +147,10 @@ $I = \int_0^3\underline{0-y}(*)\,dy+\int_0^2\underline{x+3}(**)\,dx$
 
 ***b. másik módszer (ez könnyebb, főleg ha x,y,z van)***
 
-pl: $I = \int_{(1,1,1)}^{(2,3,-4)}\underline{x\,dx}(*)+\underline{y^2\,dy}(**)-\underline{z^3\,dz} = ?\\[24pt]\begin{rcases}\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}\qquad 0=0\\\frac{\partial P}{\partial z}= \frac{\partial R}{\partial x}\qquad 0=0\\\frac{\partial Q}{\partial z} = \frac{\partial R}{\partial y}\qquad 0=0\end{rcases}\Rightarrow \text{ nem függ}$
+pl: $I = \int_{(1,1,1)}^{(2,3,-4)}\underline{x\,dx}(*)+\underline{y^2\,dy}(**)-\underline{z^3\,dz} = ?\\[24pt]\begin{matrix}\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}\qquad 0=0\\[6pt]\frac{\partial P}{\partial z}= \frac{\partial R}{\partial x}\qquad 0=0\\[6pt]\frac{\partial Q}{\partial z} = \frac{\partial R}{\partial y}\qquad 0=0\end{matrix}\Rightarrow \text{ nem függ}$
 
 $H(x,y,z)=\int_{x_0}^xP(i,y,z)\,du + \int_{y_0}^yQ(x_0, v, z)\,dv+\int_{z_0}^zR(x_0,y_0, s)\,ds = \frac{x^2}{2}-\frac{x_0^2}{2}+\frac{y^3}{3}-\frac{y_0^3}{3}-\frac{z^4}{4}+\frac{z_0^4}{4}=\frac{x^2}{2}+\frac{y^3}{3}-\frac{z^4}{4}+C\\[6pt]
-I = H(2,3,-4)-H(1,1,1)=\dots
-$
+I = H(2,3,-4)-H(1,1,1)=\dots$
 
 ## Green képlet (zárt görbék esetén)
 
@@ -161,8 +159,7 @@ $\int_rPdx + Qdy = \underset{D}{\iint}(\frac{\partial Q}{\partial x}-\frac{\part
 pl:  
 $\int_r\underline{(x+y)}(*)dx-\underline{(x-y)}(**)dy = ?\\[6pt]
 r: \frac{x^2}{a^2}+\frac{y^2}{b^2} = 1 \qquad T_{ellipszis} = a*b*\pi\\[6pt]
-\begin{cases}x = a*r*\cos\Theta\\ y=b*r*\cos\Theta\end{cases} \quad r\in[0,1]\\[12pt]\underset{D}{\iint}(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy = -2\underline{\underset{D}{\iint}dxdy}(*)=-2\int_0^{25?}[\int_0^1(-abr)dr]d\Theta = \dots
-$
+\begin{cases}x = a*r*\cos\Theta\\ y=b*r*\cos\Theta\end{cases} \quad r\in[0,1]\\[12pt]\underset{D}{\iint}(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy = -2\underline{\underset{D}{\iint}dxdy}(*)=-2\int_0^{25?}[\int_0^1(-abr)dr]d\Theta = \dots$
 
 ## Felület darabterülete
 
@@ -211,8 +208,7 @@ $\vec{n} = \frac{\vec{N}}{||\vec{N}||}=\vec{i}\frac{A}{\sqrt{A^2+B^2+C^2}}(*)+\v
 \beta = m(\vec{n},\vec{oy})\\\gamma = m(\vec{n},\vec{oz})\\\vec{n}=\vec{i}*\cos\alpha+\vec{j}*\cos\beta+\vec{k}*\cos\gamma\\[24pt]\underset{S}{\iint}(P\cos\alpha+Q\cos\beta+R\cos\gamma)d\nabla =\,? \leftarrow \text{ Ezt kell kiszámolni}\\
 =\underset{S}{\iint}P\cos\alpha d\nabla+\underset{S}{\iint}Q\cos\beta d\nabla+\underset{S}{\iint}R\cos\gamma d\nabla\\[6pt]\cos\alpha = \frac{A}{\sqrt{A^2+B^2+C^2}} = \frac{A}{\sqrt{EG-F^2}}\\[6pt]\underset{S}{\iint}P\cos\alpha d\nabla = \underset{D}{\iint}P\frac{A}{\sqrt{EG-F^2}}\sqrt{EG-F^2}\,du\,dv=\underset{D}{\iint}PA\,du\,dv\\[6pt]
 \text{S:}\begin{cases}x=h(y,z)\\y=y=u\\z=z=v\end{cases}\qquad y,z\in D\\[6pt]
-\underset{S}{\iint}P\cos\alpha d\nabla = \underset{D}{\iint}P(x_{(y,z)},y,z)\,dy\,dz
-$
+\underset{S}{\iint}P\cos\alpha d\nabla = \underset{D}{\iint}P(x_{(y,z)},y,z)\,dy\,dz$
 
 pl: S: $x^2+y^2+z^2=a^2$ a sugarú gömb 
 
@@ -229,5 +225,5 @@ $\underset{S}{\iint}x\cos\alpha+y\cos\beta+z\cos\gamma d\nabla=\underset{Gömb}{
 
 ## Stokes
 
-$F*:D\rightarrow\mathbb{R}^3\quad,F*=(P,Q,R),\quad S\in D\\[6pt]\int_rPdx+Qdy+Rdz=\underset{S}{\iint}\begin{bmatrix}\cos\alpha&&\cos\beta&&\cos\gamma\\[3pt]\frac{\partial}{\partial x}&&\frac{\partial}{\partial y}&&\frac{\partial}{\partial z}\\P&&Q&&R\end{bmatrix}d\nabla\\[12pt]\int_r Pdx+Qdy+Rdz=\underset{S}{\iint}(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})\cos\alpha+(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})\cos\beta+(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})cos\gamma\,d\nabla$
+$F^*:D\rightarrow\mathbb{R}^3\quad,F*=(P,Q,R),\quad S\in D\\[6pt]\int_rPdx+Qdy+Rdz=\underset{S}{\iint}\begin{bmatrix}\cos\alpha&&\cos\beta&&\cos\gamma\\[3pt]\frac{\partial}{\partial x}&&\frac{\partial}{\partial y}&&\frac{\partial}{\partial z}\\P&&Q&&R\end{bmatrix}d\nabla\\[12pt]\int_r Pdx+Qdy+Rdz=\underset{S}{\iint}(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})\cos\alpha+(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})\cos\beta+(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})cos\gamma\,d\nabla$
 ![Stokes tétel](Integralok/Stokes.png)

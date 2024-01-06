@@ -2,8 +2,8 @@
 
 1. $\lim_{n\to\infty}\frac{\sin x_n}{x_n} = 1\qquad,\text{ ha }\lim_{n\to\infty}x_n=0$
 2. $\lim_{n\to\infty}\frac{\arcsin x_n}{x_n}=1\qquad,\text{ ha }\lim_{n\to\infty}x_n=0$
-3. $\lim_{n\to\infty}\frac{\tg x_n}{x_n}=1\qquad,\text{ ha }\lim_{n\to\infty} x_n = 0$
-4. $\lim_{n\to\infty}\frac{\arctg x_n}{x_n} = 1\qquad,\text{ ha }\lim_{n\to\infty}x_n=0$
+3. $\lim_{n\to\infty}\frac{\tan x_n}{x_n}=1\qquad,\text{ ha }\lim_{n\to\infty} x_n = 0$
+4. $\lim_{n\to\infty}\frac{\arctan x_n}{x_n} = 1\qquad,\text{ ha }\lim_{n\to\infty}x_n=0$
 5. $\lim_{n\to\infty}\frac{\ln(1+x_n)}{x_n}=1\qquad,\text{ ha }\lim_{n\to\infty}x_n=0$
 6. $\lim_{n\to\infty}\frac{a^{x_n}-1}{x_n}=\ln a\qquad,\text{ ha }\lim_{n\to\infty}x_n=0\\
 a = e\Rightarrow\lim_{n\to\infty}\frac{e^{e_n}-1}{x_n}=1$
@@ -15,8 +15,7 @@ a = e\Rightarrow\lim_{n\to\infty}\frac{e^{e_n}-1}{x_n}=1$
 * $\lim_{x\to\infty}\frac{\sin x}{x}\neq 1\quad,\text{ mert }\lim_{x\to\infty} x=\infty$  
 $\Rightarrow \text{ Fogó tétel }\\-1\leq\sin x\leq 1\quad /*\frac{1}{x}\\
 \frac{-1}{x}\leq\frac{\sin x}{x}\leq\frac{1}{x}\\
-\downarrow\\0\Rightarrow\lim_{x\to\infty}\frac{\sin x}{x}=0
-$
+\downarrow\\0\Rightarrow\lim_{x\to\infty}\frac{\sin x}{x}=0$
 
 * $\lim_{x\to a}\frac{f(x)-f(a)}{x-a}=f'(a)$
 * $e^{\frac{1}{-0}}=e^{-\infty}=\frac{1}{e^\infty}=\frac{1}{\infty}=0$ |$\frac{1}{-0}=-\infty$  
