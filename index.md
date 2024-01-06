@@ -1,19 +1,19 @@
 <!-- TODO: add all of the pages -->
 
-## Tantárgyak
+# Tantárgyak
 
-# Algebra
+## Algebra
 
 - [Algebra](UniversityEdvinWebsite/Algebra)
 
-# Analízis
+## Analízis
 
 - [Analízis](UniversityEdvinWebsite/Analízis)
 
-# Fizika
+## Fizika
 
 - [Fizika](UniversityEdvinWebsite/Fizika)
 
-# Programozás
+## Programozás
 
 - [Programozás](UniversityEdvinWebsite/Programozás)
