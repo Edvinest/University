@@ -136,12 +136,12 @@ $r:\begin{cases}x = t\\y=t^2\\z = t^3\end{cases}\quad, t\in[0,1]\qquad \begin{al
 &dy=y'_{(t)}dt = 2t\,dt\\
 &dz = z'_{(t)}\,dt = 3t^2dt\end{aligned}\\[24pt]I = \int_0^1\underline{(t^4 - t^6)}(*)\underline{dt}(**)+\underline{2t^2*t^3}(***)\underline{*2t\,dt}(****)\underline{-t^2}(*****)\underline{3t^2\,dt}(******)=\dots$
 
-\*: $y^2-z^2$  
+*: $y^2-z^2$  
 **: dx  
-\***: 2yz  
-\***\*: dy  
-\*\*\***: $-x^2$  
-**\*\***: dz
+***: 2yz  
+****: dy  
+*****: $-x^2$  
+******: dz
 
 ### Ha nem függ az úttól
 ***a. egyik módszer:***  

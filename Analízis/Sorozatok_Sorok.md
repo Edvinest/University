@@ -81,14 +81,8 @@ $\frac{\partial ^2 f}{\partial x^2} = 6x \Rightarrow \frac{\partial ^2 f}{\parti
 $\Delta_1 > 0, \Delta_2>0, \Delta_3 > 0 \qquad \text{minimum pont}\\ \Delta_1 < 0, \Delta_2 > 0, \Delta_3 < 0 \qquad \text{maximum pont}$
 
 ### Ha van plusz feltétel is:
-<<<<<<< HEAD
 Pl:$\quad u_{(x, y,z)} = x + y + z \qquad ,F=x^2+y^2+z^2 = \underline{1} \leftarrow \text{mellék feltétel}$
 $L_{(x,y,z,\lambda)} = x+y+z + \lambda *(x^2 + y^2+z^2 - 1)$
-=======
-
-Pl: $u_{(x, y,z)} = x + y + z \qquad ,F=x^2+y^2+z^2 = \underline{1} \leftarrow \text{mellék feltétel}\\
-L_{(x,y,z,\lambda)} = x+y+z + \lambda *(x^2 + y^2+z^2 - 1)$
->>>>>>> 9974d9a404e7c74a36024c04b09e09c734d25ddd
 
 $$\begin{matrix}
 &\frac{\partial L}{\partial x} = 1 + 2\lambda x\\[6pt]
