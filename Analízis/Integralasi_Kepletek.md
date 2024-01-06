@@ -22,4 +22,5 @@ $\text{F primitív függvénye f-nek }\Leftrightarrow \begin{aligned}&F'(x) = f(
 18. $\int\frac{1}{\cos^2x}\,dx = \tg x+ C$
 
 ### Parciális integrál:
+
 $I = \int f*g'\,dx = f*g-\int f'*g\,dx$

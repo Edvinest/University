@@ -1,7 +1,9 @@
 # Sorozatok és sorok
+
 $\sum_{n = 1}^{\infty} a_n$
 
 ### D'Alembert
+
 $\sum_{n = 1}^{\infty} a_n, \space a_n > 0$  
 $\lim_{n\to\infty} = \frac{a_{n+1}}{a_n} = g$  
 g < 1 => konvergens  
@@ -9,40 +11,49 @@ g = 1 => nem lehet eldönteni
 g > 1 => divergens
 
 ### Cauchy gyökkritérium
+
 $\lim_{n\to\infty} \sqrt[n]{a_n} = l$  
 l < 1 => konvergens  
 l = 1 => nem lehet eldönteni  
 l > 1 => divergens
 
 ### Raabe
+
 $\lim_{n\to\infty} n*(\frac{a_{n+1}}{a_n} * 1) = l$  
 l < -1 => konvergens  
 l = -1 => nem lehet eldönteni  
 l > -1 => divergens
 
 ### Leibnitz
-$\sum_{n=1}^{\infty}(-1)^n * a_n$, ha $(a_n)_{n\geq1}$ csökkenő és $\lim_{n\to\infty} a_n = 0$ => konvergens  
+
+$\sum_{n=1}^{\infty}(-1)^n * a_n$, ha $(a_n)_{n\geq1}$ csökkenő és $\lim_{n\to\infty} a_n = 0$ => konvergens
 
 Csökkenő tesztelése:  
 $a_n - a_{n+1} > 0$ => csökkenő  
 $\frac{a_n}{a_{n+1}} > 1$ => csökkenő
 
 ## Hatványsorok
-$$\sum_{n=1}^{\infty} a_n*(x - x_0)^n \\[12pt]
+
+$$
+\sum_{n=1}^{\infty} a_n*(x - x_0)^n \\[12pt]
 \frac{1}{R} = \lim_{n\to\infty}\sqrt[n]{|a_n|}\\[12pt]
 \frac{1}{R} = \lim_{n\to\infty} |\frac{a_{n+1}}{a_n}| (*)
 $$
-*Inkább ezt lehet használni  
+
+\*Inkább ezt lehet használni  
 R - konvergencia sugár  
 | x - x$_0$ | < R => konvergens -> megnézem a határokat, hogy konv/div  
 | x - x$_0$ | > R => divergens
 
 ## Iterált határérték
+
 $\lim_{y\to y_0}(\lim_{x\to x_0}f_{(x, y)}) = l_1\\
 \lim_{x\to x_0}(\lim_{y\to y_0}f_{(x, y)}) = l_2$  
 Ha $l_1 \neq l_2$ => nem létezik f határértéke. Ez szükséges, de nem elég ahhoz, hogy tudjuk, hogy létezik a hatérték vagy sem.  
-Pl: 
-$$\lim_{\substack{x\to 1\\ y\to 0}} = \frac{sin (x+ y - 1}{x - y} = \space?\\[10pt]
+Pl:
+
+$$
+\lim_{\substack{x\to 1\\ y\to 0}} = \frac{sin (x+ y - 1}{x - y} = \space?\\[10pt]
 \lim_{y\to 0}\space(\lim_{x\to 1}\frac{sin(x +y -1)}{x - y})= \lim_{y\to 0} \frac{sin y}{1-y} = 0\\[10pt]
 \lim_{x\to 1}\space(\lim{y\to 0} \frac{sin(x+y-1)}{x-y}) = \lim_{x\to 1} \frac{sin x-1}{x} = 0\\[15pt]
 \downarrow\\
@@ -70,8 +81,14 @@ $\frac{\partial ^2 f}{\partial x^2} = 6x \Rightarrow \frac{\partial ^2 f}{\parti
 $\Delta_1 > 0, \Delta_2>0, \Delta_3 > 0 \qquad \text{minimum pont}\\ \Delta_1 < 0, \Delta_2 > 0, \Delta_3 < 0 \qquad \text{maximum pont}$
 
 ### Ha van plusz feltétel is:
+<<<<<<< HEAD
 Pl:$\quad u_{(x, y,z)} = x + y + z \qquad ,F=x^2+y^2+z^2 = \underline{1} \leftarrow \text{mellék feltétel}$
 $L_{(x,y,z,\lambda)} = x+y+z + \lambda *(x^2 + y^2+z^2 - 1)$
+=======
+
+Pl: $u_{(x, y,z)} = x + y + z \qquad ,F=x^2+y^2+z^2 = \underline{1} \leftarrow \text{mellék feltétel}\\
+L_{(x,y,z,\lambda)} = x+y+z + \lambda *(x^2 + y^2+z^2 - 1)$
+>>>>>>> 9974d9a404e7c74a36024c04b09e09c734d25ddd
 
 $$\begin{matrix}
 &\frac{\partial L}{\partial x} = 1 + 2\lambda x\\[6pt]
@@ -90,6 +107,7 @@ $\frac{\partial ^2L}{\partial x^2} = 2\lambda = \sqrt{3} \qquad \frac{\partial^2
 Ha az eredményben lett volna x, y, z a stac. pontból helyettesítesz be.
 
 ### L másodrendű differenciál függvénye
+
 $d^2L = \frac{\partial^2L}{\partial x^2}h_1^2+\frac{\partial^2L}{\partial y^2}h_2^2 + \frac{\partial^2L}{\partial z^2}h_3^2 + \frac{\partial^2L}{\partial x\partial y}h_1h_2 + \frac{\partial^2L}{\partial x\partial z}h_1h_3 + \frac{\partial^2L}{\partial y\partial z}h_2h_3\\
 d^2L = \sqrt{3}*(h_1^2 + h_2^2+h_3^2) \qquad > 0 \Rightarrow \text{ pozitív definit} \Rightarrow \text{ minimum pont}$
 
@@ -103,6 +121,7 @@ $\frac{\partial F}{\partial x}h_1 + \frac{\partial F}{\partial x}h_2+\frac{\part
 Ha ezután sem lehet eldönteni, hogy pozitív vagy negatív definit, akkor indefinit => nincs szélsőérték pont
 
 ## Taylor sorba fejtés
+
 $f:(a,b) \rightarrow \mathbb{R} \qquad p+1\text{-szer deriválható}\\
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + \dots\frac{f^{(n+1)}(x_0)}{(n+1)!}(x-x_0)^{n+1}$
 
@@ -144,6 +163,7 @@ $f(x,y) = f(a,b) + \frac{1}{1!}[\frac{\partial f}{\partial x}(a,b)(x-a)+\frac{\p
 f(x,y) \simeq 2(x-1)+3y-(x-1)^2-6(x-1)y-\frac{9}{2}y^2\dots \qquad \text{ ilyen alakban kell hagyni}$
 
 ## Fourier sor
+
 $f:[-l,l] \rightarrow \mathbb{R} \qquad\text{periodikus függvény}\\[6pt]
 f(x) = \frac{a_0}{2}+\sum_{n = 1}^{\infty}(a_n*cos\frac{n\pi x}{l}+b_n*sin\frac{n\pi x}{l})\\[12pt]
 a_0 = \frac{1}{l}\int_{-l}^lf(x)dx\\
