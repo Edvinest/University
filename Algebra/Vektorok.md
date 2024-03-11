@@ -157,8 +157,8 @@ $W(x)=\begin{bmatrix}f_0(x)&&f_1(x)&&\dots&&f_{n-1}(x)\\f'_0(x)&&f'_1(x)&&\dots&
 
 ### Tétel
 
-$W(x)\neq 0\Rightarrow(f_0,f_1,\dots,f_{n-1}) $ lineárisan független
-$W(x)=0\Rightarrow(f*0,f_1,\dots,f*{n-1}) $ lineárisan függő
+$W(x)\neq 0\Rightarrow(f_0,f_1,\dots,f_{n-1})$ - lineárisan független
+$W(x)=0\Rightarrow(f*0,f_1,\dots,f*{n-1})$ - lineárisan függő
 
 ## Bázis transzformáció
 

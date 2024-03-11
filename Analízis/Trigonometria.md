@@ -42,13 +42,9 @@
 - Inverz trigonometriai függvények  
    a.
 
-  - $ \begin{aligned} \sin x=a&\Rightarrow\arcsin a =x\\
-    &\Rightarrow x=(-1)^k\arcsin a +k\pi\end{aligned}$
-  - $\begin{aligned}\cos x= a&\Rightarrow \arccos a = x\\
-    &\Rightarrow x=\pm\arccos a +2k\pi\end{aligned}$
-  - $\begin{aligned}\tg x= a &\Rightarrow\arcctg a = x\\
-    &\Rightarrow\ x=\arctg a+k\pi
-    \end{aligned}$
+  - $ \begin{aligned} \sin x=a&\Rightarrow\arcsin a =x&\Rightarrow(-1)^k\arcsin a +k\pi\end{aligned}$
+  - $\begin{aligned}\cos x= a&\Rightarrow \arccos a = x\\&\Rightarrow x=\pm\arccos a +2k\pi\end{aligned}$
+  - $\begin{aligned}\tg x= a &\Rightarrow\arcctg a = x\\&\Rightarrow\ x=\arctg a+k\pi\end{aligned}$
   - $\begin{aligned}\ctg x=a&\Rightarrow\arcctg a=x\\&\Rightarrow x = \arcctg a +k\pi \end{aligned}$
 
   b.

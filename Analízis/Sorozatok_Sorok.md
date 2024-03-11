@@ -19,7 +19,7 @@ l > 1 => divergens
 
 ### Raabe
 
-$\lim_{n\to\infty} n*(\frac{a_{n+1}}{a_n} * 1) = l$  
+$\lim_{n\to\infty} n*(\frac{a_{n+1}}{a_n} - 1) = l$  
 l < -1 => konvergens  
 l = -1 => nem lehet eldönteni  
 l > -1 => divergens
@@ -34,11 +34,8 @@ $\frac{a_n}{a_{n+1}} > 1$ => csökkenő
 
 ## Hatványsorok
 
-$$
-\sum_{n=1}^{\infty} a_n*(x - x_0)^n \\[12pt]
-\frac{1}{R} = \lim_{n\to\infty}\sqrt[n]{|a_n|}\\[12pt]
-\frac{1}{R} = \lim_{n\to\infty} |\frac{a_{n+1}}{a_n}| (*)
-$$
+$$\sum_{n=1}^{\infty} a_n*(x - x_0)^n$$ $$\frac{1}{R} = \lim_{n\to\infty}\sqrt[n]{|a_n|}$$
+$$\frac{1}{R} = \lim_{n\to\infty} |\frac{a_{n+1}}{a_n}| (*)$$
 
 \*Inkább ezt lehet használni  
 R - konvergencia sugár  
@@ -53,16 +50,16 @@ Ha $l_1 \neq l_2$ => nem létezik f határértéke. Ez szükséges, de nem elég
 Pl:
 
 $$
-\lim_{\substack{x\to 1\\ y\to 0}} = \frac{sin (x+ y - 1}{x - y} = \space?\\[10pt]
-\lim_{y\to 0}\space(\lim_{x\to 1}\frac{sin(x +y -1)}{x - y})= \lim_{y\to 0} \frac{sin y}{1-y} = 0\\[10pt]
-\lim_{x\to 1}\space(\lim{y\to 0} \frac{sin(x+y-1)}{x-y}) = \lim_{x\to 1} \frac{sin x-1}{x} = 0\\[15pt]
-\downarrow\\
+\lim_{\substack{x\to 1\\ y\to 0}} = \frac{sin (x+ y - 1)}{x - y} = \space?$$
+$$\lim_{y\to 0}\space(\lim_{x\to 1}\frac{sin(x +y -1)}{x - y})= \lim_{y\to 0} \frac{sin y}{1-y} = 0$$
+$$\lim_{x\to 1}\space(\lim{y\to 0} \frac{sin(x+y-1)}{x-y}) = \lim_{x\to 1} \frac{sin x-1}{x} = 0$$
+$$\downarrow\\
 \text{Létezhet a határérték, } l_1 = l_2
 $$
 
-$(1, 0)\quad y - 0 = m(x-1) => y = m(x-1)\\
-\text{Ha } x \rightarrow 1 => y \rightarrow 0\\[12pt]
-\lim_{x\to 1}\frac{sin[x-m(x-1)-1]}{x-m(x-1)} = 0 \Rightarrow \lim_{\substack{x\to 1\\ y\to 0}}\frac{sin(x+1-1)}{x-y} = 0$
+(1, 0)$$\quad y - 0 = m(x-1) => y = m(x-1)$$
+$$\text{Ha } x \rightarrow 1 => y \rightarrow 0$$
+$$\lim_{x\to 1}\frac{sin[x-m(x-1)-1]}{x-m(x-1)} = 0 \Rightarrow \lim_{\substack{x\to 1\\ y\to 0}}\frac{sin(x+1-1)}{x-y} = 0$$
 
 ## Minimum / Maximum pont
 
@@ -71,9 +68,9 @@ $$\begin{matrix}&\frac{\partial f}{\partial x} = 3x^2 + 3y^2 - 15\\&\frac{\parti
  \Rightarrow
 \begin{cases}3x^2+3y^2 - 15 = 0\\6xy-12 = 0
 \end{cases} \Rightarrow \begin{cases}x = 2\\y=1\end{cases} \Rightarrow A(2,1) \text{ stacionárius pont}$$
-$\frac{\partial ^2 f}{\partial x^2} = 6x \Rightarrow \frac{\partial ^2 f}{\partial x^2}(A) = 12\\[6pt]
-\frac{\partial f}{\partial y^2} = 6x \Rightarrow \frac{\partial f}{\partial y^2}(A) = 12\\[6pt]
-\frac{\partial f}{2x2y} = 6y \Rightarrow \frac{\partial f}{2x2y}(A) = 12$
+$\frac{\partial ^2 f}{\partial x^2} = 6x \Rightarrow \frac{\partial ^2 f}{\partial x^2}(A) = 12$
+$\frac{\partial f}{\partial y^2} = 6x \Rightarrow \frac{\partial f}{\partial y^2}(A) = 12$
+$\frac{\partial f}{2x2y} = 6y \Rightarrow \frac{\partial f}{2x2y}(A) = 12$
 
 ![Hessa1.png](Hessa_Matrix/hessa1.png)
 ![Hessa2.png](Hessa_Matrix/hessa2.png)

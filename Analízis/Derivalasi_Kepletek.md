@@ -2,7 +2,7 @@
 
 1. $a' = 0$
 2. $(x^n)´ = n*x^{n-1}$
-3. $(\frac{1}{x})' = -\frac{1}{x^2}$
+3. $(\frac{a}{x^n})' = -\frac{a+n}{x^{n+1}}$
 4. $(\sqrt[n]{x})' = \frac{1}{n\sqrt[n]{x^{n-1}}}$
 5. $(a^x)' = a^x*\ln a$
 6. $(e^x)' = e^x$
