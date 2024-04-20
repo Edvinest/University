@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e717369aa266934f",
+        "id": "8ffaaad677091261",
         "type": "tabs",
         "children": [
           {
-            "id": "ed7b48b171de3cad",
+            "id": "ff43b4fd1917c5f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP/String-ek és Listák.md",
+                "file": "Digitális Elektronika/7 szegmens dekódoló.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "deaf7588170fb422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digitális Elektronika/Aritmetikai operátorok.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/String-ek és Listák.md",
+                "file": "Digitális Elektronika/7 szegmens dekódoló.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/String-ek és Listák.md",
+                "file": "Digitális Elektronika/7 szegmens dekódoló.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/String-ek és Listák.md"
+                "file": "Digitális Elektronika/7 szegmens dekódoló.md"
               }
             }
           }
@@ -147,10 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed7b48b171de3cad",
+  "active": "ff43b4fd1917c5f7",
   "lastOpenFiles": [
-    "Analóg Elektronika/Előadás III..md",
+    "Digitális Elektronika/Félvezető tárak kapacitásának növelése.md",
+    "Digitális Elektronika/Félvezető tárak alkalmazása.md",
+    "Digitális Elektronika/Aritmetikai áramkörök.md",
+    "Digitális Elektronika/Aritmetikai operátorok.md",
+    "Digitális Elektronika/7 szegmens dekódoló.md",
+    "Digitális Elektronika/Demultiplexer.md",
+    "Digitális Elektronika/Multiplexer.md",
+    "Digitális Elektronika/Órajel 1Hz.md",
+    "Digitális Elektronika/4 bites számláló.md",
+    "DSA/Big O Notation.md",
+    "DSA",
+    "Digitális Elektronika/Órajel 1Hz",
     "OOP/String-ek és Listák.md",
+    "Fizika/SI - Mértékrendszer.md",
+    "Digitális Elektronika",
+    "Analóg Elektronika/Előadás III..md",
     "OOP",
     "Fizika/Dinamika.md",
     "Analóg Elektronika",
@@ -166,7 +192,6 @@
     "Fizika/Komplex számok.md",
     "Algebra/Determinans.md",
     "Analízis/Derivalasi_Kepletek.md",
-    "Analízis/Fuggvenyabrazolas.md",
     "Fizika/Energia/harmadikabra.png",
     "Fizika/Energia/Screenshot_20240110_205212.png",
     "Fizika/Energia/elsoketabra.png",
