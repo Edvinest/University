@@ -1,3 +1,3 @@
-<!-- TODO: rakj valami disclaimert -->
+# Egyetemi jegyzetek
 
-# adj valamit
+Ajánlott program az olvasáshoz: [Obsidian](https://obsidian.md/)
