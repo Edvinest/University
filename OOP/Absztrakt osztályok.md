@@ -41,3 +41,19 @@ class Base {
     }
 }
 ```
+
+1. Nem lehet példányt létrehozni egy absztrakt osztályból
+2. Használhatóak a konstruktorok
+3. Létrehozhatunk absztrakt osztályt absztrakt metódusok nélkül
+4. Lehet `final` metódus az absztrakt osztályban, de nem lehet egyszerre `final` és `abstract`
+5. Definiálhatunk `static` metódust
+
+
+### Absztrakt osztály konstruktora
+```
+abstract class Shape{
+	Shape(){
+		....
+	}
+}
+```

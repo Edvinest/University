@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff43b4fd1917c5f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Elméleti Villamosságtan/Ohm törvény.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "576420fa49a48a87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP/Absztrakt osztályok.md",
+                "file": "DSA/Lista.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/Absztrakt osztályok.md",
+                "file": "DSA/Lista.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/Absztrakt osztályok.md",
+                "file": "DSA/Lista.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/Absztrakt osztályok.md"
+                "file": "DSA/Lista.md"
               }
             }
           }
@@ -160,11 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d98dfffcc6018cdd",
+  "active": "576420fa49a48a87",
   "lastOpenFiles": [
-    "OOP/SOLID elv.md",
-    "OOP/Absztrakt osztályok.md",
     "OOP/Interfészek.md",
+    "DSA/Lista.md",
+    "OOP/SOLID elv.md",
+    "OOP/String-ek és Listák.md",
+    "OOP/Rendezés.md",
+    "OOP/Absztrakt osztályok.md",
     "Elméleti Villamosságtan/Ohm törvény.md",
     "Elméleti Villamosságtan/Egyenáram.md",
     "Fizika/Elektromosság.md",
@@ -194,7 +184,6 @@
     "DSA/Big O Notation.md",
     "DSA",
     "Digitális Elektronika/Órajel 1Hz",
-    "OOP/String-ek és Listák.md",
     "Fizika/SI - Mértékrendszer.md",
     "Digitális Elektronika",
     "Analóg Elektronika/Előadás III..md",
@@ -202,8 +191,6 @@
     "Fizika/Dinamika.md",
     "Analóg Elektronika",
     "Analízis/Integral.md",
-    "Analízis/Sorozatok_Sorok.md",
-    "Analízis/Trigonometria.md",
     "Fizika/Energia/harmadikabra.png",
     "Fizika/Energia/Screenshot_20240110_205212.png"
   ]
