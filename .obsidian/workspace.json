@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Lista.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Lista.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Lista.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Lista.md"
+                "file": "README.md"
               }
             }
           }
@@ -149,16 +149,25 @@
   },
   "active": "576420fa49a48a87",
   "lastOpenFiles": [
-    "OOP/Interfészek.md",
+    "DSA/Bináris Kereső Fa (BST).md",
+    "DSA/Bináris fa.md",
+    "DSA/Hasító tábla.md",
     "DSA/Lista.md",
+    "OOP/Dictionary.md",
+    "OOP/Hibakezelés.md",
+    "OOP/Rendezés.md",
+    "Elméleti Villamosságtan/Egyenáram.md",
+    "Fizika/SI - Mértékrendszer.md",
+    "Elméleti Villamosságtan/Kirchhoff törvényei.md",
+    "Digitális Elektronika/Multiplexer.md",
+    "Digitális Elektronika/7 szegmens dekódoló.md",
+    "Digitális Elektronika/Aritmetikai áramkörök.md",
+    "OOP/Interfészek.md",
     "OOP/SOLID elv.md",
     "OOP/String-ek és Listák.md",
-    "OOP/Rendezés.md",
     "OOP/Absztrakt osztályok.md",
     "Elméleti Villamosságtan/Ohm törvény.md",
-    "Elméleti Villamosságtan/Egyenáram.md",
     "Fizika/Elektromosság.md",
-    "Elméleti Villamosságtan/Kirchhoff törvényei.md",
     "Elméleti Villamosságtan/Images/kirkegyenlet.png",
     "Elméleti Villamosságtan/Images/hurok.jpg",
     "Elméleti Villamosságtan/Images/csomopont.png",
@@ -173,24 +182,15 @@
     "Analóg Elektronika/Images/biptranz_feladat.png",
     "Analóg Elektronika/Images/Screenshot_20240420_182200.png",
     "Analóg Elektronika/Images",
-    "Digitális Elektronika/7 szegmens dekódoló.md",
     "Digitális Elektronika/Félvezető tárak kapacitásának növelése.md",
     "Digitális Elektronika/Félvezető tárak alkalmazása.md",
-    "Digitális Elektronika/Aritmetikai áramkörök.md",
     "Digitális Elektronika/Demultiplexer.md",
-    "Digitális Elektronika/Multiplexer.md",
     "Digitális Elektronika/Órajel 1Hz.md",
-    "Digitális Elektronika/4 bites számláló.md",
-    "DSA/Big O Notation.md",
     "DSA",
     "Digitális Elektronika/Órajel 1Hz",
-    "Fizika/SI - Mértékrendszer.md",
     "Digitális Elektronika",
-    "Analóg Elektronika/Előadás III..md",
     "OOP",
-    "Fizika/Dinamika.md",
     "Analóg Elektronika",
-    "Analízis/Integral.md",
     "Fizika/Energia/harmadikabra.png",
     "Fizika/Energia/Screenshot_20240110_205212.png"
   ]

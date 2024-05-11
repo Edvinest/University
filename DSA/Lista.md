@@ -1,5 +1,7 @@
 ### Egyszeresen láncolt lista
 
+A láncolt lista egy olyan adatszerkezet, amely egymásra hivatkozó elemekbol áll, amelyeket láncolatnak nevezünk. Minden láncolat tartalmazza a benne tárolt adatot, valamint egy mutatót vagy referenciát a következő láncolatra. Ez a magyarázata annak, hogy míg a tömböknél a lineáris sorrendet a tömbindexek határozzák meg, ezzel szemben a láncolt listákban mutatók valósítják meg az elemek lineáris elrendezettségét.
+
 **Létrehozás**
 ```
 typedef struct Node{ 
@@ -216,6 +218,8 @@ void orderedList(Node **head_ref, int new_data) {
 }
 ```
 ### Duplán láncolt lista
+
+A duplán vagy kétszeresen láncolt lista olyan adatszerkezet, amelyben minden elem két mutatót tartalmaz: az egyik a következő elemre mutat, a másik pedig az előző elemre mutat.
 
 **Létrehozás**
 ```
