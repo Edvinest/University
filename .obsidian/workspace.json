@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digitális Elektronika/74LS163.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digitális Elektronika/74LS163.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digitális Elektronika/74LS163.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digitális Elektronika/74LS163.md"
+                "file": "README.md"
               }
             }
           }
@@ -162,12 +162,12 @@
   },
   "active": "71a90ea08c04376e",
   "lastOpenFiles": [
+    "Digitális Elektronika/74LS163.md",
     "Digitális Elektronika/Images/74ls163_tervtabla.png",
     "Digitális Elektronika/Images/74ls163_muveletek.png",
     "Digitális Elektronika/Images/74ls163_kapcsrajz.png",
     "Digitális Elektronika/Images/74ls163_folyamatabra.png",
     "Digitális Elektronika/SR4CLED.md",
-    "Digitális Elektronika/74LS163.md",
     "Digitális Elektronika/Images/sr_leptetes.png",
     "Digitális Elektronika/Images/sr_tervtabla.png",
     "Digitális Elektronika/Images/sr_sllhl.png",
@@ -175,7 +175,6 @@
     "Digitális Elektronika/Images/sr_folyamatabra.png",
     "Digitális Elektronika/CB4CLE.md",
     "Digitális Elektronika/Images/cb_muveletek_harom_bit.png",
-    "Digitális Elektronika/Images/cb_tervtabla.png",
     "Automata JK tárolóval.md",
     "Digitális Elektronika/Automata D tárolóval.md",
     "Digitális Elektronika/Images",
