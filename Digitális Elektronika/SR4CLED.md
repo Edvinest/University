@@ -1,0 +1,5 @@
+![SR folyamatábra](Images/sr_folyamatabra.png)
+![SR műveletek](Images/sr_muveletek.png)
+![SR léptetés](Images/sr_leptetes.png)
+![SR tervezési táblázat](Images/sr_tervtabla.png)
+![SR állapotok?](Images/sr_sllhl.png)

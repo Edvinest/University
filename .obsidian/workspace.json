@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Digitális Elektronika/Automata D tárolóval.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71a90ea08c04376e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digitális Elektronika/74LS163.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 342.5
   },
   "right": {
     "id": "2d8e2db6b7d97ea1",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Digitális Elektronika/74LS163.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Digitális Elektronika/74LS163.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Digitális Elektronika/74LS163.md"
               }
             }
           }
@@ -147,51 +160,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "576420fa49a48a87",
+  "active": "71a90ea08c04376e",
   "lastOpenFiles": [
-    "DSA/Bináris Kereső Fa (BST).md",
-    "DSA/Bináris fa.md",
-    "DSA/Hasító tábla.md",
-    "DSA/Lista.md",
-    "OOP/Dictionary.md",
-    "OOP/Hibakezelés.md",
-    "OOP/Rendezés.md",
-    "Elméleti Villamosságtan/Egyenáram.md",
-    "Fizika/SI - Mértékrendszer.md",
-    "Elméleti Villamosságtan/Kirchhoff törvényei.md",
-    "Digitális Elektronika/Multiplexer.md",
-    "Digitális Elektronika/7 szegmens dekódoló.md",
-    "Digitális Elektronika/Aritmetikai áramkörök.md",
-    "OOP/Interfészek.md",
-    "OOP/SOLID elv.md",
-    "OOP/String-ek és Listák.md",
-    "OOP/Absztrakt osztályok.md",
-    "Elméleti Villamosságtan/Ohm törvény.md",
-    "Fizika/Elektromosság.md",
-    "Elméleti Villamosságtan/Images/kirkegyenlet.png",
-    "Elméleti Villamosságtan/Images/hurok.jpg",
-    "Elméleti Villamosságtan/Images/csomopont.png",
-    "Elméleti Villamosságtan/Images/egyen2.png",
-    "Elméleti Villamosságtan/Images/egyen1potencial.png",
-    "Elméleti Villamosságtan/Images/egyen1.png",
-    "Elméleti Villamosságtan/Images",
-    "Analóg Elektronika/Bipoláris tranzisztor.md",
-    "Elméleti Villamosságtan",
-    "Algebra/Determinans.md",
-    "Digitális Elektronika/Aritmetikai operátorok.md",
-    "Analóg Elektronika/Images/biptranz_feladat.png",
-    "Analóg Elektronika/Images/Screenshot_20240420_182200.png",
-    "Analóg Elektronika/Images",
+    "Digitális Elektronika/Images/74ls163_tervtabla.png",
+    "Digitális Elektronika/Images/74ls163_muveletek.png",
+    "Digitális Elektronika/Images/74ls163_kapcsrajz.png",
+    "Digitális Elektronika/Images/74ls163_folyamatabra.png",
+    "Digitális Elektronika/SR4CLED.md",
+    "Digitális Elektronika/74LS163.md",
+    "Digitális Elektronika/Images/sr_leptetes.png",
+    "Digitális Elektronika/Images/sr_tervtabla.png",
+    "Digitális Elektronika/Images/sr_sllhl.png",
+    "Digitális Elektronika/Images/sr_muveletek.png",
+    "Digitális Elektronika/Images/sr_folyamatabra.png",
+    "Digitális Elektronika/CB4CLE.md",
+    "Digitális Elektronika/Images/cb_muveletek_harom_bit.png",
+    "Digitális Elektronika/Images/cb_tervtabla.png",
+    "Automata JK tárolóval.md",
+    "Digitális Elektronika/Automata D tárolóval.md",
+    "Digitális Elektronika/Images",
+    "Digitális Elektronika/Demultiplexer.md",
     "Digitális Elektronika/Félvezető tárak kapacitásának növelése.md",
     "Digitális Elektronika/Félvezető tárak alkalmazása.md",
-    "Digitális Elektronika/Demultiplexer.md",
-    "Digitális Elektronika/Órajel 1Hz.md",
+    "OOP/SOLID elv.md",
+    "Analóg Elektronika/Műveleti Erősítő.md",
+    "Analóg Elektronika/Kisjelű erősítő.md",
+    "Analóg Elektronika/Feszültség stabilizátor.md",
+    "Analóg Elektronika/J-FET.md",
+    "Analóg Elektronika/Schmitt Trigger.md",
+    "Analóg Elektronika/Fázis fordító és nem fordító.md",
+    "OOP/Rendezés.md",
+    "OOP/Hibakezelés.md",
+    "Digitális Elektronika/Automata léptetőregiszterrel.md",
+    "Elméleti Villamosságtan/Millman, Thévenin, Norton tétel.md",
+    "Elméleti Villamosságtan/Images/TTesNT.jpg.crdownload",
+    "Elméleti Villamosságtan/Kirchhoff törvényei.md",
+    "Images.md",
+    "Elméleti Villamosságtan/Images/Millman-pelda.png.crdownload",
+    "DSA/Bináris fa.md",
+    "Fizika/Mágnesek.md",
+    "OOP/Dictionary.md",
+    "Fizika/Elektromosság.md",
+    "Elméleti Villamosságtan/Images",
+    "Elméleti Villamosságtan",
+    "Analóg Elektronika/Images",
     "DSA",
     "Digitális Elektronika/Órajel 1Hz",
     "Digitális Elektronika",
-    "OOP",
-    "Analóg Elektronika",
-    "Fizika/Energia/harmadikabra.png",
-    "Fizika/Energia/Screenshot_20240110_205212.png"
+    "OOP"
   ]
 }
