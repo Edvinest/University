@@ -29,7 +29,10 @@ Pl: $V=\mathbb{R}^2\Rightarrow\vec{u}\vec{v}\text{ lineárisan független}\\[3pt
 ## Két vektor skaláris szorzata
 
 Legyen $\vec{u},\vec{v}$  
-$\vec{u}*\vec{v}=|\vec{u}|*|\vec{v}|*\cos\varphi\\\varphi\in(\vec{u},\vec{v})\in[0,\pi]$
+$\vec{u}*\vec{v}=|\vec{u}|*|\vec{v}|*\cos\varphi$
+vagy
+$\vec{u} * \vec{v} = u_{x} * v_{x} + u_{y} * v_{y}$
+$\varphi\in(\vec{u},\vec{v})\in[0,\pi]$
 
 1. két vektor merőleges, ha a skaláris szorzatuk = 0  
    $\vec{u}\perp\vec{v}\Leftrightarrow\vec{u}*\vec{v}=0$
@@ -39,9 +42,9 @@ $\vec{u}*\vec{v}=|\vec{u}|*|\vec{v}|*\cos\varphi\\\varphi\in(\vec{u},\vec{v})\in
 $\vec{u}=u_1*\vec{i}+u_2*\vec{j}+u_3*\vec{k}=\begin{bmatrix}u_1\\u_2\\u_3\end{bmatrix}$
 $\vec{v}=v_1*\vec{i}+v_2*\vec{j}+v_3*\vec{k}=\begin{bmatrix}v_1\\v_2\\v_3\end{bmatrix}$
 
-$\vec{u}*\vec{v}=u_1*v_1+u_2*v_2+u_3*v_3\\
-\vec{u}*\vec{v}=|\vec{u}|*|\vec{v}|*\cos\varphi\\
-\cos\varphi=\frac{\vec{u}*\vec{v}}{|\vec{u}|*|\vec{v}|}$
+$\vec{u}*\vec{v}=u_1*v_1+u_2*v_2+u_3*v_3$
+$\vec{u}*\vec{v}=|\vec{u}|*|\vec{v}|*\cos\varphi$
+$\cos\varphi=\frac{\vec{u}*\vec{v}}{|\vec{u}|*|\vec{v}|}$
 
 ## Két vektor vektoriális szorzata
 

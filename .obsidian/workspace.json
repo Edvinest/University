@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digitális Elektronika/Automata D tárolóval.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71a90ea08c04376e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Fizika/Fizika I. feladat megoldások.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Fizika/Fizika I. feladat megoldások.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Fizika/Fizika I. feladat megoldások.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Fizika/Fizika I. feladat megoldások.md"
               }
             }
           }
@@ -160,8 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71a90ea08c04376e",
+  "active": "576420fa49a48a87",
   "lastOpenFiles": [
+    "Fizika/3. Kinematika.md",
+    "Fizika/2. Mechanikában használt fizikai objektumokra vonat.md",
+    "Fizika/Fizika I. feladat megoldások.md",
+    "Fizika/1. Alapok.md",
+    "Fizika/Untitled",
+    "Fizika/4. Dinamika.md",
+    "Fizika/Elektromosság.md",
+    "Fizika/Exponenciális számokkal való számolás.md",
+    "Fizika/Mennyiségek.md",
+    "Fizika/Mágnesek.md",
+    "Fizika/Komplex számok.md",
+    "Fizika/5. Mechanikai energia és az energia.md",
+    "Fizika/Szinusz és Koszinus függvények.md",
+    "Fizika/Biot-Savart.md",
+    "Fizika/Vonatkoztatási rendszer (koordináta rendszer).md",
+    "Lineáris Algebra/Egyenesek.md",
+    "Lineáris Algebra/Vektorok.md",
+    "Lineáris Algebra/Mátrixok.md",
+    "Analízis/Sorozatok_Sorok.md",
+    "Digitális Elektronika/Automata D tárolóval.md",
+    "README.md",
     "Digitális Elektronika/74LS163.md",
     "Digitális Elektronika/Images/74ls163_tervtabla.png",
     "Digitális Elektronika/Images/74ls163_muveletek.png",
@@ -176,36 +184,16 @@
     "Digitális Elektronika/CB4CLE.md",
     "Digitális Elektronika/Images/cb_muveletek_harom_bit.png",
     "Automata JK tárolóval.md",
-    "Digitális Elektronika/Automata D tárolóval.md",
     "Digitális Elektronika/Images",
     "Digitális Elektronika/Demultiplexer.md",
     "Digitális Elektronika/Félvezető tárak kapacitásának növelése.md",
-    "Digitális Elektronika/Félvezető tárak alkalmazása.md",
-    "OOP/SOLID elv.md",
-    "Analóg Elektronika/Műveleti Erősítő.md",
-    "Analóg Elektronika/Kisjelű erősítő.md",
-    "Analóg Elektronika/Feszültség stabilizátor.md",
-    "Analóg Elektronika/J-FET.md",
-    "Analóg Elektronika/Schmitt Trigger.md",
-    "Analóg Elektronika/Fázis fordító és nem fordító.md",
-    "OOP/Rendezés.md",
-    "OOP/Hibakezelés.md",
-    "Digitális Elektronika/Automata léptetőregiszterrel.md",
-    "Elméleti Villamosságtan/Millman, Thévenin, Norton tétel.md",
     "Elméleti Villamosságtan/Images/TTesNT.jpg.crdownload",
-    "Elméleti Villamosságtan/Kirchhoff törvényei.md",
-    "Images.md",
     "Elméleti Villamosságtan/Images/Millman-pelda.png.crdownload",
-    "DSA/Bináris fa.md",
-    "Fizika/Mágnesek.md",
-    "OOP/Dictionary.md",
-    "Fizika/Elektromosság.md",
     "Elméleti Villamosságtan/Images",
     "Elméleti Villamosságtan",
     "Analóg Elektronika/Images",
     "DSA",
     "Digitális Elektronika/Órajel 1Hz",
-    "Digitális Elektronika",
-    "OOP"
+    "Digitális Elektronika"
   ]
 }

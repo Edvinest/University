@@ -11,5 +11,5 @@ g && h && i
 \end{bmatrix}
 $$
 
-![sarrus-szabaly.png](Images/sarrus-szabaly.png)
+![sarrus-szabaly.png](sarrus-szabaly.png)
 = $\red{afj + bgh + cei}\blue{-hfc - iga - jeb}$
