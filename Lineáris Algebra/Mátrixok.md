@@ -1,5 +1,3 @@
-# Mátrixok
-
 Jelölés: $M_{sor\text{ x }oszlop}$  
 Pl: $M_{m\text{ x }n}$, ahol $m$ és $n$ pozitív egész számok és a mátrix dimenziói.  
 A mátrix dimenziót mindig először a sorok számával, majd az oszlopok számával adják meg.
@@ -14,7 +12,7 @@ a_{m1} && a_{m2} && \dots && a_{mn}
 \end{bmatrix}
 $$
 
-A mátrixnak az **_i_**-edik sorában és **_j_**-edik oszlopában lévő elemet a mátrix **_i_**, **_j_**-edik elemének nevezik, jelölése **A$_{\bold{i,j}}$** vagy **A[i,j]**. először mindig a sorszám, utána az oszlopszám szerepel. Konvenció, hogy a mátrixot nagybetűvel, az elemeit kisbetűvel jelöljük.  
+A mátrixnak az **_i_**-edik sorában és **_j_**-edik oszlopában lévő elemet a mátrix **_i_**, **_j_**-edik elemének nevezik, jelölése **A$_{{i,j}}$** vagy **A[i,j]**. először mindig a sorszám, utána az oszlopszám szerepel. Konvenció, hogy a mátrixot nagybetűvel, az elemeit kisbetűvel jelöljük.  
 Azokat a mátrixokat amelyek egyik dimenziója 1, vektornak szoktuk nevezni. A sorvektornak csak egy sora van.
 
 $$ [a_1\space a_2\space\dots\space a_n]$$
@@ -32,7 +30,7 @@ $$
 
 ## Transzponálás
 
-A transzponálás egy argumentumú művelet. Egy mátrix transzponálása sorainak és oszlopainak a felcserélését jelenti. Egy m×n-es mátrix transzponáltja n×m-es. Kétszer végrehajtva visszakapjuk az eredeti mátrixot. A transzponálás jele **A$^\bold{T}$** vagy **A'**. Egy mátrix szimmetrikus, ha transzponáltja önmaga, azaz **A$^\bold{T}$** = **A'**. Szimmetrikus mátrix csak négyzetes mátrix lehet.
+A transzponálás egy argumentumú művelet. Egy mátrix transzponálása sorainak és oszlopainak a felcserélését jelenti. Egy m×n-es mátrix transzponáltja n×m-es. Kétszer végrehajtva visszakapjuk az eredeti mátrixot. A transzponálás jele **A$^{T}$** vagy **A'**. Egy mátrix szimmetrikus, ha transzponáltja önmaga, azaz **A$^{T}$** = **A'**. Szimmetrikus mátrix csak négyzetes mátrix lehet.
 
 Példa:
 
@@ -61,7 +59,7 @@ Csak azonos dimenziójú mátrixok adhatóak össze. Az **A**+**B** összeget ú
 
 ## Skalárral való szorzás
 
-Az **A** mátrix egy **c** skalárral való c**_A_** szorzatát úgy számítjuk ki, hogy **_A_** minden elemét megszorozzuk a skalárral.
+Az **A** mátrix egy **c** skalárral való **cA** szorzatát úgy számítjuk ki, hogy **_A_** minden elemét megszorozzuk a skalárral.
 
 ### Tulajdonságai
 
@@ -106,4 +104,4 @@ $$
 **Asszociativitás**: **(AB)C** = **A(BC)** minden **k** x **m**-es **A m x n**-es **B** és **n** x **p**-s **C** mátrixra. Ezt a tulajdonságot kihasználva optimalizálni lehet a mátrixszorzást. A leghatékonyabb zárójelezés megtalálása nevezetes optimalizációs probléma.  
 **Jobb oldali disztributivitás**: **(A + B)C = AC + BC** minden **m** x **n**-es **A** és **B**, valamint **n** x **k**-s **C** mátrixra.  
 **Bal oldali disztributivitás**: **C(A + B) = CA + CB** minden **m** x **n**-es, valamint **n** x **k**-s **C** mátrixra.  
-Fontos tudni, hogy a kommutativitás általában nem teljesül; vagyis **\*A** és **\*B\*\*** összeszorozható mátrixra általában igaz, hogy **AB** $\ne$ **BA**.
+Fontos tudni, hogy a kommutativitás általában nem teljesül; vagyis **A** és **B** összeszorozható mátrixra általában igaz, hogy **AB** $\ne$ **BA**.
