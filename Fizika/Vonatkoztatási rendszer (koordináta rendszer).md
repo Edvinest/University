@@ -14,9 +14,7 @@ vonatkoztatási rendszerekkel ismerkedünk meg.
 Ebben az esetben egy pont helyzetét a vonatkoztatási rendszer kezdőpontjához képest csak
 egy adat határozza meg. Az ábrán az x-koordináta. Mivel egy adott iránnyal van dolgunk, két
 különböző irányítás lehetséges. Ennek a matematikai megjelenítését egy egységvektor
-segítségével fejezzük ki. Az x-tengelyhez hagyományosan az $\vec{i}$ - egységvektor tartozik. Az ábra
-szerint az 1-es pont $r_1$ távolságra található az 0-ponttól és a helyzetét $\vec{r}_1$ = $r_1\vec{i}$ vektor adja meg,
-míg a 2-es pont $r_2$ távolságra található az 0-ponttól és a helyzetét $\vec{r}_2 = \vec{-r}_2\vec{i}$ vektor adja meg.
+segítségével fejezzük ki. Az x-tengelyhez hagyományosan az $\vec{i}$ - egységvektor tartozik. Az ábra szerint az 1-es pont $r_1$ távolságra található az 0-ponttól és a helyzetét $\vec{r}_1$ = $r_1\vec{i}$ vektor adja meg, míg a 2-es pont $r_2$ távolságra található az 0-ponttól és a helyzetét $\vec{r}_2 = \vec{-r}_2\vec{i}$ vektor adja meg.
 
 ![Screenshot from 2023-11-12 14-58-00.png](Vonatkoztata%CC%81si%20rendszer%20(koordina%CC%81ta%20rendszer)/Screenshot_from_2023-11-12_14-58-00.png)
 
@@ -70,13 +68,13 @@ megadhatjuk. A következő ábrán az 1-pont helyzetét megadhatjuk a descartes-
 Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descartes-i és a
 poláris koordináták között.
 
-$$x_1 = r_1*cos\varphi_1\\  
-és\\
-y_1 = r_1 * sin\varphi_1\\
-vagy\\
-r_1 = \sqrt{x_1^2 + y_1^2}\\
-és\\
-tg\varphi_1 = \frac{y_1}{x_1}$$
+$$x_1 = r_1*cos\varphi_1$$  
+és
+$$y_1 = r_1 * sin\varphi_1$$
+vagy
+$$r_1 = \sqrt{x_1^2 + y_1^2}$$
+és
+$$\tan\varphi_1 = \frac{y_1}{x_1}$$
 
 ### 3 dimenzió
 
@@ -91,5 +89,6 @@ Felhasználva a trigonometriai függvényeket kapcsolatot teremthetünk a descar
 poláris koordináták között.  
 
 $$
-x_M = r*sin\theta*cos\varphi\\ y_M = r*sin\theta*sin\varphi\\ z_M = r*cos\theta\\[12pt] vagy\\[12pt] r = \sqrt{x_M^2 + y_M^2 + z_M^2}\\[6pt] tg\varphi = \frac{y_M}{x_M}\\[6pt] tg\theta = \frac{\sqrt{x_M^2 + y_M^2}}{z_M}
+x_M = r*\sin\theta*\cos\varphi$$ $$y_M = r*\sin\theta*\sin\varphi$$ $$z_M = r*\cos \theta$$ vagy
+$$\\[12pt] r = \sqrt{x_M^2 + y_M^2 + z_M^2}$$ $$\tan\varphi = \frac{y_M}{x_M}$$ $$\tan\theta = \frac{\sqrt{x_M^2 + y_M^2}}{z_M}
 $$

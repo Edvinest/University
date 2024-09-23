@@ -13,9 +13,7 @@ tömegével jellemezzük.
 
 A pontrendszer (vagy anyagi pontrendszer) az anyagi pontok sokaságát jelenti, amelyek
 egymással valamilyen „kötésben” találhatók. Tulajdonképpen a környezetünkben észlelhető
-minden makroszkopikus tárgy, de még a folyadékok és gázok is pontrendszereknek tekinthetők. A
-pontrendszert alkotó anyagi pontok közötti távolságok függvényében rendszerezhetjük a
-pontrendszereket.
+minden makroszkopikus tárgy, de még a folyadékok és gázok is pontrendszereknek tekinthetők. A pontrendszert alkotó anyagi pontok közötti távolságok függvényében rendszerezhetjük a pontrendszereket.
 
 ## Merev test
 

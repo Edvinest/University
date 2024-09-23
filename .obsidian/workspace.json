@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ffaaad677091261",
+        "id": "8396ff66537cc687",
         "type": "tabs",
         "children": [
           {
-            "id": "576420fa49a48a87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digitális Elektronika/Automata D tárolóval.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71a90ea08c04376e",
+            "id": "e261d941fe253630",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,46 +147,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71a90ea08c04376e",
+  "active": "e261d941fe253630",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Fizika/Mechanikában használt fizikai objektumokra vonat.md",
+    "Fizika/Vonatkoztatási rendszer (koordináta rendszer).md",
+    "Analóg Elektronika/Műveleti Erősítő.md",
+    "Analóg Elektronika/Bipoláris tranzisztor.md",
+    "Analóg Elektronika/Kisjelű erősítő.md",
+    "Analóg Elektronika/J-FET.md",
+    "Digitális Elektronika/Automata JK tárolóval.md",
+    "Analóg Elektronika/Előadás III..md",
+    "Analóg Elektronika/Feszültség stabilizátor.md",
+    "DSA/Lista.md",
+    "Digitális Elektronika/SR4CLED.md",
+    "Digitális Elektronika/Automata D tárolóval.md",
+    "Digitális Elektronika/Images/jk_harombit_feladat_minta.png",
+    "Digitális Elektronika/Órajel 1Hz.md",
+    "Digitális Elektronika/Multiplexer.md",
+    "Digitális Elektronika/Félvezető tárak kapacitásának növelése.md",
+    "Digitális Elektronika/Félvezető tárak alkalmazása.md",
+    "Digitális Elektronika/Demultiplexer.md",
+    "Digitális Elektronika/CB4CLE.md",
+    "Digitális Elektronika/Automata léptetőregiszterrel.md",
+    "Digitális Elektronika/Aritmetikai operátorok.md",
+    "Digitális Elektronika/Aritmetikai áramkörök.md",
+    "DSA/Hasító tábla.md",
+    "Digitális Elektronika/Images/d_harombit_karnough.png",
     "Digitális Elektronika/74LS163.md",
+    "OOP/Interfészek.md",
+    "OOP/Hibakezelés.md",
     "Digitális Elektronika/Images/74ls163_tervtabla.png",
     "Digitális Elektronika/Images/74ls163_muveletek.png",
     "Digitális Elektronika/Images/74ls163_kapcsrajz.png",
     "Digitális Elektronika/Images/74ls163_folyamatabra.png",
-    "Digitális Elektronika/SR4CLED.md",
     "Digitális Elektronika/Images/sr_leptetes.png",
     "Digitális Elektronika/Images/sr_tervtabla.png",
     "Digitális Elektronika/Images/sr_sllhl.png",
     "Digitális Elektronika/Images/sr_muveletek.png",
-    "Digitális Elektronika/Images/sr_folyamatabra.png",
-    "Digitális Elektronika/CB4CLE.md",
-    "Digitális Elektronika/Images/cb_muveletek_harom_bit.png",
-    "Automata JK tárolóval.md",
-    "Digitális Elektronika/Automata D tárolóval.md",
     "Digitális Elektronika/Images",
-    "Digitális Elektronika/Demultiplexer.md",
-    "Digitális Elektronika/Félvezető tárak kapacitásának növelése.md",
-    "Digitális Elektronika/Félvezető tárak alkalmazása.md",
-    "OOP/SOLID elv.md",
-    "Analóg Elektronika/Műveleti Erősítő.md",
-    "Analóg Elektronika/Kisjelű erősítő.md",
-    "Analóg Elektronika/Feszültség stabilizátor.md",
-    "Analóg Elektronika/J-FET.md",
-    "Analóg Elektronika/Schmitt Trigger.md",
-    "Analóg Elektronika/Fázis fordító és nem fordító.md",
-    "OOP/Rendezés.md",
-    "OOP/Hibakezelés.md",
-    "Digitális Elektronika/Automata léptetőregiszterrel.md",
-    "Elméleti Villamosságtan/Millman, Thévenin, Norton tétel.md",
     "Elméleti Villamosságtan/Images/TTesNT.jpg.crdownload",
-    "Elméleti Villamosságtan/Kirchhoff törvényei.md",
-    "Images.md",
     "Elméleti Villamosságtan/Images/Millman-pelda.png.crdownload",
-    "DSA/Bináris fa.md",
-    "Fizika/Mágnesek.md",
-    "OOP/Dictionary.md",
-    "Fizika/Elektromosság.md",
     "Elméleti Villamosságtan/Images",
     "Elméleti Villamosságtan",
     "Analóg Elektronika/Images",
