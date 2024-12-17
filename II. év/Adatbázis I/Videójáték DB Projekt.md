@@ -1,14 +1,27 @@
 
-| Game         |
-| ------------ |
-| gID          |
-| gName        |
-| gGenre       |
-| gDeveloper   |
-| gPublisher   |
-| gReleaseDate |
-| gMusic       |
-| gPlatform    |
+| User            |
+| --------------- |
+| uID             |
+| uNickname       |
+| uAccountCreated |
+| uFriends        |
+| uGamesOwned     |
+
+| Game              |
+| ----------------- |
+| gID               |
+| gUserID           |
+| gName             |
+| gGenre            |
+| gDeveloper        |
+| gPublisher        |
+| gReleaseDate      |
+| gMusic            |
+| gPlatform         |
+| gHasUserCompleted |
+| gLevels           |
+| gTimePlayed       |
+| gRetailPrice      |
 
 | Genre   |
 | ------- |
@@ -22,14 +35,17 @@
 | dFoundingDate |
 | dEmployees    |
 
-| Employee    |
-| ----------- |
-| eID         |
-| eName       |
-| ePosition   |
-| eHireDate   |
-| eBirthDate  |
-| eProfession |
+| Employee            |
+| ------------------- |
+| eID                 |
+| eName               |
+| eGender             |
+| ePosition           |
+| eHireDate           |
+| eBirthDate          |
+| eProfession         |
+| eDaysSpentOnProject |
+
 
 | Publisher     |
 | ------------- |
@@ -47,6 +63,12 @@
 
 | Music     |
 | --------- |
-| mGenre    |
+| mGameID   |
 | mComposer |
 | mTracks   |
+
+| Track   |
+| ------- |
+| tID     |
+| tTitle  |
+| tLength |
