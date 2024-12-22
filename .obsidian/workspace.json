@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md",
-                "mode": "source",
+                "file": "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abszolutizmus és kiegyezés"
+              "title": "Habsburg fennhatóság (III. Károly, Mária Terézia, II. József)"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md"
+                "file": "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Abszolutizmus és kiegyezés"
+              "title": "Outline of Habsburg fennhatóság (III. Károly, Mária Terézia, II. József)"
             }
           },
           {
@@ -176,14 +176,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9298335e2cc29234",
+  "active": "d98dfffcc6018cdd",
   "lastOpenFiles": [
-    "II. év/Kultúrtörténelem III/1848-1849.md",
-    "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md",
-    "II. év/Kultúrtörténelem III/Reformkor és az 1848-49-es forradalom.md",
-    "II. év/Kultúrtörténelem III/A felvilágosult abszolutizmus után.md",
-    "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
     "II. év/Kultúrtörténelem III/Rákóczi Szabadságharc.md",
+    "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
+    "II. év/Kultúrtörténelem III/Reformkor és az 1848-49-es forradalom.md",
+    "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md",
+    "II. év/Kultúrtörténelem III/1848-1849.md",
+    "II. év/Kultúrtörténelem III/A felvilágosult abszolutizmus után.md",
     "II. év/Fejlett Programozás/Írásbeli vizsga.md",
     "II. év/Kultúrtörténelem III",
     "II. év/Untitled.md",
