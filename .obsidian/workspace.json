@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
-                "mode": "preview",
+                "file": "II. év/Számítógépes Architektúra/Neumann-elv.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Habsburg fennhatóság (III. Károly, Mária Terézia, II. József)"
+              "title": "Neumann-elv"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md"
+                "file": "II. év/Számítógépes Architektúra/Neumann-elv.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Habsburg fennhatóság (III. Károly, Mária Terézia, II. József)"
+              "title": "Outline of Neumann-elv"
             }
           },
           {
@@ -176,10 +176,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d98dfffcc6018cdd",
+  "active": "9298335e2cc29234",
   "lastOpenFiles": [
-    "II. év/Kultúrtörténelem III/Rákóczi Szabadságharc.md",
+    "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
+    "II. év/Számítógépes Architektúra/Neumann-elv.md",
+    "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben.md",
+    "II. év/Számítógépes Architektúra/Laborhoz.md",
+    "II. év/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
+    "II. év/Számítógépes Architektúra/Feladat.md",
     "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
+    "II. év/Kultúrtörténelem III/Rákóczi Szabadságharc.md",
     "II. év/Kultúrtörténelem III/Reformkor és az 1848-49-es forradalom.md",
     "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md",
     "II. év/Kultúrtörténelem III/1848-1849.md",
@@ -191,25 +197,19 @@
     "II. év/Fejlett Programozás/Random szám generálás.md",
     "II. év/Fejlett Programozás/Konstruktorok.md",
     "II. év/Fejlett Programozás/Operátorok.md",
-    "II. év/Számítógépes Architektúra/Laborhoz.md",
     "II. év/Adatbázis I/Függvények.md",
     "II. év/Adatbázis I/Alapok.md",
     "II. év/Adatbázis I/Videójáték DB Projekt.md",
     "II. év/Fejlett Programozás/Template-ek.md",
     "II. év/Fejlett Programozás",
-    "II. év/Számítógépes Architektúra/Feladat.md",
     "II. év/Számítógépes Architektúra/Tárak felépítése és működése.md",
     "I. év/Digitális Elektronika/CB4CLE.md",
     "II. év/Adatbázis I",
-    "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben.md",
     "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben",
-    "II. év/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
     "II. év/Számítógépes Architektúra/CPU tervezés.md",
-    "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
     "II. év/Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
     "II. év",
     "I. év",
-    "II. év/Számítógépes Architektúra/Images/ALU működése és megvalósítása.md",
     "II. év/Számítógépes Architektúra/Images/tombvazlat.png",
     "Számítógépes Architektúra/Images/Screenshot_20241009_164631.png",
     "OpRendszerek/teszt/szilva.txt",
