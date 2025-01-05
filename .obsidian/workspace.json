@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "II. év/Adatbázis I/Videójáték DB Projekt.md",
+=======
+                "file": "II. év/Számítógépes Architektúra/Virtuális memória.md",
+>>>>>>> 52adf0cb7fd098f01c22b1f69da8c22dbb9258c6
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Videójáték DB Projekt"
+=======
+              "title": "Virtuális memória"
+>>>>>>> 52adf0cb7fd098f01c22b1f69da8c22dbb9258c6
             }
           }
         ]
@@ -77,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 259.5
   },
   "right": {
     "id": "2d8e2db6b7d97ea1",
@@ -139,10 +147,17 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "II. év/Adatbázis I/Videójáték DB Projekt.md"
               },
               "icon": "lucide-list",
               "title": "Outline of Videójáték DB Projekt"
+=======
+                "file": "II. év/Számítógépes Architektúra/Virtuális memória.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Virtuális memória"
+>>>>>>> 52adf0cb7fd098f01c22b1f69da8c22dbb9258c6
             }
           },
           {
@@ -176,8 +191,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9298335e2cc29234",
+  "active": "d98dfffcc6018cdd",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "II. év/Adatbázis I/Függvények.md",
     "II. év/Adatbázis I/Videójáték DB Projekt.md",
     "II. év/Adatbázis I/Images/diagram.png.crdownload",
@@ -188,9 +204,33 @@
     "II. év/Számítógépes Architektúra/Neumann-elv.md",
     "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
     "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben.md",
+=======
+    "II. év/Számítógépes Architektúra/Images/tlb.png",
+    "II. év/Számítógépes Architektúra/Images/aranykopes.png",
+    "II. év/Számítógépes Architektúra/Az IO rendszer felépítése.md",
+    "II. év/Számítógépes Architektúra/Virtuális memória.md",
+    "II. év/Számítógépes Architektúra/Images/dma.png",
+    "II. év/Számítógépes Architektúra/Images/memory_io.png",
+    "II. év/Számítógépes Architektúra/Images/memory_mapped.png",
+    "II. év/Számítógépes Architektúra/Images/adatatvitel_vegrehajtas.png",
+    "II. év/Számítógépes Architektúra/Megszakítás rendszer (Vektorizált megszakítás).md",
+    "II. év/Számítógépes Architektúra/Images/megszakitas_rendszer.png",
+    "II. év/Számítógépes Architektúra/Images/centralizalt_it.png",
+    "II. év/Számítógépes Architektúra/Images/vegyes_it.png",
+    "II. év/Számítógépes Architektúra/Images/egyszeru_it.png",
+    "II. év/Számítógépes Architektúra/Images/it_meghatarozas.png",
+    "II. év/Számítógépes Architektúra/Számrendszerek, számábrázolás.md",
+    "II. év/Számítógépes Architektúra/Software, Hardware, UEFI, BIOS, Firmware.md",
+    "II. év/Számítógépes Architektúra/Neumann-elv.md",
+>>>>>>> 52adf0cb7fd098f01c22b1f69da8c22dbb9258c6
     "II. év/Számítógépes Architektúra/Laborhoz.md",
     "II. év/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
     "II. év/Számítógépes Architektúra/Feladat.md",
+    "II. év/Számítógépes Architektúra/Tárak felépítése és működése.md",
+    "II. év/Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
+    "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
+    "II. év/Számítógépes Architektúra/CPU tervezés.md",
+    "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben.md",
     "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
     "II. év/Kultúrtörténelem III/Rákóczi Szabadságharc.md",
     "II. év/Kultúrtörténelem III/Reformkor és az 1848-49-es forradalom.md",
@@ -203,19 +243,19 @@
     "II. év/Fejlett Programozás/Fájlból való beolvasás.md",
     "II. év/Fejlett Programozás/Random szám generálás.md",
     "II. év/Fejlett Programozás/Konstruktorok.md",
+<<<<<<< HEAD
     "II. év/Fejlett Programozás/Operátorok.md",
     "II. év/Fejlett Programozás/Template-ek.md",
+=======
+>>>>>>> 52adf0cb7fd098f01c22b1f69da8c22dbb9258c6
     "II. év/Fejlett Programozás",
-    "II. év/Számítógépes Architektúra/Tárak felépítése és működése.md",
-    "I. év/Digitális Elektronika/CB4CLE.md",
     "II. év/Adatbázis I",
     "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben",
     "II. év",
     "I. év",
-    "II. év/Számítógépes Architektúra/Images/tombvazlat.png",
-    "Számítógépes Architektúra/Images/Screenshot_20241009_164631.png",
     "OpRendszerek/teszt/szilva.txt",
     "OpRendszerek/teszt/alma.txt",
+<<<<<<< HEAD
     "I. év/Lineáris Algebra/Images/sarrus-szabaly.png",
     "Untitled.canvas",
     "I. év/Digitális Elektronika/Images/jk_harombit_feladat_minta.png",
@@ -224,5 +264,10 @@
     "I. év/Digitális Elektronika/Images/74ls163_muveletek.png",
     "I. év/Digitális Elektronika/Images/74ls163_kapcsrajz.png",
     "I. év/Digitális Elektronika/Images/74ls163_folyamatabra.png"
+=======
+    "OpRendszerek/teszt/cseresznye.txt",
+    "OpRendszerek/teszt",
+    "Untitled.canvas"
+>>>>>>> 52adf0cb7fd098f01c22b1f69da8c22dbb9258c6
   ]
 }

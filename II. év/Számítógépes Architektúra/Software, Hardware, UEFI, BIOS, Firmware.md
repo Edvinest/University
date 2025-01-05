@@ -1,0 +1,12 @@
+- **SW**: minden, ami nem kézzel fogható, azaz program
+- **HW**: minden, ami kézzel fogható
+- **FW**: Egy adott, jellemzően nem rugalmasan bővíthető HW-ra kreált működtető, vezérlő SW, amit felhasználó (elvileg) módosítani nem tud, csak lecserélni frissebbre, javítottra, más célra átalakítottra (pl.: router, HDD, I/O eszközök, autó, sütő, stb.)
+- **BIOS**: Alapvető Be- és Kimeneti Rendszer (Basic Input Output System) Egy adott, jellemzően rugalmasan bővíthető HW-ra kreált működtető, vezérlő SW, amit felhasználó (elvileg) módosítani nem tud, csak lecserélni frissebbre, javítottra, más célra átalakítottra, viszont a kapcsolódó I/O eszközöket a felhasználó paraméterezheti. A BIOS biztosítja a kapcsolatot a HW-ek és a HW-ekre telepített operációs rendszer között.
+- UEFI: Univerzálisan Bővíthető Firmware (Universal Extensible Firmware Interface). A BIOS azon korlátait hivatott javítani, melyek a BIOS elmúlt kb. 30 évéből és az ebből fakadó, egyre többször jelentkező kompatibilitási problémáiból ered. Fő jellemzői:
+			- gyorsabb sebesség, grafikus felület a karakteres felület helyett
+			- modulárisan frissíthető
+			- közvetlen natív x86, x64, Itanium és ARM architektúra támogatás
+			- GPT (GUID – Globally Unique Identifiers Partition Table) partíció támogatás, diszkenként akár 4db 2.2TB-os elsődleges partícióval, maximális diszk méret 16.8EB (Exa = 1018), akár több mint 100 partícióval diszkenként
+			- Az x64 architektúrán akár 17.2EB memória megcímezhetősége
+			- Rootkit védelem
+Alaplapok esetében hasznos dolog a: „POST” → Power On Self Test, a „csipogó BIOS kódok”.
