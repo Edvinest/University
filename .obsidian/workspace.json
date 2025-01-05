@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Neumann-elv.md",
+                "file": "II. év/Adatbázis I/Videójáték DB Projekt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neumann-elv"
+              "title": "Videójáték DB Projekt"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Neumann-elv.md"
+                "file": "II. év/Adatbázis I/Videójáték DB Projekt.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Neumann-elv"
+              "title": "Outline of Videójáték DB Projekt"
             }
           },
           {
@@ -178,8 +178,15 @@
   },
   "active": "9298335e2cc29234",
   "lastOpenFiles": [
-    "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
+    "II. év/Adatbázis I/Függvények.md",
+    "II. év/Adatbázis I/Videójáték DB Projekt.md",
+    "II. év/Adatbázis I/Images/diagram.png.crdownload",
+    "II. év/Adatbázis I/Images/diagram.png",
+    "II. év/Adatbázis I/Images",
+    "II. év/Adatbázis I/Untitled.md",
+    "II. év/Adatbázis I/Alapok.md",
     "II. év/Számítógépes Architektúra/Neumann-elv.md",
+    "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
     "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben.md",
     "II. év/Számítógépes Architektúra/Laborhoz.md",
     "II. év/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
@@ -197,25 +204,18 @@
     "II. év/Fejlett Programozás/Random szám generálás.md",
     "II. év/Fejlett Programozás/Konstruktorok.md",
     "II. év/Fejlett Programozás/Operátorok.md",
-    "II. év/Adatbázis I/Függvények.md",
-    "II. év/Adatbázis I/Alapok.md",
-    "II. év/Adatbázis I/Videójáték DB Projekt.md",
     "II. év/Fejlett Programozás/Template-ek.md",
     "II. év/Fejlett Programozás",
     "II. év/Számítógépes Architektúra/Tárak felépítése és működése.md",
     "I. év/Digitális Elektronika/CB4CLE.md",
     "II. év/Adatbázis I",
     "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben",
-    "II. év/Számítógépes Architektúra/CPU tervezés.md",
-    "II. év/Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
     "II. év",
     "I. év",
     "II. év/Számítógépes Architektúra/Images/tombvazlat.png",
     "Számítógépes Architektúra/Images/Screenshot_20241009_164631.png",
     "OpRendszerek/teszt/szilva.txt",
     "OpRendszerek/teszt/alma.txt",
-    "OpRendszerek/teszt/cseresznye.txt",
-    "OpRendszerek/teszt",
     "I. év/Lineáris Algebra/Images/sarrus-szabaly.png",
     "Untitled.canvas",
     "I. év/Digitális Elektronika/Images/jk_harombit_feladat_minta.png",
@@ -223,7 +223,6 @@
     "I. év/Digitális Elektronika/Images/74ls163_tervtabla.png",
     "I. év/Digitális Elektronika/Images/74ls163_muveletek.png",
     "I. év/Digitális Elektronika/Images/74ls163_kapcsrajz.png",
-    "I. év/Digitális Elektronika/Images/74ls163_folyamatabra.png",
-    "I. év/Digitális Elektronika/Images/sr_leptetes.png"
+    "I. év/Digitális Elektronika/Images/74ls163_folyamatabra.png"
   ]
 }
