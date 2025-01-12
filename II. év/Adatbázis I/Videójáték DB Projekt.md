@@ -1,6 +1,5 @@
-![Adatbázis diagram](Images/diagram.png)
 # Dokumentáció
-Az adatbázisom egy online webáruházhoz lett tervezve. A felhasználó tud fiókot létrehozni, játékokat vásárolni, barátokat szerezni és technikai részleteket megnézni az általa vásárolt játékokról. 
+Mindig is érdekeltek a játékok mögött lapuló technikai részletek: kik dolgoztak, meddig és melyik részén stb. Idő hiányában csak 11 táblát készítettem. Úgy vélem ez fedezi az elképzelt webáruházam alapjait. Bár az ábra alapján úgy tűnhet egyszerű a projekt, a komplexitást az adott játékhoz tartozó információ adja. A továbbiakban igyekszem egyszerűen elmagyarázni a táblák szerepét: 
 ## Users tábla
 Található benne egy ID oszlop, elsődleges kulcsként. Utána egy nickname mező ami a felhasználóneveket tartalmazza és végül egy account_creation_date, hogy a felhasználó megnézhesse mikor készítette el a fiókját.
 ## Wishlist tábla

@@ -153,3 +153,4 @@ Hátrány:
 - Szélesebb a tag (mert a virtuális cím szélesebb, kivéve PAE)
 - Ha a keretet több lappal lehet elérni, többször lesz bent a cache-ben
 
+![Virtuálisan indexelt cache virtuális tag-gel](Images/virt_cache_virt_tag.png)
