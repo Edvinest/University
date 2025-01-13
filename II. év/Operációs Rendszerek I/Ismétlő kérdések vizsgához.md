@@ -98,7 +98,7 @@
   - **/var**: Változó adatok, mint log fájlok, nyomtatási adatfájlok és egyéb rendszerfolyamatok.
   - **/usr**: Felhasználói alkalmazások és programok könyvtára, tartalmazza a legtöbb programot és könyvtárat.
 
-9. ==Mit nevezünk i-node-nak, és milyen in1mációkat tartalmaz ez a struktúra?==
+9. ==Mit nevezünk i-node-nak, és milyen információkat tartalmaz ez a struktúra?==
    
    Az **i-node** (index node) egy adatstruktúra a UNIX fájlrendszerében, amely egy fájl vagy könyvtár metaadatait tárolja, de magát a fájl tartalmát nem.
 
@@ -456,7 +456,7 @@ echo $PATH # Kimenet: /usr/local/bin:/usr/bin:/bin
 ls # A shell először a /usr/local/bin könyvtárban keres ls parancsot
 ```
 
-36. ==Mit tartalmaznak a shell LANG, illetve LC_ALL, LC_TIME, stb. környezeti változói, adjon példát. beállításukra és adja meg, hogy értékük hogyan befolyásolja a programok végrehajtását.
+36. ==Mit tartalmaznak a shell LANG, illetve LC_ALL, LC_TIME, stb. környezeti változói, adjon példát. beállításukra és adja meg, hogy értékük hogyan befolyásolja a programok végrehajtását.==
     
     A **`LANG`** és **`LC_*`** környezeti változók a rendszer lokalizációs beállításait tárolják, amelyek meghatározzák, hogyan jelenjenek meg a programok kimenetei (pl. nyelv, időformátum, pénznem).
 
@@ -565,7 +565,7 @@ Minden argumentum: arg1 arg2
 	        
 40. ==Miért fontos az a mód, ahogyan a UNIX a standard kimenet és bemenet fogalmát használja?==
     
-    A **standard kimenet (stdout)** és **standard bemenet (stdin)** fogalmai a UNIX rendszeren lapvetően fontosak, mert lehetővé teszik a programok közötti rugalmas adatáramlást és a parancsok láncolását. Ahelyett, hogy a programok közvetlenül fájlokkal dolgoznának, a bemenetek és kimenetek segítségével adatokat olvashatnak és írhatnak, ami növeli a rendszer rugalmasságát és hatékonyságát.
+    A **standard kimenet (stdout)** és **standard bemenet (stdin)** fogalmai a UNIX rendszeren alapvetően fontosak, mert lehetővé teszik a programok közötti rugalmas adatáramlást és a parancsok láncolását. Ahelyett, hogy a programok közvetlenül fájlokkal dolgoznának, a bemenetek és kimenetek segítségével adatokat olvashatnak és írhatnak, ami növeli a rendszer rugalmasságát és hatékonyságát.
 
     ### Miért fontos?
 	1. **Modularitás és összekapcsolhatóság**: A programok könnyen kombinálhatók úgy, hogy egy program kimenete egy másik program bemeneteként szolgál, például a csővezetékek (pipe) használatával (`|`).
