@@ -1,4 +1,4 @@
-1. Kössönk be a processzorhoz egy 1 bites **statikus RAM-ot** a 12-es címre és azon a címen a D1-es adatbitre
+1. Kössünk be a processzorhoz egy 1 bites **statikus RAM-ot** a 12-es címre és azon a címen a D1-es adatbitre
 
 -Rajz-
 CPU

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/Operációs Rendszerek I/Ismétlő kérdések vizsgához.md",
-                "mode": "preview",
+                "file": "II. év/Számítógépes Architektúra/Feladat.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ismétlő kérdések vizsgához"
+              "title": "Feladat"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Operációs Rendszerek I/Ismétlő kérdések vizsgához.md"
+                "file": "II. év/Számítógépes Architektúra/Feladat.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Ismétlő kérdések vizsgához"
+              "title": "Outline of Feladat"
             }
           },
           {
@@ -182,14 +182,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "1b1eee4ff8f38932",
   "lastOpenFiles": [
-    "II. év/Számítógépes Architektúra/Virtuális memória.md",
+    "II. év/Számítógépes Architektúra/Vizsga feladatok.md",
     "II. év/Operációs Rendszerek I/Ismétlő kérdések vizsgához.md",
+    "II. év/Számítógépes Architektúra/Virtuális memória.md",
     "II. év/Operációs Rendszerek I",
     "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
     "II. év/Számítógépes Architektúra/Images/virt_chache_virt_tag.png",
