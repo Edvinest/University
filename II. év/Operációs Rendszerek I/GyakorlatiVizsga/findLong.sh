@@ -22,7 +22,6 @@ current_line=0
 line_number=0
 line_length=0
 
-# IFS - úgy adja vissza a sort ahogy a fájlban szerepel
 while IFS= read -r line; do
 	((current_line++))
 	line_length=${#line}

@@ -21,6 +21,7 @@ for file in "$inputFolder"/*.jpg; do
 		continue
 	fi
 
+	# levágjuk a .jpg végződést a fájlnévből
 	fileName=$(basename "$file" .jpg)
 	newFile="$outputFolder/$fileName.png"
 	

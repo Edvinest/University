@@ -3,6 +3,10 @@
 row=1
 num=1
 
+# a : a betú után azt jelenti, hogy az 
+# argumentum mellé jön még egy paraméter
+
+# ha azt írod, hogy "rn" akkor önmagukban csinálnának valamit
 while getopts "r:n:" opt; do
   case $opt in
   r)
@@ -38,6 +42,7 @@ fi
 
 for file in $dir/*.txt; do
   if [[ -f $file ]]; then
+    # ez a megoldás ugyanazt csinálja, mint a grep-pes megoldás
     file_type=$(file --mime-type -b "$file")
     if [[ $file_type != "text/plain" ]]; then
       echo "Skipping $file, not a text file"
