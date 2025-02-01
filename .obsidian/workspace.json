@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "83d2d9b89b780987",
+    "id": "711c6bc1ca95e5d5",
     "type": "split",
     "children": [
       {
-        "id": "658fedf3fc6ec4a4",
+        "id": "ec46705036e2b4fa",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1eee4ff8f38932",
+            "id": "9298335e2cc29234",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Feladat.md",
+                "file": "II. év/Fejlett Programozás/Írásbeli vizsga.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feladat"
+              "title": "Írásbeli vizsga"
             }
           }
         ]
@@ -27,27 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1f26fff2ca76bbb4",
+    "id": "c1c4889ef1d0892a",
     "type": "split",
     "children": [
       {
-        "id": "891f3810ae2f2814",
+        "id": "df2a103caeabf9c0",
         "type": "tabs",
         "children": [
           {
-            "id": "19e6a2a84eb802f0",
+            "id": "d98dfffcc6018cdd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "438f3b18dfdd04fa",
+            "id": "488df9373b76576d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +65,7 @@
             }
           },
           {
-            "id": "5cbc7b383bb36c3a",
+            "id": "a81881765fec15f0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259.5
   },
   "right": {
-    "id": "dbb2de6c98c602c6",
+    "id": "2d8e2db6b7d97ea1",
     "type": "split",
     "children": [
       {
-        "id": "59ca48a343602d37",
+        "id": "547f5ed762403c8a",
         "type": "tabs",
         "children": [
           {
-            "id": "8caa10a60c04c0d2",
+            "id": "ff7ba81f503160aa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Laborhoz.md",
+                "file": "Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Laborhoz"
+              "title": "Backlinks for VHDL modulok tesztelése szimuláció által"
             }
           },
           {
-            "id": "f64f90088c00f8b7",
+            "id": "277fabb86dda8f88",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Laborhoz.md",
+                "file": "Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Laborhoz"
+              "title": "Outgoing links from VHDL modulok tesztelése szimuláció által"
             }
           },
           {
-            "id": "12034783c015b6ec",
+            "id": "04c591f9a1070b06",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,19 +135,22 @@
             }
           },
           {
-            "id": "21fe7b027e10f179",
+            "id": "48a5e6f4ce195272",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Feladat.md"
+                "file": "II. év/Fejlett Programozás/Írásbeli vizsga.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Feladat"
+              "title": "Outline of Írásbeli vizsga"
             }
           },
           {
-            "id": "43626fc6ef0d3c7c",
+            "id": "7345c51af56c6118",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -156,7 +160,7 @@
             }
           },
           {
-            "id": "c086d62d7dfd7693",
+            "id": "552897c421cd7fdf",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -170,39 +174,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b1eee4ff8f38932",
+  "active": "552897c421cd7fdf",
   "lastOpenFiles": [
     "II. év/Számítógépes Architektúra/Vizsga feladatok.md",
-    "II. év/Operációs Rendszerek I/Ismétlő kérdések vizsgához.md",
-    "II. év/Számítógépes Architektúra/Virtuális memória.md",
-    "II. év/Operációs Rendszerek I",
     "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
-    "II. év/Számítógépes Architektúra/Images/virt_chache_virt_tag.png",
-    "II. év/Számítógépes Architektúra/Images/hardware_kialakitas.png",
-    "II. év/Számítógépes Architektúra/Images/screenshot_2025-01-09_21-53-39.png",
-    "II. év/Adatbázis I/Videójáték DB Projekt.md",
-    "II. év/Számítógépes Architektúra/Laborhoz.md",
-    "II. év/Adatbázis I/Images/diagram.png",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/yes.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/pick.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/isbnszam.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/hFel.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/getcomment.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/findw.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/countwords.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/csize.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/findLong.sh",
+    "II. év/Operációs Rendszerek I/GyakorlatiVizsga/checkmd5.sh",
+    "II. év/Operációs Rendszerek I/Ismétlő kérdések vizsgához.md",
     "II. év/Fejlett Programozás/Vizsga minta.md",
     "II. év/Fejlett Programozás/Írásbeli vizsga.md",
+    "II. év/Adatbázis I/Videójáték DB Projekt.md",
+    "Pasted image 20250102014450.png",
+    "II. év/Adatbázis I/Images/diagram.png",
+    "II. év/Számítógépes Architektúra/Virtuális memória.md",
     "II. év/Számítógépes Architektúra/Images/virt_ind_cache_fiz_tag.png",
+    "II. év/Számítógépes Architektúra/Images/fizikailag_indexelt_cache.png",
     "II. év/Számítógépes Architektúra/Images/mem_triangle.png",
     "II. év/Számítógépes Architektúra/Images/mem_speed.png",
-    "II. év/Számítógépes Architektúra/Images/fizikailag_indexelt_cache.png"
+    "II. év/Számítógépes Architektúra/Images/tlb.png",
+    "II. év/Számítógépes Architektúra/Images/aranykopes.png",
+    "II. év/Számítógépes Architektúra/Az IO rendszer felépítése.md",
+    "II. év/Számítógépes Architektúra/Images/dma.png",
+    "II. év/Számítógépes Architektúra/Megszakítás rendszer (Vektorizált megszakítás).md",
+    "II. év/Számítógépes Architektúra/Számrendszerek, számábrázolás.md",
+    "II. év/Számítógépes Architektúra/Software, Hardware, UEFI, BIOS, Firmware.md",
+    "II. év/Számítógépes Architektúra/Neumann-elv.md",
+    "II. év/Számítógépes Architektúra/Laborhoz.md",
+    "II. év/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
+    "II. év/Számítógépes Architektúra/Feladat.md",
+    "II. év/Számítógépes Architektúra/Tárak felépítése és működése.md",
+    "II. év/Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
+    "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
+    "II. év/Számítógépes Architektúra/CPU tervezés.md",
+    "II. év/Számítógépes Architektúra/A CPU összeépítése strukturális VHDL-ben.md",
+    "II. év/Kultúrtörténelem III/Habsburg fennhatóság (III. Károly, Mária Terézia, II. József).md",
+    "II. év/Kultúrtörténelem III/Rákóczi Szabadságharc.md",
+    "II. év/Kultúrtörténelem III/Reformkor és az 1848-49-es forradalom.md",
+    "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md",
+    "II. év/Kultúrtörténelem III/1848-1849.md",
+    "II. év/Kultúrtörténelem III/A felvilágosult abszolutizmus után.md",
+    "II. év/Untitled.md",
+    "Untitled.canvas"
   ]
 }
