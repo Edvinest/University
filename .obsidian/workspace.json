@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/Fejlett Programozás/Írásbeli vizsga.md",
+                "file": "II. év/Számítógépes Architektúra/Írásbeli vizsga.md",
                 "mode": "source",
                 "source": false
               },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Fejlett Programozás/Írásbeli vizsga.md",
+                "file": "II. év/Számítógépes Architektúra/Írásbeli vizsga.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,12 +186,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "552897c421cd7fdf",
+  "active": "d98dfffcc6018cdd",
   "lastOpenFiles": [
+    "II. év/Számítógépes Architektúra/Megszakítás rendszer (Vektorizált megszakítás).md",
+    "II. év/Számítógépes Architektúra/Laborhoz.md",
+    "II. év/Számítógépes Architektúra/Írásbeli vizsga.md",
+    "II. év/Számítógépes Architektúra/Images/feladat2.png",
+    "II. év/Számítógépes Architektúra/Feladat.md",
+    "II. év/Fejlett Programozás/Írásbeli vizsga.md",
     "II. év/Számítógépes Architektúra/Vizsga feladatok.md",
     "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
     "II. év/Operációs Rendszerek I/GyakorlatiVizsga/yes.sh",
@@ -206,7 +211,6 @@
     "II. év/Operációs Rendszerek I/GyakorlatiVizsga/checkmd5.sh",
     "II. év/Operációs Rendszerek I/Ismétlő kérdések vizsgához.md",
     "II. év/Fejlett Programozás/Vizsga minta.md",
-    "II. év/Fejlett Programozás/Írásbeli vizsga.md",
     "II. év/Adatbázis I/Videójáték DB Projekt.md",
     "Pasted image 20250102014450.png",
     "II. év/Adatbázis I/Images/diagram.png",
@@ -218,14 +222,10 @@
     "II. év/Számítógépes Architektúra/Images/tlb.png",
     "II. év/Számítógépes Architektúra/Images/aranykopes.png",
     "II. év/Számítógépes Architektúra/Az IO rendszer felépítése.md",
-    "II. év/Számítógépes Architektúra/Images/dma.png",
-    "II. év/Számítógépes Architektúra/Megszakítás rendszer (Vektorizált megszakítás).md",
     "II. év/Számítógépes Architektúra/Számrendszerek, számábrázolás.md",
     "II. év/Számítógépes Architektúra/Software, Hardware, UEFI, BIOS, Firmware.md",
     "II. év/Számítógépes Architektúra/Neumann-elv.md",
-    "II. év/Számítógépes Architektúra/Laborhoz.md",
     "II. év/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
-    "II. év/Számítógépes Architektúra/Feladat.md",
     "II. év/Számítógépes Architektúra/Tárak felépítése és működése.md",
     "II. év/Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
     "II. év/Számítógépes Architektúra/A CPU vhdl megvalósítása.md",
@@ -236,8 +236,6 @@
     "II. év/Kultúrtörténelem III/Reformkor és az 1848-49-es forradalom.md",
     "II. év/Kultúrtörténelem III/Abszolutizmus és kiegyezés.md",
     "II. év/Kultúrtörténelem III/1848-1849.md",
-    "II. év/Kultúrtörténelem III/A felvilágosult abszolutizmus után.md",
-    "II. év/Untitled.md",
     "Untitled.canvas"
   ]
 }
