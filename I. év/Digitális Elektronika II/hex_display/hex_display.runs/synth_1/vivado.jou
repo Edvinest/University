@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu Apr 11 15:45:21 2024
+# Process ID: 30407
+# Current directory: /home/edvinest/University/DigiElektro2/hex_display/hex_display.runs/synth_1
+# Command line: vivado -log hex_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hex_display.tcl
+# Log file: /home/edvinest/University/DigiElektro2/hex_display/hex_display.runs/synth_1/hex_display.vds
+# Journal file: /home/edvinest/University/DigiElektro2/hex_display/hex_display.runs/synth_1/vivado.jou
+# Running On: antigamer-pc, OS: Linux, CPU Frequency: 1885.260 MHz, CPU Physical cores: 8, Host memory: 14366 MB
+#-----------------------------------------------------------
+source hex_display.tcl -notrace

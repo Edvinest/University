@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu May 23 15:48:52 2024
+# Process ID: 26373
+# Current directory: /home/edvinest/University/DigiElektro2/d_tarolo_2_bites_szamlalo/d_tarolo_2_bites_szamlalo.runs/synth_1
+# Command line: vivado -log d_automataThreeBit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source d_automataThreeBit.tcl
+# Log file: /home/edvinest/University/DigiElektro2/d_tarolo_2_bites_szamlalo/d_tarolo_2_bites_szamlalo.runs/synth_1/d_automataThreeBit.vds
+# Journal file: /home/edvinest/University/DigiElektro2/d_tarolo_2_bites_szamlalo/d_tarolo_2_bites_szamlalo.runs/synth_1/vivado.jou
+# Running On: antigamer-pc, OS: Linux, CPU Frequency: 2100.910 MHz, CPU Physical cores: 8, Host memory: 14366 MB
+#-----------------------------------------------------------
+source d_automataThreeBit.tcl -notrace

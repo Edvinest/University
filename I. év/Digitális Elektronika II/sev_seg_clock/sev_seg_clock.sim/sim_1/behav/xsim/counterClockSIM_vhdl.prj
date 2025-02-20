@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sev_seg_clock.srcs/sources_1/new/hex_display_clock.vhd" \
+"../../../../sev_seg_clock.srcs/sim_1/new/counterClockSIM.vhd" \
+
+# Do not sort compile order
+nosort

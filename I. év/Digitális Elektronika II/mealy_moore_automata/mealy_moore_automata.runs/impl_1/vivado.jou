@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu May 30 15:54:08 2024
+# Process ID: 19322
+# Current directory: /home/edvinest/University/DigiElektro2/mealy_moore_automata/mealy_moore_automata.runs/impl_1
+# Command line: vivado -log MEALYCounter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MEALYCounter.tcl -notrace
+# Log file: /home/edvinest/University/DigiElektro2/mealy_moore_automata/mealy_moore_automata.runs/impl_1/MEALYCounter.vdi
+# Journal file: /home/edvinest/University/DigiElektro2/mealy_moore_automata/mealy_moore_automata.runs/impl_1/vivado.jou
+# Running On: antigamer-pc, OS: Linux, CPU Frequency: 4215.545 MHz, CPU Physical cores: 8, Host memory: 14366 MB
+#-----------------------------------------------------------
+source MEALYCounter.tcl -notrace

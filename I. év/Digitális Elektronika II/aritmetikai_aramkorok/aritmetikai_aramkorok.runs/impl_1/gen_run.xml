@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1710397524">
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="pclnegybit_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="pclnegybit_routed.rqs"/>
+  <File Type="RBD_FILE" Name="pclnegybit.rbd"/>
+  <File Type="NPI_FILE" Name="pclnegybit.npi"/>
+  <File Type="RNPI_FILE" Name="pclnegybit.rnpi"/>
+  <File Type="CFI_FILE" Name="pclnegybit.cfi"/>
+  <File Type="RCFI_FILE" Name="pclnegybit.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="pclnegybit_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="pclnegybit_boot.pdi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="felosszado_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="felosszado_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="felosszado_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="felosszado_methodology_drc_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="felosszado_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="felosszado_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="felosszado_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="felosszado_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="felosszado_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="felosszado_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pclnegybit_postroute_physopt_bb.dcp"/>
+  <File Type="PLACE-IO" Name="felosszado_io_placed.rpt"/>
+  <File Type="OPT-DRC" Name="felosszado_drc_opted.rpt"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pclnegybit.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="pclnegybit.sysdef"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pclnegybit_postroute_physopt.dcp"/>
+  <File Type="BITSTR-MMI" Name="pclnegybit.mmi"/>
+  <File Type="BITSTR-BMM" Name="pclnegybit_bd.bmm"/>
+  <File Type="PHYSOPT-DCP" Name="pclnegybit_physopt.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="felosszado_utilization_placed.pb"/>
+  <File Type="BG-BGN" Name="pclnegybit.bgn"/>
+  <File Type="OPT-DCP" Name="pclnegybit_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="pclnegybit.hwdef"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="pclnegybit.bit"/>
+  <File Type="ROUTE-BUS-SKEW" Name="felosszado_bus_skew_routed.rpt"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PA-TCL" Name="pclnegybit.tcl"/>
+  <File Type="REPORTS-TCL" Name="pclnegybit_reports.tcl"/>
+  <File Type="PLACE-UTIL" Name="felosszado_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="pclnegybit.drc"/>
+  <File Type="PLACE-CTRL" Name="felosszado_control_sets_placed.rpt"/>
+  <File Type="PDI-FILE" Name="pclnegybit.pdi"/>
+  <File Type="RDI-RDI" Name="pclnegybit.vdi"/>
+  <File Type="BG-BIN" Name="pclnegybit.bin"/>
+  <File Type="PLACE-DCP" Name="pclnegybit_placed.dcp"/>
+  <File Type="BITSTR-MSK" Name="pclnegybit.msk"/>
+  <File Type="PWROPT-DCP" Name="pclnegybit_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pclnegybit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BITSTR-RBT" Name="pclnegybit.rbt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pclnegybit_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-NKY" Name="pclnegybit.nky"/>
+  <File Type="ROUTE-DRC" Name="felosszado_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="felosszado_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="felosszado_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="felosszado_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="felosszado_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="felosszado_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="felosszado_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="pclnegybit_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pclnegybit_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pclnegybit_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="felosszado_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pclnegybit_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="felosszado_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="felosszado_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="felosszado_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="felosszado_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="felosszado_bus_skew_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/felosszado.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/felosszado.vhd"/>
+        <Attr Name="ImportTime" Val="1709213336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/teljes_osszeado.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/teljes_osszeado.vhd"/>
+        <Attr Name="ImportTime" Val="1709757605"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/negybitesosszeado.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/negybitesosszeado.vhd"/>
+        <Attr Name="ImportTime" Val="1709818280"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pgosszeado.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gposszeado.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pclosszeado.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pclnegybit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pclnegybit"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/felosszeado.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/teljes_osszeado.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/negybitesosszeado.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/plcnegybit.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/plcnegybit.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/felosszado.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

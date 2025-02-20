@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "clk_1Hz_TEST_behav" "xil_defaultlib.clk_1Hz_TEST" -log "elaborate.log" 

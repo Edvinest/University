@@ -1,0 +1,286 @@
+
+*** Running vivado
+    with args -log pclnegybit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pclnegybit.tcl
+
+
+****** Vivado v2023.2.2 (64-bit)
+  **** SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+  **** IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+  **** SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source pclnegybit.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1523.301 ; gain = 0.023 ; free physical = 5421 ; free virtual = 33139
+Command: read_checkpoint -auto_incremental -incremental /home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/utils_1/imports/synth_1/felosszado.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/utils_1/imports/synth_1/felosszado.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top pclnegybit -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Vivado_Tcl 4-1810] synth_design options have changed between reference and incremental; A full resynthesis will be run
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8260
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2233.086 ; gain = 401.746 ; free physical = 4384 ; free virtual = 32138
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pclnegybit' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:49]
+INFO: [Synth 8-3491] module 'gposszeado' declared at '/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd:34' bound to instance 'U1' of component 'gposszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'gposszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'gposszeado' (0#1) [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd:43]
+INFO: [Synth 8-3491] module 'gposszeado' declared at '/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd:34' bound to instance 'U2' of component 'gposszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:78]
+INFO: [Synth 8-3491] module 'gposszeado' declared at '/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd:34' bound to instance 'U3' of component 'gposszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:79]
+INFO: [Synth 8-3491] module 'gposszeado' declared at '/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd:34' bound to instance 'U4' of component 'gposszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:80]
+INFO: [Synth 8-3491] module 'pclosszeado' declared at '/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclosszeado.vhd:34' bound to instance 'U5' of component 'pclosszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'pclosszeado' [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclosszeado.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'pclosszeado' (0#1) [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclosszeado.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'pclnegybit' (0#1) [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd:49]
+WARNING: [Synth 8-7129] Port b2 in module pclnegybit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2308.023 ; gain = 476.684 ; free physical = 4282 ; free virtual = 32039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2325.836 ; gain = 494.496 ; free physical = 4282 ; free virtual = 32039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2325.836 ; gain = 494.496 ; free physical = 4282 ; free virtual = 32039
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2325.836 ; gain = 0.000 ; free physical = 4282 ; free virtual = 32039
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 's'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Cy'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/felosszeado.xdc]
+Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Cin'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Cy'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/teljes_osszeado.xdc]
+Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/negybitesosszeado.xdc]
+WARNING: [Vivado 12-584] No ports matched 'S4'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/negybitesosszeado.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/negybitesosszeado.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/negybitesosszeado.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/negybitesosszeado.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/pclnegybit_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/pclnegybit_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/plcnegybit.xdc]
+WARNING: [Vivado 12-584] No ports matched 'S4'. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/plcnegybit.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/plcnegybit.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/plcnegybit.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/constrs_1/new/plcnegybit.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/pclnegybit_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/pclnegybit_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2471.586 ; gain = 0.000 ; free physical = 4251 ; free virtual = 32020
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2471.621 ; gain = 0.000 ; free physical = 4258 ; free virtual = 32027
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4282 ; free virtual = 32052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4282 ; free virtual = 32052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4282 ; free virtual = 32052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4282 ; free virtual = 32052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4282 ; free virtual = 32052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4282 ; free virtual = 32052
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : synth_design options have changed between reference and incremental
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port b2 in module pclnegybit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4258 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |LUT4 |     2|
+|3     |LUT6 |     2|
+|4     |IBUF |     7|
+|5     |OBUF |     4|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2471.621 ; gain = 494.496 ; free physical = 4250 ; free virtual = 32033
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2471.621 ; gain = 640.281 ; free physical = 4250 ; free virtual = 32033
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2471.621 ; gain = 0.000 ; free physical = 4250 ; free virtual = 32033
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2471.621 ; gain = 0.000 ; free physical = 4553 ; free virtual = 32336
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 83071377
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 14 Warnings, 11 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 2471.621 ; gain = 948.320 ; free physical = 4552 ; free virtual = 32335
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1797.884; main = 1497.341; forked = 377.048
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4040.074; main = 2471.590; forked = 1600.500
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2495.598 ; gain = 0.000 ; free physical = 4552 ; free virtual = 32335
+INFO: [Common 17-1381] The checkpoint '/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.runs/synth_1/pclnegybit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pclnegybit_utilization_synth.rpt -pb pclnegybit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 14 08:25:57 2024...

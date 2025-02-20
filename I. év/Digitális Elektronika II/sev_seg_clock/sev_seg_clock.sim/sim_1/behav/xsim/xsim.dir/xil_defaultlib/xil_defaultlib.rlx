@@ -1,0 +1,9 @@
+0.7
+2020.2
+Feb  8 2024
+23:58:30
+/home/edvinest/University/DigiElektro2/sev_seg_clock/sev_seg_clock.srcs/sim_1/new/counterClockSIM.vhd,1715178762,vhdl,,,,counterclocksim,,,,,,,,
+/home/edvinest/University/DigiElektro2/sev_seg_clock/sev_seg_clock.srcs/sources_1/imports/DigiElektro2/clock_1Hz/clock_1Hz.srcs/sources_1/new/clock_1Hz.vhd,1713535479,vhdl,,,,clock_1hz,,,,,,,,
+/home/edvinest/University/DigiElektro2/sev_seg_clock/sev_seg_clock.srcs/sources_1/imports/DigiElektro2/hex_display/hex_display.srcs/sources_1/new/hex_display.vhd,1712840024,vhdl,,,,hex_display,,,,,,,,
+/home/edvinest/University/DigiElektro2/sev_seg_clock/sev_seg_clock.srcs/sources_1/new/counterClock.vhd,1713529134,vhdl,,,,counterclock,,,,,,,,
+/home/edvinest/University/DigiElektro2/sev_seg_clock/sev_seg_clock.srcs/sources_1/new/hex_display_clock.vhd,1715177850,vhdl,,,,counter,,,,,,,,

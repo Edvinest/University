@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MUX_DEMUX.srcs/sources_1/new/AND_GATE_THREE.vhd" \
+"../../../../MUX_DEMUX.srcs/sources_1/new/NOT_GATE.vhd" \
+"../../../../MUX_DEMUX.srcs/sources_1/new/DEMUX124_strukturalis.vhd" \
+
+# Do not sort compile order
+nosort

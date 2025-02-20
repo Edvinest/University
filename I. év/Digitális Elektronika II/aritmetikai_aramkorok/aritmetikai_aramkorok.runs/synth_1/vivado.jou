@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu Mar 14 08:25:26 2024
+# Process ID: 8204
+# Current directory: /home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.runs/synth_1
+# Command line: vivado -log pclnegybit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pclnegybit.tcl
+# Log file: /home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.runs/synth_1/pclnegybit.vds
+# Journal file: /home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.runs/synth_1/vivado.jou
+# Running On: antigamer-pc, OS: Linux, CPU Frequency: 2733.113 MHz, CPU Physical cores: 8, Host memory: 14366 MB
+#-----------------------------------------------------------
+source pclnegybit.tcl -notrace

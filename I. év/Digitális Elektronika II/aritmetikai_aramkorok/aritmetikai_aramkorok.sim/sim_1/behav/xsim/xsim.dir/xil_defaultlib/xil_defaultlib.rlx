@@ -1,0 +1,13 @@
+0.7
+2020.2
+Feb  8 2024
+23:58:30
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sim_1/new/felosszeadoSIM.vhd,1711024745,vhdl,,,,felosszeadosim,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sim_1/new/teljesosszeadoSIM.vhd,1711024812,vhdl,,,,teljesosszeadosim,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/felosszado.vhd,1710942656,vhdl,,,,felosszado,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/negybitesosszeado.vhd,1709818280,vhdl,,,,negybitesosszeado,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/teljes_osszeado.vhd,1709757605,vhdl,,,,teljes_osszeado,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd,1710396439,vhdl,,,,gposszeado,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd,1710420650,vhdl,,,,pclnegybit,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclosszeado.vhd,1710396668,vhdl,,,,pclosszeado,,,,,,,,
+/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pgosszeado.vhd,1710360420,vhdl,,,,,,,,,,,,

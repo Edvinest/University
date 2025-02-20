@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1715178088">
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="counterClock_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="counterClock_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BGN" Name="counterClock.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="counterClock.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="counterClock.ltx"/>
+  <File Type="RBD_FILE" Name="counterClock.rbd"/>
+  <File Type="NPI_FILE" Name="counterClock.npi"/>
+  <File Type="RNPI_FILE" Name="counterClock.rnpi"/>
+  <File Type="CFI_FILE" Name="counterClock.cfi"/>
+  <File Type="RCFI_FILE" Name="counterClock.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="counterClock_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="counterClock_boot.pdi"/>
+  <File Type="RDI-RDI" Name="counterClock.vdi"/>
+  <File Type="PDI-FILE" Name="counterClock.pdi"/>
+  <File Type="BITSTR-MMI" Name="counterClock.mmi"/>
+  <File Type="BITSTR-BMM" Name="counterClock_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="counterClock.nky"/>
+  <File Type="BITSTR-RBT" Name="counterClock.rbt"/>
+  <File Type="BITSTR-MSK" Name="counterClock.msk"/>
+  <File Type="BG-BIN" Name="counterClock.bin"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="counterClock.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="counterClock_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="counterClock_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="counterClock_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="counterClock_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="counterClock_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="counterClock_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="counterClock_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="counterClock_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="counterClock.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="counterClock_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="counterClock_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="counterClock_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="counterClock_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="counterClock_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="counterClock_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="counterClock_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="counterClock_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="counterClock_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="counterClock_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="counterClock_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="counterClock_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="counterClock_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="counterClock_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="counterClock_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="counterClock_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="counterClock_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="counterClock_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="counterClock_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="counterClock_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="counterClock_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="counterClock_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="counterClock_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="counterClock_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="counterClock_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="counterClock_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="counterClock_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="counterClock_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="counterClock_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="counterClock_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="counterClock_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="counterClock_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="counterClock_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="counterClock_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="counterClock_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="counterClock_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="counterClock_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="counterClock_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="counterClock_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="counterClock_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="counterClock_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="counterClock_rqa_opted.pb"/>
+  <File Type="OPT-HWDEF" Name="counterClock.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="counterClock_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="counterClock_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="counterClock_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="counterClock_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="counterClock_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="counterClock_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="counterClock.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/DigiElektro2/clock_1Hz/clock_1Hz.srcs/sources_1/new/clock_1Hz.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../clock_1Hz/clock_1Hz.srcs/sources_1/new/clock_1Hz.vhd"/>
+        <Attr Name="ImportTime" Val="1712836704"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DigiElektro2/hex_display/hex_display.srcs/sources_1/new/hex_display.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../hex_display/hex_display.srcs/sources_1/new/hex_display.vhd"/>
+        <Attr Name="ImportTime" Val="1712840024"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hex_display_clock.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counterClock.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="counterClock"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/hex_display_clock.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/hex_display_clock.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,17 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/felosszado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'felosszado'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/teljes_osszeado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'teljes_osszeado'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pgosszeado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gposszeado'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclosszeado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pclosszeado'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pclnegybit'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/negybitesosszeado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'negybitesosszeado'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sim_1/new/felosszeadoSIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'felosszeadoSIM'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/edvinest/University/DigiElektro2/aritmetikai_aramkorok/aritmetikai_aramkorok.srcs/sim_1/new/teljesosszeadoSIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'teljesosszeadoSIM'

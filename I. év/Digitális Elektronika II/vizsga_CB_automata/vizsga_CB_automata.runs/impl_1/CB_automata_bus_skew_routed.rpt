@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2.2 (lin64) Build 4126759 Thu Feb  8 23:52:05 MST 2024
+| Date         : Thu Jun  6 16:30:22 2024
+| Host         : antigamer-pc running 64-bit Nobara Linux 39 (KDE Plasma)
+| Command      : report_bus_skew -warn_on_violation -file CB_automata_bus_skew_routed.rpt -pb CB_automata_bus_skew_routed.pb -rpx CB_automata_bus_skew_routed.rpx
+| Design       : CB_automata
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/felosszado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/teljes_osszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/pgosszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/gposszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/pclosszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/felosszado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/pclnegybit.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/imports/aritmetikai_aramkorok.srcs/sources_1/new/negybitesosszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/teljes_osszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sources_1/new/negybitesosszeado.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sim_1/new/felosszeadoSIM.vhd" \
+"../../../../aritmetikai_aramkorok.srcs/sim_1/new/teljesosszeadoSIM.vhd" \
+
+# Do not sort compile order
+nosort

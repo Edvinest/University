@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu Apr 11 15:01:19 2024
+# Process ID: 23713
+# Current directory: /home/edvinest/University/DigiElektro2/clock_1Hz/clock_1Hz.runs/synth_1
+# Command line: vivado -log clock_1Hz.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clock_1Hz.tcl
+# Log file: /home/edvinest/University/DigiElektro2/clock_1Hz/clock_1Hz.runs/synth_1/clock_1Hz.vds
+# Journal file: /home/edvinest/University/DigiElektro2/clock_1Hz/clock_1Hz.runs/synth_1/vivado.jou
+# Running On: antigamer-pc, OS: Linux, CPU Frequency: 1882.092 MHz, CPU Physical cores: 8, Host memory: 14366 MB
+#-----------------------------------------------------------
+source clock_1Hz.tcl -notrace
