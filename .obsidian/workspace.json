@@ -186,12 +186,12 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b1eee4ff8f38932",
+  "active": "19e6a2a84eb802f0",
   "lastOpenFiles": [
+    "II. év/Méréstechnika",
     "II. év/DSA II/Binary Search.md",
     "II. év/DSA II/Backtracking.md",
     "II. év/Numerikus Módszertan/1. labor.md",
