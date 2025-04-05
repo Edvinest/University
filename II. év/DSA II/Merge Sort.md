@@ -1,4 +1,4 @@
-iI1Működése:
+Működése:
 - **Divide (Oszd meg):** rekurzívan addig osztjuk ketté a listát vagy tömböt ameddig nem tudunk tovább osztani.
 - **Conquer (Uralkodj):** rendezzük az altömböket (subarray) a merge sort algoritmussal
 - **Merge:** a rendezett altömböket újra egyesítjük, a folyamat addig ismétlődik ameddig az összes altömb nem lett egyesítve
