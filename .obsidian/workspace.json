@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/DSA II/Binary Search.md",
+                "file": "II. év/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss Seidel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Search"
+              "title": "Egyenletrendszer megoldása - Jacobi és Gauss Seidel"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/DSA II/Binary Search.md",
+                "file": "II. év/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss Seidel.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Binary Search"
+              "title": "Outline of Egyenletrendszer megoldása - Jacobi és Gauss Seidel"
             }
           },
           {
@@ -192,12 +192,20 @@
   },
   "active": "1b1eee4ff8f38932",
   "lastOpenFiles": [
-    "II. év/DSA II/Backtracking.md",
-    "II. év/Operációs Rendszerek II",
-    "II. év/DSA II/Depth First Search (DFS).md",
-    "II. év/DSA II/Binary Search.md",
-    "II. év/DSA II/Merge Sort.md",
+    "II. év/Numerikus Módszertan/Cholesky-felbontás.md",
+    "II. év/Numerikus Módszertan/Gauss elimináció.md",
     "II. év/Numerikus Módszertan/Iránymenti minimalizálás.md",
+    "II. év/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss Seidel.md",
+    "II. év/Numerikus Módszertan/Banach-iteráció.md",
+    "I. év/Lineáris Algebra/Determinans.md",
+    "II. év/DSA II/Parciális feladatok.md",
+    "II. év/DSA II/Merge Sort.md",
+    "II. év/DSA II/Greedy.md",
+    "II. év/DSA II/Binary Search.md",
+    "II. év/DSA II/Depth First Search (DFS).md",
+    "II. év/DSA II/Backtracking.md",
+    "II. év/Operációs Rendszerek II/VI. előadás.md",
+    "II. év/Operációs Rendszerek II",
     "II. év/Méréstechnika",
     "II. év/Numerikus Módszertan/1. labor.md",
     "II. év/Numerikus Módszertan/Laborok/labor1.ipynb",

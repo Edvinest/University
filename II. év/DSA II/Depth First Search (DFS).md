@@ -2,6 +2,33 @@ Működése:
 - Bináris fához hasonlóan végigmegyünk a vertex-eken, balról jobbra
 - Mivel a fákban egy node többször is látogatható itt `látogatottnak` jelöljük a vertex-et
 - Kiírjuk az utolsó vertex-et, majd visszamegyünk a kiinduló pontba
+
+```pseudo
+adj - szomszédsági lista
+function dfsRecursion(adj[][], isVisited[], vertex, &result){
+	isVisited[vertex] = true
+
+	result.push_back(vertex)
+
+	for(i : adj[vertex]){
+		if (isVisited[i] == false){
+			dfsRecursion(adj[][], isVisited, i, result);
+		}
+	}
+}
+
+function DFS(adj[][]){
+	isValid(adj.size(), false)
+	res
+	dfsRecursion(adj, isVisited, 0, res)
+}
+
+function addEdge(adj[][], startVertex, targetVertex){
+	adj[startVertex].push_back(targetVertex)
+	adj[targetVertex].push_back(startVertex)
+}
+```
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
