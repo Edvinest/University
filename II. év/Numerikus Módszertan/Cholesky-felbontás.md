@@ -12,3 +12,6 @@ function Cholesky-felbontas(n, A, L){
 	return L
 }
 ```
+
+### Felhasználhatóság a valóságban
+Szintén alkalmas Gépi Tanuláshoz, főként optimalizáció céljából. Ugyanakkor számítógépes grafikában is használják rugalmas testekhez és fizikai modellezéshez.
