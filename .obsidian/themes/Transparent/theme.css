@@ -19,8 +19,8 @@ I’m working to make this as polished and functional as possible. Thanks for yo
   --mobile-sidebar-min-width: 100vw
 }
 body {
-  --background-primary: rgba(0, 0, 0, 0.5);
-  --background-secondary: rgba(0, 0, 0, 0.5);
+  --background-primary: transparent;
+  --background-secondary: transparent;
   --divider-width: 0px;
   --divider-color: var(--tr);
   --background-modifier-border: essaopie;

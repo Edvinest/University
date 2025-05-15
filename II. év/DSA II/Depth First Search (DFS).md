@@ -19,8 +19,10 @@ function dfsRecursion(adj[][], isVisited[], vertex, &result){
 
 function DFS(adj[][]){
 	isValid(adj.size(), false)
-	res
+	res[]
 	dfsRecursion(adj, isVisited, 0, res)
+
+	return res
 }
 
 function addEdge(adj[][], startVertex, targetVertex){
@@ -74,57 +76,61 @@ vector<int> DFS(vector<CSPOINT> &mPoints, int startingPoint) {
 
 ### Recursive
 ```cpp
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-// Recursive function for DFS traversal
-void dfsRec(vector<vector<int>> &adj, vector<bool> &visited, int s, vector<int> &res)
-{
+enum Color { WHITE, GRAY, BLACK };
 
-    visited[s] = true;
-
-    res.push_back(s);
-
-    // Recursively visit all adjacent vertices
-    // that are not visited yet
-    for (int i : adj[s])
-        if (visited[i] == false)
-            dfsRec(adj, visited, i, res);
+void dfs_visit(int u, const vector<vector<int>>& adj, 
+              vector<Color>& color, vector<int>& parent, 
+              vector<int>& traversal) {
+    color[u] = GRAY;  // Discovered
+    traversal.push_back(u);
+    
+    for (int v : adj[u]) {
+        if (color[v] == WHITE) {
+            parent[v] = u;
+            dfs_visit(v, adj, color, parent, traversal);
+        }
+    }
+    
+    color[u] = BLACK;  // Finished
 }
 
-// Main DFS function that initializes the visited array
-// and call DFSRec
-vector<int> DFS(vector<vector<int>> &adj)
-{
-    vector<bool> visited(adj.size(), false);
-    vector<int> res;
-    dfsRec(adj, visited, 0, res);
-    return res;
+vector<int> dfs(const vector<vector<int>>& adj, int start) {
+    int n = adj.size();
+    vector<Color> color(n, WHITE);
+    vector<int> parent(n, -1);
+    vector<int> traversal;
+    
+    dfs_visit(start, adj, color, parent, traversal);
+    
+    // Optional: Print parent pointers
+    cout << "Vertex\tParent\n";
+    for (int i = 0; i < n; i++) {
+        cout << i << "\t" << parent[i] << endl;
+    }
+    
+    return traversal;
 }
 
-// To add an edge in an undirected graph
-void addEdge(vector<vector<int>> &adj, int s, int t)
-{
-    adj[s].push_back(t);
-    adj[t].push_back(s);
+int main() {
+    // Example adjacency list (directed graph)
+    vector<vector<int>> adj = {
+        {1, 2},    // 0's neighbors
+        {3},        // 1's neighbors
+        {1, 3},     // 2's neighbors
+        {4},        // 3's neighbors
+        {}          // 4's neighbors
+    };
+    
+    vector<int> traversal = dfs(adj, 0);
+    
+    cout << "DFS order: ";
+    for (int v : traversal) cout << v << " ";
+    
+    return 0;
 }
-
-int main()
-{
-    int V = 5;
-    vector<vector<int>> adj(V);
-
-    // Add edges
-    vector<vector<int>> edges = {{1, 2}, {1, 0}, {2, 0}, {2, 3}, {2, 4}};
-    for (auto &e : edges)
-        addEdge(adj, e[0], e[1]);
-
-    // Starting vertex for DFS
-    vector<int> res = DFS(adj); // Perform DFS starting from the source verte 0;
-
-    for (int i = 0; i < V; i++)
-        cout << res[i] << " ";
-}
-
 
 ```

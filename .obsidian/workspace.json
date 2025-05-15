@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/DSA II/Depth First Search (DFS).md",
+                "file": "II. év/DSA II/II. parciálisra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Depth First Search (DFS)"
+              "title": "II. parciálisra"
             }
           }
         ]
@@ -190,12 +190,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1b1eee4ff8f38932",
+  "active": "19e6a2a84eb802f0",
   "lastOpenFiles": [
+    "II. év/DSA II/Depth First Search (DFS).md",
+    "II. év/DSA II/Gráf létrehozás és kiíratás.md",
+    "II. év/DSA II/II. parciálisra.md",
     "II. év/DSA II/Breadth First Search (BFS).md",
-    "II. év/Numerikus Módszertan/Halley módszer.md",
-    "II. év/Numerikus Módszertan/Householder.md",
+    "II. év/Funkcionális Programozás/Laborok/Gyakorlas/dfs.hs",
+    "II. év/Funkcionális Programozás/Laborok/Gyakorlas/graf.txt",
+    "II. év/Numerikus Módszertan/Steffensen-módszer.md",
     "II. év/Numerikus Módszertan/Newton-féle felező módszer.md",
+    "II. év/Numerikus Módszertan/Halley módszer.md",
+    "II. év/Numerikus Módszertan/Laborok/labor9.ipynb",
+    "II. év/Numerikus Módszertan/Householder.md",
     "II. év/Numerikus Módszertan/Iránymenti minimalizálás.md",
     "II. év/Numerikus Módszertan/Banach-iteráció.md",
     "II. év/Numerikus Módszertan/Cholesky-felbontás.md",
@@ -213,7 +220,6 @@
     "II. év/DSA II/Merge Sort.md",
     "II. év/DSA II/Greedy.md",
     "II. év/DSA II/Binary Search.md",
-    "II. év/DSA II/Depth First Search (DFS).md",
     "II. év/DSA II/Backtracking.md",
     "II. év/Operációs Rendszerek II/VI. előadás.md",
     "II. év/Operációs Rendszerek II",
@@ -224,13 +230,8 @@
     "II. év/Numerikus Módszertan/Laborok",
     "II. év/Numerikus Módszertan",
     "II. év/Untitled.md",
-    "II. év/DSA II",
     "II. év/Fejlett Programozás/Írásbeli vizsga.md",
-    "II. év/Fejlett Programozás/Fájlból való beolvasás.md",
-    "II. év/Fejlett Programozás/Vizsga minta.md",
-    "II. év/Számítógépes Architektúra/Írásbeli vizsga.md",
     "II. év/Számítógépes Architektúra/Images/feladat2.png",
-    "II. év/Operációs Rendszerek I",
     "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
     "II. év/Számítógépes Architektúra/Images/virt_chache_virt_tag.png",
     "II. év/Számítógépes Architektúra/Images/hardware_kialakitas.png",

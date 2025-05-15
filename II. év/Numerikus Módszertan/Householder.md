@@ -30,7 +30,15 @@ function Householder3(f, df, ddf, dddf, x0, max_iteracio=100, epszilon){
      \cos x - 3 \sin y = 0\end{cases}$$
    b) $$\begin{cases}\sin x + 3 \cos y = 2\\
      cos x - sin y = - \frac{1}{5}\end{cases}$$
-2.  Oldjuk meg
+#### Megoldás
+1. Függvények meghatározása
+   f(x, y) = tan x - y - 1
+   g(x, y) = cos x - 3 sin y
+   
+2. Jacobi mátrix felírása
+   J(x, y) - parciálisan deriváljuk a két függvényt
+   
+3.  Oldjuk meg
 	 $x^3 - 10 x^2 + 5 = 0$ (Householder módszer)
 	 d = 1, 2, 3
 	 $x_0$ = 0.7
