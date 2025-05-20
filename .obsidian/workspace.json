@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/DSA II/II. parciálisra.md",
+                "file": "II. év/Kultúrtörténelem IV./Kultúra Magyarországon és Erdélyben 1945 után.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "II. parciálisra"
+              "title": "Kultúra Magyarországon és Erdélyben 1945 után"
             }
           }
         ]
@@ -190,16 +190,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "19e6a2a84eb802f0",
+  "active": "1b1eee4ff8f38932",
   "lastOpenFiles": [
+    "II. év/Kultúrtörténelem IV./Erdély a második világháború után (1945–1989).md",
+    "II. év/Kultúrtörténelem IV./Kultúra Magyarországon és Erdélyben 1945 után.md",
+    "II. év/Kultúrtörténelem IV./Erdély a két világháború között (1918–1940).md",
+    "II. év/Kultúrtörténelem IV./Magyarország a második világháború után (1945–1989).md",
+    "II. év/Kultúrtörténelem IV./Magyarország a két világháború között (1918–1939).md",
+    "II. év/Numerikus Módszertan/Newton-féle felező módszer.md",
+    "II. év/Numerikus Módszertan/Steffensen-módszer.md",
+    "II. év/Kultúrtörténelem IV./Az I. világháború és Magyarország.md",
+    "II. év/DSA II/II. parciálisra.md",
+    "II. év/Kultúrtörténelem IV.",
+    "II. év/Untitled.md",
     "II. év/DSA II/Depth First Search (DFS).md",
     "II. év/DSA II/Gráf létrehozás és kiíratás.md",
-    "II. év/DSA II/II. parciálisra.md",
+    "II. év/DSA II/Parciális feladatok.md",
     "II. év/DSA II/Breadth First Search (BFS).md",
     "II. év/Funkcionális Programozás/Laborok/Gyakorlas/dfs.hs",
     "II. év/Funkcionális Programozás/Laborok/Gyakorlas/graf.txt",
-    "II. év/Numerikus Módszertan/Steffensen-módszer.md",
-    "II. év/Numerikus Módszertan/Newton-féle felező módszer.md",
     "II. év/Numerikus Módszertan/Halley módszer.md",
     "II. év/Numerikus Módszertan/Laborok/labor9.ipynb",
     "II. év/Numerikus Módszertan/Householder.md",
@@ -216,21 +225,12 @@
     "I. év/Digitális Elektronika II/Untitled.md",
     "II. év/Operációs Rendszerek II/VIII. előadás.md",
     "I. év/Lineáris Algebra/Determinans.md",
-    "II. év/DSA II/Parciális feladatok.md",
     "II. év/DSA II/Merge Sort.md",
-    "II. év/DSA II/Greedy.md",
-    "II. év/DSA II/Binary Search.md",
-    "II. év/DSA II/Backtracking.md",
-    "II. év/Operációs Rendszerek II/VI. előadás.md",
     "II. év/Operációs Rendszerek II",
     "II. év/Méréstechnika",
-    "II. év/Numerikus Módszertan/1. labor.md",
     "II. év/Numerikus Módszertan/Laborok/labor1.ipynb",
     "II. év/Numerikus Módszertan/Laborok/labor1.py",
     "II. év/Numerikus Módszertan/Laborok",
-    "II. év/Numerikus Módszertan",
-    "II. év/Untitled.md",
-    "II. év/Fejlett Programozás/Írásbeli vizsga.md",
     "II. év/Számítógépes Architektúra/Images/feladat2.png",
     "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
     "II. év/Számítógépes Architektúra/Images/virt_chache_virt_tag.png",

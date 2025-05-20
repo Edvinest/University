@@ -84,14 +84,15 @@ enum Color { WHITE, GRAY, BLACK };
 
 void dfs_visit(int u, const vector<vector<int>>& adj, 
               vector<Color>& color, vector<int>& parent, 
-              vector<int>& traversal) {
+              vector<int>& distance, vector<int>& traversal, int current_depth) {
     color[u] = GRAY;  // Discovered
+    distance[u] = current_depth;  // Set distance from start
     traversal.push_back(u);
     
     for (int v : adj[u]) {
         if (color[v] == WHITE) {
             parent[v] = u;
-            dfs_visit(v, adj, color, parent, traversal);
+            dfs_visit(v, adj, color, parent, distance, traversal, current_depth + 1);
         }
     }
     
@@ -102,14 +103,15 @@ vector<int> dfs(const vector<vector<int>>& adj, int start) {
     int n = adj.size();
     vector<Color> color(n, WHITE);
     vector<int> parent(n, -1);
+    vector<int> distance(n, -1);  // Initialize distances to -1 (unreachable)
     vector<int> traversal;
     
-    dfs_visit(start, adj, color, parent, traversal);
+    dfs_visit(start, adj, color, parent, distance, traversal, 0);  // Start with depth 0
     
-    // Optional: Print parent pointers
-    cout << "Vertex\tParent\n";
+    // Print parent pointers and distances
+    cout << "Vertex\tParent\tDistance\n";
     for (int i = 0; i < n; i++) {
-        cout << i << "\t" << parent[i] << endl;
+        cout << i << "\t" << parent[i] << "\t" << distance[i] << endl;
     }
     
     return traversal;
@@ -132,5 +134,4 @@ int main() {
     
     return 0;
 }
-
 ```
