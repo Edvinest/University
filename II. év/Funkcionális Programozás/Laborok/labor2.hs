@@ -54,11 +54,11 @@ myPow2 x n = auxPow 1 x n
 myPow3 :: (Real b, Integral a) => b -> a -> b
 myPow3 x n 
     | n == 0 = 1
-    | even n2 = r * r 
+    | even n = r * r 
     | otherwise = x * r * r
         where  
             k = div n 2
-            r = myPow3 x n2
+            r = myPow3 x n
 
 -- myPow4 x n 
 --     | n == 0 = 1
@@ -77,4 +77,4 @@ myFunc3 x = [(i, sqrt i ) | i <- [1..x]]
 myFunc4 ls = [(i, sqrt i) | i <- ls]
 
 main = do 
-    mapN_ print (myFunc2 10)
+    mapM_ print (myFunc2 10)

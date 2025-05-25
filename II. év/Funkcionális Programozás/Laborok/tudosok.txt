@@ -1,0 +1,33 @@
+Euler svajc 1707 1783
+    
+BolyaiJanos magyar 1802 1860
+    
+Kolmogorov orosz 1903 1987
+    
+Turing angol 1912 1954
+    
+Hvarizmi perzsa 780 850
+    
+Pascal francia 1623 1662
+    
+Galois francia 1811 1832
+    
+Ramanujan indiai 1887 1920
+    
+Gauss nemet 1777 1855
+    
+Abel norveg 1802 1829
+    
+Poincare francia 1854 1912
+    
+Perelman orosz 1966
+    
+Renyi magyar 1921 1970
+    
+Sierpinski lengyel 1882 1969
+    
+Lovasz magyar 1948
+    
+Leibnitz nemet 1646 1716
+    
+Erdos magyar 1913 1996
