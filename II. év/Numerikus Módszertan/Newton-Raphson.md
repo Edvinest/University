@@ -6,7 +6,7 @@ function Newton(f, df, x0, max_iteracio=100, epszilon=1e-10){
 		dfx = df(x)
 
 		if dfx == 0:
-			break  # avoid division by zero
+			break
 
 		x_uj = x - fx / dfx
 
