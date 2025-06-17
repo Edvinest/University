@@ -1,6 +1,6 @@
 ### Első tétel
 ![Vizsga 1](Images/vizsga1.jpg)
-2. 
+2.  JK visszafejtés
 
 | Q2  | Q1  | Q0  | 'Q2 | 'Q1 | 'Q0 | J2  | K2  | J1  | K1  | J0  | K0  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,3 +47,17 @@ J2 = Q1\*Q0
 | 0       | x   | x   | x   | x   |
 | 1       | !a  | 0   | b   | x   |
 K2 = !Q1\*!Q0\*!a + Q1
+
+3. 74LS13 IC elemzés
+
+Clear (MR) és EnP&T = 1
+Load (PE) = (!Q3 * !Q2) + Q0
+
+(Csak betöltés és számlálás lehetséges)
+
+D0 = Q3
+D1 = !Q3
+D2 = 1
+D3 = Q3
+
+

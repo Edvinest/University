@@ -73,7 +73,7 @@ def HurModszer(a, b, f, k_max, tol=1e-10):
 			return x_new 
 
 		if f(x_new) * f(x) < 0:
-		s = x
+			s = x
   
 		x = x_new
 
