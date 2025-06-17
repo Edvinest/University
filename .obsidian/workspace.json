@@ -11,14 +11,14 @@
             "id": "1b1eee4ff8f38932",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "II. év/Mérések és jelátalakítók/Villamos, elektronikus és virtuális mérések.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Villamos, elektronikus és virtuális mérések"
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -193,10 +193,12 @@
   },
   "active": "1b1eee4ff8f38932",
   "lastOpenFiles": [
+    "II. év/Mérések és jelátalakítók/Villamos, elektronikus és virtuális mérések.md",
+    "II. év/Mérések és jelátalakítók/Erzekelok es merohalozatok_interior_REAL.pdf",
+    "II. év/Mérések és jelátalakítók/Villamos Elektronikus es Virtualis Meresek_REAL.pdf",
     "II. év/Mérések és jelátalakítók/Villamos, elektronikus és virtuális mérések.pdf",
     "II. év/Mérések és jelátalakítók/Érzékelők és mérőhálózatok.pdf",
     "II. év/Mérések és jelátalakítók/Érzékelők és mérőhálózatok.md",
-    "II. év/Mérések és jelátalakítók/Villamos, elektronikus és virtuális mérések.md",
     "II. év/Numerikus Módszertan/Cholesky-felbontás.md",
     "II. év/Numerikus Módszertan/Steffensen-módszer.md",
     "II. év/Numerikus Módszertan/Newton-Raphson.md",
@@ -229,9 +231,6 @@
     "I. év/Digitális Elektronika II/Images/vizsga1 1.jpg",
     "I. év/Digitális Elektronika II/Images/vizsga1.jpg",
     "I. év/Digitális Elektronika II/Images/rn_image_picker_lib_temp_f81a2cf4-9.jpg",
-    "I. év/Digitális Elektronika II/Images",
-    "II. év/Operációs Rendszerek II",
-    "II. év/Méréstechnika",
     "II. év/Számítógépes Architektúra/Images/feladat2.png",
     "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
     "II. év/Számítógépes Architektúra/Images/virt_chache_virt_tag.png",
