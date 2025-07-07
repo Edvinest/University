@@ -42,7 +42,7 @@ interrupt handler_function (){
 **Megjegyzés**: A megszakításfüggvényeket nem hívjuk meg, mivel azok elindítását és végrehajtását (a főfüggvény ciklusának valamely két utasítása között) a processzor megszakításrendszere végzi.
 
 #### 2. feladat
-![PicoBlaze Assembly feladat](Images/feladat2.png)
+![PicoBlaze Assembly feladat](feladat2.png)
 
 ```psm
 namereg S3, counter       ; Counter for time intervals

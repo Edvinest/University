@@ -4,7 +4,7 @@
 - A laptábla is a fizikai memóriában van
 - 1 memóriaművelet a programba
 	-> >= 2 memóriaművelet a valóságban
-	![Aranyköpés](Images/aranykopes.png)
+	![Aranyköpés](aranykopes.png)
 - Reménység: lokalitás
 
 **TLB: Translation Lookaside Buffer**
@@ -21,7 +21,7 @@
 | Találat ideje                    | 0.5 - 1 órajel     |
 | TLB hiba esetén címfordítási idő | 10 - 100 órajel    |
 | TLB hibaarány                    | 0.01% - 1%         |
-![TLB ábra](Images/tlb.png)
+![TLB ábra](tlb.png)
 
 ## Hardware menedzselt TLB
 **Címfordítás**: CPU/MMU..
@@ -58,7 +58,7 @@ TLB hiba kezelés: Az operációs rendszer..
 
 Példa: SPARC, Alpha, MIPS, félig a PA-RISC
 
-![Memória vs CPU sebesség](Images/mem_speed.png)
+![Memória vs CPU sebesség](mem_speed.png)
 
 A virtuális tárkezelés tetézi a bajt:
 - 1 memóriabeli objektum elérése -> több memóriaművelet
@@ -79,7 +79,7 @@ Példa:
 Ha van lokalitás: vigyük a gyakran használt adatokat gyakrabb memóriába, közel a CPU-hoz
 Az SRAM gyorsabb, mint a DRAM.
 Kisebb memória -> nagyobb sebesség (jel terjedési idő)
-![Memória piramis](Images/mem_triangle.png)
+![Memória piramis](mem_triangle.png)
 
 ## Cache megvalósítások
 Címzési mód szerint:
@@ -131,7 +131,7 @@ Minden memóriaművelet:
 2. Cache indexelés (halmaz kiválasztás)
 3. Komparálás (halmazon belül hol lehet)
 
-![Fizikailag indexelt cache fizikai tag-gel](Images/fizikailag_indexelt_cache.png)
+![Fizikailag indexelt cache fizikai tag-gel](fizikailag_indexelt_cache.png)
 
 ### Virtuálisan indexelt cache fizikai tag-gel
 Cache indexelés (halmaz kiválasztás) a virtuális címmel!
@@ -140,7 +140,7 @@ Minden memóriaművelet:
 	- Címfordítás
 	- Cache indexelés (halmaz kiválasztása)
 2. Komparálás (halmazon belül hol lehet)
-![Virtuálisan indexelt cache fizikai tag-gel](Images/virt_ind_cache_fiz_tag.png)
+![Virtuálisan indexelt cache fizikai tag-gel](virt_ind_cache_fiz_tag.png)
 
 ### Virtuálisan indexelt cache virtuális tag-gel
 Az egész cache virtuális címekre épül.
@@ -153,4 +153,4 @@ Hátrány:
 - Szélesebb a tag (mert a virtuális cím szélesebb, kivéve PAE)
 - Ha a keretet több lappal lehet elérni, többször lesz bent a cache-ben
 
-![Virtuálisan indexelt cache virtuális tag-gel](Images/virt_cache_virt_tag.png)
+![Virtuálisan indexelt cache virtuális tag-gel](virt_cache_virt_tag.png)

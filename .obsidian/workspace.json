@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "83d2d9b89b780987",
+    "id": "711c6bc1ca95e5d5",
     "type": "split",
     "children": [
       {
-        "id": "658fedf3fc6ec4a4",
+        "id": "ec46705036e2b4fa",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1eee4ff8f38932",
+            "id": "9298335e2cc29234",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
+                "file": "II. év/I. félév/Számítógépes Architektúra/Írásbeli vizsga.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "icon": "lucide-file",
+              "title": "Írásbeli vizsga"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1f26fff2ca76bbb4",
+    "id": "c1c4889ef1d0892a",
     "type": "split",
     "children": [
       {
-        "id": "891f3810ae2f2814",
+        "id": "df2a103caeabf9c0",
         "type": "tabs",
         "children": [
           {
-            "id": "19e6a2a84eb802f0",
+            "id": "d98dfffcc6018cdd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "438f3b18dfdd04fa",
+            "id": "488df9373b76576d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "5cbc7b383bb36c3a",
+            "id": "a81881765fec15f0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259.5
   },
   "right": {
-    "id": "dbb2de6c98c602c6",
+    "id": "2d8e2db6b7d97ea1",
     "type": "split",
     "children": [
       {
-        "id": "59ca48a343602d37",
+        "id": "547f5ed762403c8a",
         "type": "tabs",
         "children": [
           {
-            "id": "8caa10a60c04c0d2",
+            "id": "ff7ba81f503160aa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Laborhoz.md",
+                "file": "Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Laborhoz"
+              "title": "Backlinks for VHDL modulok tesztelése szimuláció által"
             }
           },
           {
-            "id": "f64f90088c00f8b7",
+            "id": "277fabb86dda8f88",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II. év/Számítógépes Architektúra/Laborhoz.md",
+                "file": "Számítógépes Architektúra/VHDL modulok tesztelése szimuláció által.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Laborhoz"
+              "title": "Outgoing links from VHDL modulok tesztelése szimuláció által"
             }
           },
           {
-            "id": "12034783c015b6ec",
+            "id": "04c591f9a1070b06",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,22 +135,22 @@
             }
           },
           {
-            "id": "21fe7b027e10f179",
+            "id": "48a5e6f4ce195272",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. év/Numerikus Módszertan/Halley módszer.md",
+                "file": "II. év/I. félév/Számítógépes Architektúra/Írásbeli vizsga.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Halley módszer"
+              "title": "Outline of Írásbeli vizsga"
             }
           },
           {
-            "id": "43626fc6ef0d3c7c",
+            "id": "7345c51af56c6118",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -160,7 +160,7 @@
             }
           },
           {
-            "id": "c086d62d7dfd7693",
+            "id": "552897c421cd7fdf",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -174,69 +174,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "markdown-importer:Open format converter": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b1eee4ff8f38932",
+  "active": "d98dfffcc6018cdd",
   "lastOpenFiles": [
-    "II. év/Mérések és jelátalakítók/Villamos, elektronikus és virtuális mérések.md",
-    "II. év/Mérések és jelátalakítók/Erzekelok es merohalozatok_interior_REAL.pdf",
-    "II. év/Mérések és jelátalakítók/Villamos Elektronikus es Virtualis Meresek_REAL.pdf",
-    "II. év/Mérések és jelátalakítók/Villamos, elektronikus és virtuális mérések.pdf",
-    "II. év/Mérések és jelátalakítók/Érzékelők és mérőhálózatok.pdf",
-    "II. év/Mérések és jelátalakítók/Érzékelők és mérőhálózatok.md",
-    "II. év/Numerikus Módszertan/Cholesky-felbontás.md",
-    "II. év/Numerikus Módszertan/Steffensen-módszer.md",
-    "II. év/Numerikus Módszertan/Newton-Raphson.md",
-    "II. év/Numerikus Módszertan/Newton-Neville interpoláció.md",
-    "II. év/Numerikus Módszertan/Newton-féle felező módszer.md",
-    "II. év/Numerikus Módszertan/Lagrange interpoláció.md",
-    "II. év/Numerikus Módszertan/Iránymenti minimalizálás.md",
-    "II. év/Numerikus Módszertan/II. parciális.md",
-    "II. év/Numerikus Módszertan/Húr módszer.md",
-    "II. év/Numerikus Módszertan/Householder.md",
-    "II. év/Numerikus Módszertan/Hermit interpoláció.md",
-    "II. év/Numerikus Módszertan/Halley módszer.md",
-    "II. év/Numerikus Módszertan/Gauss elimináció.md",
-    "II. év/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss-Seidel.md",
-    "II. év/Numerikus Módszertan/Banach-iteráció.md",
-    "II. év/Operációs Rendszerek II/IV. előadás.md",
-    "II. év/Operációs Rendszerek II/III. előadás.md",
-    "II. év/Operációs Rendszerek II/I.-II. előadás.md",
-    "I. év/Digitális Elektronika II/Vizsgára készülés.md",
-    "II. év/Kultúrtörténelem IV./Kultúra Magyarországon és Erdélyben 1945 után.md",
-    "II. év/Kultúrtörténelem IV./Az I. világháború és Magyarország.md",
-    "II. év/Kultúrtörténelem IV./Magyarország a két világháború között (1918–1939).md",
-    "II. év/Kultúrtörténelem IV./Erdély a második világháború után (1945–1989).md",
-    "II. év/Funkcionális Programozás/Laborok/Gyakorlas/halley.hs",
-    "II. év/Mérések és jelátalakítók",
-    "II. év/Kultúrtörténelem IV.",
-    "II. év/Funkcionális Programozás/Laborok/Gyakorlas/dfs.hs",
-    "II. év/Funkcionális Programozás/Laborok/Gyakorlas/graf.txt",
-    "II. év/Numerikus Módszertan/Laborok/labor9.ipynb",
-    "I. év/Digitális Elektronika II/Images/vizsga1 1.jpg",
-    "I. év/Digitális Elektronika II/Images/vizsga1.jpg",
-    "I. év/Digitális Elektronika II/Images/rn_image_picker_lib_temp_f81a2cf4-9.jpg",
-    "II. év/Számítógépes Architektúra/Images/feladat2.png",
-    "II. év/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
-    "II. év/Számítógépes Architektúra/Images/virt_chache_virt_tag.png",
-    "II. év/Számítógépes Architektúra/Images/hardware_kialakitas.png",
-    "II. év/Számítógépes Architektúra/Images/screenshot_2025-01-09_21-53-39.png",
-    "II. év/Adatbázis I/Images/diagram.png",
-    "II. év/Számítógépes Architektúra/Images/virt_ind_cache_fiz_tag.png"
+    "II. év/II. félév",
+    "II. év/I. félév",
+    "I. év/II. félév",
+    "I. év/I. félév",
+    "II. év/II. félév/Operációs Rendszerek II/Összefoglaló a fájlrendszerekről.md",
+    "II. év/II. félév/Operációs Rendszerek II/Védelem és biztonság.md",
+    "II. év/II. félév/Operációs Rendszerek II/Virtualizáció és konténerek.md",
+    "II. év/II. félév/Operációs Rendszerek II/VIII. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II/VII. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II/V.-VI. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II/IX. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II/IV. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II/III. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II/I.-II. előadás.md",
+    "II. év/II. félév/Operációs Rendszerek II",
+    "II. év/II. félév/Numerikus Módszertan/Laborok/labor9.ipynb",
+    "II. év/II. félév/Numerikus Módszertan/Laborok/labor7.ipynb",
+    "II. év/II. félév/Numerikus Módszertan/Laborok/labor5.ipynb",
+    "II. év/II. félév/Numerikus Módszertan/Laborok/labor4.ipynb",
+    "II. év/II. félév/Numerikus Módszertan/Laborok/labor3.ipynb",
+    "II. év/II. félév/Numerikus Módszertan/Laborok/labor10.ipynb",
+    "II. év/II. félév/Numerikus Módszertan/Steffensen-módszer.md",
+    "II. év/II. félév/Numerikus Módszertan/Newton-féle felező módszer.md",
+    "II. év/II. félév/Numerikus Módszertan/Newton-Raphson.md",
+    "II. év/II. félév/Numerikus Módszertan/Newton-Neville interpoláció.md",
+    "II. év/II. félév/Numerikus Módszertan/Lagrange interpoláció.md",
+    "II. év/II. félév/Numerikus Módszertan/Iránymenti minimalizálás.md",
+    "II. év/II. félév/Numerikus Módszertan/II. parciális.md",
+    "II. év/II. félév/Numerikus Módszertan/Húr módszer.md",
+    "II. év/II. félév/Numerikus Módszertan/Householder.md",
+    "II. év/II. félév/Numerikus Módszertan/Hermit interpoláció.md",
+    "II. év/II. félév/Numerikus Módszertan/Halley módszer.md",
+    "II. év/II. félév/Numerikus Módszertan/Gauss elimináció.md",
+    "II. év/II. félév/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss-Seidel.md",
+    "II. év/II. félév/Numerikus Módszertan/Cholesky-felbontás.md",
+    "II. év/II. félév/Numerikus Módszertan/Banach-iteráció.md",
+    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1229483945287651.jpeg",
+    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1041039067457095.jpeg",
+    "I. év/II. félév/Digitális Elektronika II/Images/vizsga1.jpg",
+    "II. év/I. félév/Számítógépes Architektúra/Images/feladat2.png",
+    "II. év/I. félév/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
+    "Pasted image 20250102014450.png",
+    "II. év/I. félév/Adatbázis I/Images/diagram.png",
+    "II. év/I. félév/Számítógépes Architektúra/Images/virt_ind_cache_fiz_tag.png",
+    "II. év/I. félév/Számítógépes Architektúra/Images/fizikailag_indexelt_cache.png",
+    "II. év/I. félév/Számítógépes Architektúra/Images/mem_triangle.png",
+    "Untitled.canvas"
   ]
 }

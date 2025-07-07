@@ -19,10 +19,10 @@ osztályozhatók:
 	- A címzési előírások megsértése
 	- Aritmetikai-logikai műveletek miatti megszakítások
 
-![Mikrokontroller](Images/megszakitas_okok.png)
+![Mikrokontroller](megszakitas_okok.png)
 
 ## A hardware rendszer kialakítása
-![A hardware rendszer kialakítása](Images/hardware_kialakitas.png)
+![A hardware rendszer kialakítása](hardware_kialakitas.png)
 
 ## Egy megszakítás kiszolgálásának általános folyamata
 **A megszakítás előkészítése**
@@ -36,7 +36,7 @@ osztályozhatók:
 
 Mihelyt a PC-be betöltésre kerül a megszakítást kiszolgáló program első utasításának címe, a processzor készen áll a megszakítást kérő rutin futtatására.
 
-![Megszakítás általános folyamata](Images/interrupt.png)
+![Megszakítás általános folyamata](interrupt.png)
 
 Külön vonal kell a jelzéshez:
 	IRQ (interrupt kérés), ezen jelzik a perifériák a CPU-nak a megszakítási igényt.
@@ -49,7 +49,7 @@ Az IT rutin befejezése után visszatér a megszakított programba:
 • Az IT rutin végén a RETI utasítás hatására leemeli a stack tetejéről a
 visszatérési címet és oda adja a vezérlést.
 
-![Megszakítás ábra 2](Images/interrupt2.png)
+![Megszakítás ábra 2](interrupt2.png)
 
 **A megszakítás kiszolgálásának a szoftver által végzett feladatai**
 1. Azonban míg az állapottér információinak mentését a hardverre bíztuk, még hátravan a megszakított program adatterének (pontosabban az aktuális regiszter-tartalmának) mentése, hiszen a regisztereket a megszakítást kiszolgáló program is használhatja s ezáltal tönkretenné a megszakított programok által beállított értékeket. Általában a megszakítást feldolgozó program első utasításai pont ezen regiszter-tartalmak mentését végzik, szintén a veremtárolóba.
@@ -62,7 +62,7 @@ megszakítása során a megszakított programtól teljesen függetlenül lejáts
 
 ## A programindítás folyamata
 **A vektortábla** első két eleme a veremtár és a futtatandó program kezdőcímét tartalmazza. RESET után ezek *automatikusan betöltődnek* a megfelelő regiszterekbe (R13 és R15).
-![Vektortábla](Images/vektortabla.png)
+![Vektortábla](vektortabla.png)
 
 ## Az aktuális utasítás befejezése
 A legtöbb utasítás rövid és gyorsan befejeződik
@@ -78,7 +78,7 @@ kérelem érkezik, akkor a CPU:
 	◦ Újrakezdi az eldobott utasítást
 
 ## Kontextus mentése
-![A kontextus mentése](Images/kontextus_mentese.png)
+![A kontextus mentése](kontextus_mentese.png)
 
 ## Az IT rutin címének meghatározása
 
@@ -89,24 +89,24 @@ jelzi.
 ciklusban egy vektort vár az adatbuszon. A processzor az IT vektor alapján az IT
 vektor táblából automatikusan előveszi a megfelelő IT rutin kezdőcímet.
 
-![Az IT cím meghatározása](Images/it_meghatarozas.png)
+![Az IT cím meghatározása](it_meghatarozas.png)
 
 **Programozott (státus) lekérdezéses IT forrás azonosítás** szükséges az ún. 
 ***Egyszerű IT rendszer esetén.***
-![Egyszerű IT rendszer](Images/egyszeru_it.png)
+![Egyszerű IT rendszer](egyszeru_it.png)
 
 A ***vegyes IT rendszer*** esetén egyes IT források automatikusan, mások lekérdezéssel azonosíthatók.
-![Vegyes IT rendszer](Images/vegyes_it.png)
+![Vegyes IT rendszer](vegyes_it.png)
 
 **Centralizált vektoros IT rendszer**
-![Centralizált vektoros IT rendszer](Images/centralizalt_it.png)
+![Centralizált vektoros IT rendszer](centralizalt_it.png)
 
 ## Vektorizált megszakításrendszer
 Az AT típusú személyi számítógépek két sorba kapcsolt, 8259A típusú megszakításvezérlő 
 áramkörrel vannak ellátva, melyek a hardware megszakítas kérelmeket fogadják. Mindkét interrupt vezárlő nyolc független csatornán érkező megszakítás kérést tud koordinálni.
 Az első az IRQ0-IRQ7 megszakításkérő vonalakat kezeli és az ezeknek megfelelő 0x08-0xF megszakítás-vektorokat generálja, míg a második az IRQ8 - IRQ15 vonalakat és a 0x70-0x77 vektorokat küldi. A kéréseket sorrendbe rakják és meghatározzák, melyik eszköznek
 van a legnagyobb prioritása, majd megszakítás kérelemmel jelentkeznek a processzor felé. A kérések prioritása rögzített, a 0-s vonal a legnagyobb priorítású.
-![Megszakítás rendszer](Images/megszakitas_rendszer.png)
+![Megszakítás rendszer](megszakitas_rendszer.png)
 Ahhoz, hogy egy hardware megszakítást saját céljainkra felhasználjuk, ki kell cseréljük a
 megszakítás vektor táblázatban az illető megszakításhoz tartozó lekezelő rutin címet az
 általunk írt lekezelő függvény címével. Gondoskodnunk kell a megszakítás vége utasítás

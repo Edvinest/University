@@ -15,14 +15,14 @@ egységek (**perifériák**) szolgálnak
 - aritmetikai egység
 - vezérlőegység
 - kimenet
-![Számítógép felépítése](Images/szamitogep_felepites.png)
+![Számítógép felépítése](szamitogep_felepites.png)
 
 ## Neumann architekúra
 **Egyetlen busz rendszer** az adatokhoz és az utasításokhoz, összesen **egy memória egység**.
 ### A tárolt program elve
 - **A programot alkotó utasítások** kifejezhetők számokkal, **azaz adatként kezelhetők**. Ezek a belső memóriában tárolhatók, mint bármelyik más adat. 
 - Ezáltal a számítógép önállóan képes működni, hiszen az adatokat és az utasításokat egyaránt a memóriából veszi elő.
-![Neumann architektúra](Images/neumann.png)
+![Neumann architektúra](neumann.png)
 ### Fő komponensek
 - A CPU: központi egység
 - A (központi) tár (memória)
@@ -43,7 +43,7 @@ egységek (**perifériák**) szolgálnak
 - Lehetőség eltérő adat és program memória szervezésre
 - Nem képes a saját programját generálni
 - Főleg kis méretű számítógépekben (mikrokontrollerekben) terjedt el
-![Harvard architektúra](Images/harvard.png)
+![Harvard architektúra](harvard.png)
 
 ## Módosított Harvard architektúra
 **Két külön buszon** egyidőben olvas be adatot és utasítást, **ugyanabból a memóriából**.

@@ -1,5 +1,5 @@
 ### Első tétel
-![Vizsga 1](Images/vizsga1.jpg)
+![Vizsga 1](vizsga1.jpg)
 2.  JK visszafejtés
 
 | Q2  | Q1  | Q0  | 'Q2 | 'Q1 | 'Q0 | J2  | K2  | J1  | K1  | J0  | K0  |

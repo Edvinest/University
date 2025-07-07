@@ -38,7 +38,7 @@ kapcsolat létrehozható, I/O portoknak nevezzük.
 
 ## Egy adatátvitel végrehajtása
 **Egy I/O-egység és memória közötti átvitel két CPU-utasítás végrehajtását igényli**
-![Az adatátvitel végrehajtása](Images/adatatvitel_vegrehajtas.png)
+![Az adatátvitel végrehajtása](adatatvitel_vegrehajtas.png)
 **Egy regiszternyi adat inputjának esemény-sorozata a következő:**
 - az I/O cím alapján kiválasztásra kerül a megfelelő I/O port;
 - a processzor beírja az adott egység parancsregiszterébe a kiszolgálási igényét, majd mással kezd foglalkozni;
@@ -49,7 +49,7 @@ kapcsolat létrehozható, I/O portoknak nevezzük.
 - ezután a soron következő programutasítástól függ, hogy az adott akkumulátor-tartalommal mi történik, például STORE utasítás esetén a memóriában kerül eltárolásra, ADD utasítás esetén hozzáadásra kerül az utasításban szereplő memóriacím tartalmához.
 
 ## A memória címtérben leképezett I/O elve (memory mapped I/O)
-![Memória címtérbe leképezett I/O elve](Images/memory_mapped.png)
+![Memória címtérbe leképezett I/O elve](memory_mapped.png)
 
 ### Értékelés, példa
 **Értékelés**
@@ -59,7 +59,7 @@ Ennek a módszernek az előnye, hogy végtelenül egyszerű. Hátránya, hogy mi
 I/O porton keresztül kommunikál az IBM PC-vel kompatibilis gépeknél a billentyűzet, az egér, a modem, stb.
 
 ## A memória címtérben leképezett I/O megvalósítása
-![A memória címtérben leképezett I/O megvalósítása](Images/memory_io.png)
+![A memória címtérben leképezett I/O megvalósítása](memory_io.png)
 ### Értékelés, példa
 **Értékelés**
 Ez a módszer gyorsabb átvitelt biztosít, mint a különálló címterű I/O, viszont az adatátvitelt még mindig csak a processzor részvételével lehet megvalósítani.
@@ -118,7 +118,7 @@ A közvetlen tárhoz fordulást (DMA)
 - a nagyobb sebességű eszközök használata;
 - nagyobb tömegű adat átvitele és
 - adatblokkos adatátvitel esetén célszerű alkalmazni.
-![DMA](Images/dma.png)
+![DMA](dma.png)
 ## A DMA felprogramozása
 A DMA vezérlők használatakor annak több paraméterét
 választhatóan lehet beállítani. Ilyen lehetőségek:
