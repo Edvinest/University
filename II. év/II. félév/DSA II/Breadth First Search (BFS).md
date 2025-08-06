@@ -1,3 +1,4 @@
+A sorban következő elemen megyünk végig. Tehát ahogy az élek követik egymást a bemenetnél/szomszédsági listában. Ha rendezed a szomszédsági listát akkor nyilván nem feltétlenül igaz.
 ```cpp
 vector<int> BFS(vector<CSPOINT> &mPoints, int startingPoint) {  
     // Initialize all nodes (reset color, father, and distance)

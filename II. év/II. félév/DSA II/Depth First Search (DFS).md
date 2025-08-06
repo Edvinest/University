@@ -1,7 +1,7 @@
 Működése:
-- Bináris fához hasonlóan végigmegyünk a vertex-eken, balról jobbra
-- Mivel a fákban egy node többször is látogatható itt `látogatottnak` jelöljük a vertex-et
-- Kiírjuk az utolsó vertex-et, majd visszamegyünk a kiinduló pontba
+- Bináris fához hasonlóan végigmegyünk a csúcsokon, balról jobbra
+- Mivel a fákban egy csúcs többször is látogatható itt `látogatottnak` jelöljük az aktuális csúcsot
+- Kiírjuk az utolsó csúcsot, majd visszamegyünk a kiinduló pontba
 
 ```pseudo
 adj - szomszédsági lista

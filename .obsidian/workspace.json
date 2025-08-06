@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. év/I. félév/Számítógépes Architektúra/Írásbeli vizsga.md",
+                "file": "I. év/II. félév/Analóg Elektronika/Vizsga feladatok kidolgozása.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Írásbeli vizsga"
+              "title": "Vizsga feladatok kidolgozása"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 200
   },
   "right": {
     "id": "2d8e2db6b7d97ea1",
@@ -178,6 +178,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -186,16 +188,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "d98dfffcc6018cdd",
   "lastOpenFiles": [
-    "II. év/II. félév",
-    "II. év/I. félév",
-    "I. év/II. félév",
-    "I. év/I. félév",
+    "I. év/II. félév/Analóg Elektronika/Images/kapcsolo.png",
+    "I. év/II. félév/Analóg Elektronika/Images/Screenshot_20250806_144049.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontPNP.png",
+    "I. év/II. félév/Analóg Elektronika/Vizsga feladatok kidolgozása.md",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontNPN2.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontNPN1.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontNPN.png",
+    "I. év/II. félév/Analóg Elektronika/Images/Screenshot_20250806_004631.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontPNP2.png",
+    "I. év/II. félév/Analóg Elektronika/Images/Screenshot_20250805_182627.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontPNP1.png",
+    "I. év/II. félév/Analóg Elektronika/Images/Screenshot_20250805_182443.png",
+    "I. év/II. félév/Analóg Elektronika/Műveleti Erősítő.md",
+    "II. év/II. félév/DSA II/Kruskal algoritmusa.md",
+    "II. év/II. félév/DSA II/Depth First Search (DFS).md",
+    "II. év/II. félév/DSA II/Breadth First Search (BFS).md",
+    "II. év/I. félév/Számítógépes Architektúra/Írásbeli vizsga.md",
+    "III. év/II. félév/Mesterséges Intelligencia",
+    "III. év/II. félév/Osztott rendszerek",
+    "III. év/II. félév/Webtechnológiák",
+    "III. év/II. félév/Információ keresés",
+    "III. év/II. félév/Hálózatok II.",
+    "III. év/II. félév/Adatbázisok II.",
+    "III. év/II. félév",
+    "III. év/I. félév/Szoftverrendszerek tervezése",
+    "III. év/I. félév/Képfeldolgozás",
+    "III. év/I. félév/Számítógépes hálózatok",
     "II. év/II. félév/Operációs Rendszerek II/Összefoglaló a fájlrendszerekről.md",
     "II. év/II. félév/Operációs Rendszerek II/Védelem és biztonság.md",
     "II. év/II. félév/Operációs Rendszerek II/Virtualizáció és konténerek.md",
@@ -206,13 +230,6 @@
     "II. év/II. félév/Operációs Rendszerek II/IV. előadás.md",
     "II. év/II. félév/Operációs Rendszerek II/III. előadás.md",
     "II. év/II. félév/Operációs Rendszerek II/I.-II. előadás.md",
-    "II. év/II. félév/Operációs Rendszerek II",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor9.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor7.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor5.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor4.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor3.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor10.ipynb",
     "II. év/II. félév/Numerikus Módszertan/Steffensen-módszer.md",
     "II. év/II. félév/Numerikus Módszertan/Newton-féle felező módszer.md",
     "II. év/II. félév/Numerikus Módszertan/Newton-Raphson.md",
@@ -222,22 +239,6 @@
     "II. év/II. félév/Numerikus Módszertan/II. parciális.md",
     "II. év/II. félév/Numerikus Módszertan/Húr módszer.md",
     "II. év/II. félév/Numerikus Módszertan/Householder.md",
-    "II. év/II. félév/Numerikus Módszertan/Hermit interpoláció.md",
-    "II. év/II. félév/Numerikus Módszertan/Halley módszer.md",
-    "II. év/II. félév/Numerikus Módszertan/Gauss elimináció.md",
-    "II. év/II. félév/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss-Seidel.md",
-    "II. év/II. félév/Numerikus Módszertan/Cholesky-felbontás.md",
-    "II. év/II. félév/Numerikus Módszertan/Banach-iteráció.md",
-    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1229483945287651.jpeg",
-    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1041039067457095.jpeg",
-    "I. év/II. félév/Digitális Elektronika II/Images/vizsga1.jpg",
-    "II. év/I. félév/Számítógépes Architektúra/Images/feladat2.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
-    "Pasted image 20250102014450.png",
-    "II. év/I. félév/Adatbázis I/Images/diagram.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/virt_ind_cache_fiz_tag.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/fizikailag_indexelt_cache.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/mem_triangle.png",
     "Untitled.canvas"
   ]
 }
