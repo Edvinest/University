@@ -11,10 +11,14 @@
             "id": "9298335e2cc29234",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "II. év/II. félév/Rendszerelmélet/Vizsga gyakorlás.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Vizsga gyakorlás"
             }
           }
         ]
@@ -174,6 +178,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
@@ -187,8 +192,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d98dfffcc6018cdd",
+  "active": "9298335e2cc29234",
   "lastOpenFiles": [
+    "II. év/II. félév/Numerikus Módszertan/Cholesky-felbontás.md",
+    "II. év/II. félév/Numerikus Módszertan/Banach-iteráció.md",
+    "II. év/II. félév/Rendszerelmélet/Vizsga gyakorlás.md",
+    "II. év/II. félév/Rendszerelmélet/Images/bodediagram.png",
+    "II. év/II. félév/Rendszerelmélet/Images/Untitled",
+    "II. év/II. félév/Rendszerelmélet/Images/atviteli1.png",
+    "II. év/II. félév/Rendszerelmélet/Images/Screenshot_20250807_170418.png",
+    "II. év/II. félév/Rendszerelmélet/Images",
+    "I. év/II. félév/Analóg Elektronika/Vizsga feladatok kidolgozása.md",
+    "II. év/II. félév/Rendszerelmélet",
+    "I. év/II. félév/Analóg Elektronika/Műveleti Erősítő.md",
+    "II. év/II. félév/DSA II/Kruskal algoritmusa.md",
+    "I. év/II. félév/Analóg Elektronika/Images/nemforditoschmitt.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontPNP.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontNPN2.png",
+    "I. év/II. félév/Analóg Elektronika/Images/munkapontNPN1.png",
+    "I. év/II. félév/Analóg Elektronika/Images/kapcsolo.png",
+    "I. év/II. félév/Analóg Elektronika/Images/forditoschmitt.png",
+    "I. év/II. félév/Analóg Elektronika/Images/fazisnemfordito.png",
+    "II. év/Számítógépes Architektúra/Virtuális memória.md",
+    "II. év/Számítógépes Architektúra",
     "II. év/II. félév/Operációs Rendszerek II/Összefoglaló a fájlrendszerekről.md",
     "II. év/II. félév/Operációs Rendszerek II/Védelem és biztonság.md",
     "II. év/II. félév/Operációs Rendszerek II/Virtualizáció és konténerek.md",
@@ -205,36 +231,15 @@
     "II. év/II. félév/Numerikus Módszertan/Laborok/labor5.ipynb",
     "II. év/II. félév/Numerikus Módszertan/Laborok/labor4.ipynb",
     "II. év/II. félév/Numerikus Módszertan/Laborok/labor3.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor10.ipynb",
-    "II. év/II. félév/Numerikus Módszertan/Laborok/labor1.ipynb",
     "II. év/II. félév/Numerikus Módszertan/Steffensen-módszer.md",
     "II. év/II. félév/Numerikus Módszertan/Newton-féle felező módszer.md",
     "II. év/II. félév/Numerikus Módszertan/Newton-Raphson.md",
     "II. év/II. félév/Numerikus Módszertan/Newton-Neville interpoláció.md",
     "II. év/II. félév/Numerikus Módszertan/Lagrange interpoláció.md",
-    "II. év/II. félév/Numerikus Módszertan/Laborok",
     "II. év/II. félév/Numerikus Módszertan/Iránymenti minimalizálás.md",
     "II. év/II. félév/Numerikus Módszertan/II. parciális.md",
     "II. év/II. félév/Numerikus Módszertan/Húr módszer.md",
     "II. év/II. félév/Numerikus Módszertan/Householder.md",
-    "II. év/II. félév/Numerikus Módszertan/Hermit interpoláció.md",
-    "II. év/II. félév/Numerikus Módszertan/Halley módszer.md",
-    "II. év/II. félév/Numerikus Módszertan/Gauss elimináció.md",
-    "II. év/II. félév/Numerikus Módszertan/Egyenletrendszer megoldása - Jacobi és Gauss-Seidel.md",
-    "II. év/II. félév/Numerikus Módszertan/Cholesky-felbontás.md",
-    "II. év/II. félév/Numerikus Módszertan/Banach-iteráció.md",
-    "II. év/II. félév/Numerikus Módszertan",
-    "II. év/II. félév/Mérések és jelátalakítók/Érzékelők és mérőhálózatok.md",
-    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1229483945287651.jpeg",
-    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1041039067457095.jpeg",
-    "II. év/I. félév/Számítógépes Architektúra/Images/virt_ind_cache_fiz_tag.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/vektortabla.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/vegyes_it.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/tombvazlat.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/tlb.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/szamitogep_felepites.png",
-    "II. év/I. félév/Számítógépes Architektúra/Images/neumann.png",
     "Untitled.canvas"
   ]
 }
