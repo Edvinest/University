@@ -1,11 +1,11 @@
 ## Dióda
 $U_{AK} = U_A - U_K$
 Ha az anód és katód feszültség közti különbség $\ge$ 0.7 V, akkor a dióda nyit.
-Ha a kérdés az, hogy "Mekkor a diódán eső feszültség?" és tudjuk, hogy a dióda nyit, akkor a válasz $\approx$ 0.7 V. (Ez csak feltételezés)
+Ha a kérdés az, hogy "Mekkor a diódán eső feszültség? ($U_D$)" és tudjuk, hogy a dióda nyit, akkor a válasz $\approx$ 0.7 V. 
 
 ### 1. feladat
 ![Dióda 1](Images/dioda1.png)
-$U_{AK}$ = 3 - 8 = - 5 V
+$U_{AK}$ = 5 - 8 = - 3 V
 Tehát a dióda nem nyit. A mérhető feszültség 0 V.
 ![Dióda 2](Images/dioda2.png)
 $U_{AK}$ = 0 - (-100) = 100 V
