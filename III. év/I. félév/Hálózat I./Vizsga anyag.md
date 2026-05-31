@@ -14,8 +14,15 @@ Egyszerűsítés lépései:
 
 #### Elméleti rész
 ##### Keretezés
-Az alkalmazási réteg a TCP/IP modell legfelső rétege, amely hálózati szolgáltatásokat nyújt a felhasználói alkalmazások számára, és meghatározza az alkalmazások közötti adatkommunikáció protokolljait.
+Az adatkapcsolati réteg keretekre osztja az üzeneteket (frame) a hálózati médiumon történő továbbítás előtt, és kicsomagolja őket a fogadás során.
+
+- Byte count (Byte számlálás): Ez a vezérlőinformáció tartalmazza a keretben lévő adatok byte-onkénti számát. A fogadó eszköz ez alapján tudja, hogy hány adatbyte-ot kell várnia a keretben. Ezzel a módszerrel egyszerűen elkülöníthető a keret tartalma és hossza a többi vezérlőinformációtól.
+- Flag bytes with byte stuffing (Flag byte-ok byte stuffinggel): A flag byte-ok olyan speciális byte-ok a keretben, amelyek jelzik a keret kezdetét és végét. A byte stuffing azt a technikát jelenti, hogy ha a tényleges adatban vagy a flag byte-okban olyan minta jelenik meg, amely összezavarhatná az eszközöket, akkor egy speciális bájtot (például escape byte) teszünk be, majd a zavart okozó mintát módosítva szerepeltetjük a keretben. Ez segít elkerülni az ütközéseket a vezérlőinformációkkal.
+- Flag bits with bit stuffing (Flag bit-ek bit stuffinggel): Hasonlóan a byte stuffinghoz, a bit stuffing azt a célt szolgálja, hogy bizonyos flag bit-eket, amelyek szintén az adatok kezdetét és végét jelzik, megfelelően elkülönítsünk a tényleges adatbitektől. Ha a flag bit-ek sorozata található az adatok között, akkor egy extra bitet (stuffed bit) szúrunk be a sorozatba, hogy azokat elkülönítsük. A vevő oldalon a stuffed bit-eket eltávolítjuk, és helyreállítjuk az eredeti adatot.
+- Physical layer coding violations (Fizikai réteg kódolási megsértések): Ezek olyan hibák vagy rendellenességek, amelyek a fizikai rétegben történnek a kommunikációs közegben. A fizikai réteg kódolási sértéseket például azok az esetek jelentik, amikor a vezeték vagy a közeg sajátosságai miatt az adatok átvitelénél olyan változások vagy zaj keletkezik, amelyek torzítják az eredeti jelet. Ezek a megsértések befolyásolhatják az adatok helyes értelmezését a vevő oldalon.
 ##### TCP és UDP
+Az alkalmazási réteg a TCP/IP modell legfelső rétege, amely hálózati szolgáltatásokat nyújt a felhasználói alkalmazások számára, és meghatározza az alkalmazások közötti adatkommunikáció protokolljait.
+
 - TCP (Transmission Control Protocol)
 	=> Kapcsolat orientált
 	=> Megbízható átvitel
@@ -105,6 +112,10 @@ Az alkalmazási réteg a TCP/IP modell legfelső rétege, amely hálózati szolg
 7. A rekurzív resolver eltárolja a választ a TTL idejére, majd visszaküldi az IP-címet a kliensnek, amely szintén cache-eli azt. (IP visszaküldése a kliensnek)
 
 ##### Különbség NAT és PAT között
+**NAT (Network Address Translation)**  
+IP-cím fordítást végez: a csomagokban lévő **forrás- vagy cél IP-címet módosítja**, tipikusan privát → publikus címre.
+**PAT (Port Address Translation)**  
+A NAT egy speciális típusa, amely **nemcsak az IP-címet, hanem a port számot is módosítja**.
 ##### VPN típusok
 - Site-to-Site (Vállalati egységek közti)
 	=> Két autonóm hálózatot köt össze
@@ -116,5 +127,5 @@ Az alkalmazási réteg a TCP/IP modell legfelső rétege, amely hálózati szolg
 	=> A felhasználó gépe és egy privát hálózat közt létesít titkosított kapcsolatot
 	=> A Cisco ASA eszközei által biztosít ilyen szolgáltatást
 	=> Nyílt forráskódú elterjedt megoldás az OpenVPN
-##### CSMA/CSD
+##### CSMA/CD
 ##### IPv6

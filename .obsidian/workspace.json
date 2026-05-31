@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "III. év/Hálózat I./Vizsga anyag.md",
+                "file": "I. év/II. félév/Fizika II/Elektro- és Magnetosztatika.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vizsga anyag"
+              "title": "Elektro- és Magnetosztatika"
             }
           },
           {
-            "id": "a340a77725a2b751",
+            "id": "a717de9f0e280eb4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "III. év/II. félév/Mikrovezérlők/Vizsga kérdések és válaszok.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "Vizsga kérdések és válaszok"
             }
           }
         ],
@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,17 +207,28 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c086d62d7dfd7693",
+  "active": "a717de9f0e280eb4",
   "lastOpenFiles": [
+    "III. év/II. félév/Mikrovezérlők/Vizsga kérdések és válaszok.md",
+    "III. év/II. félév/Mikrovezérlők",
+    "I. év/II. félév/Fizika II/Optika.md",
+    "I. év/II. félév/Fizika II/Elektro- és Magnetosztatika.md",
+    "III. év/II. félév/Mesterséges Intelligencia/I. előadás.md",
+    "I. év/II. félév/Fizika II",
+    "III. év/II. félév/Hálózat II.",
+    "III. év/I. félév/Hálózat I./Vizsga anyag.md",
+    "III. év/II. félév/Mesterséges Intelligencia",
+    "III. év/II. félév/Információ Keresés",
+    "III. év/II. félév",
+    "III. év/I. félév",
     "conflict-files-obsidian-git.md",
-    "III. év/Hálózat I./Vizsga anyag.md",
     "II. év/II. félév/Rendszerelmélet/Images/bodediagram.png",
     "II. év/II. félév/Rendszerelmélet/Images/atviteli1.png",
     "II. év/II. félév/Rendszerelmélet/Vizsga gyakorlás.md",
     "II. év/II. félév/Rendszerelmélet/Images",
     "II. év/II. félév/Rendszerelmélet",
     "II. év/I. félév/Számítógépes Architektúra/Írásbeli vizsga.md",
-    "III. év/Hálózat I.",
+    "III. év/I. félév/Hálózat I.",
     "II. év/I. félév/Számítógépes Architektúra/Hatszintű számítógép felépítése.md",
     "II. év/I. félév/Számítógépes Architektúra/Feladat.md",
     "II. év/I. félév/Számítógépes Architektúra/Az IO rendszer felépítése.md",
@@ -225,30 +236,19 @@
     "II. év/I. félév/Számítógépes Architektúra/Laborhoz.md",
     "II. év/I. félév/Számítógépes Architektúra/Virtuális memória.md",
     "II. év/I. félév/Számítógépes Architektúra/Vizsga feladatok.md",
-    "III. év/Valószínűség és statisztika/Valószínűség.md",
+    "III. év/I. félév/Valószínűség és statisztika/Valószínűség.md",
     "I. év/I. félév/Fizika/3. Kinematika.md",
-    "III. év/Valószínűség és statisztika",
     "I. év/I. félév/Fizika/2. Mechanikában használt fizikai objektumokra vonat.md",
     "I. év/I. félév/Fizika/1. Alapok.md",
     "I. év/I. félév/Fizika/Parciálisra.md",
-    "III. év/Számítógépes grafika/Glut.md",
+    "III. év/I. félév/Számítógépes grafika/Glut.md",
     "II. év/II. félév/Funkcionális Programozás/Alapok.md",
-    "III. év/Formális nyelvek",
-    "III. év/Képfeldolgozás",
-    "III. év/Számítógépes grafika",
-    "III. év",
     "I. év/II. félév/Analóg Elektronika/Vizsga feladatok kidolgozása.md",
     "II. év/II. félév/DSA II/Kruskal algoritmusa.md",
     "II. év/II. félév/DSA II/Merge Sort.md",
     "II. év/II. félév/DSA II/Depth First Search (DFS).md",
-    "II. év/II. félév/DSA II/Breadth First Search (BFS).md",
-    "II. év/II. félév/DSA II/Backtracking.md",
-    "II. év/Fejlett Programozás/Írásbeli vizsga.md",
-    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/vizsga.hs",
     "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1229483945287651.jpeg",
     "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/received_1041039067457095.jpeg",
-    "II. év/II. félév/Funkcionális Programozás/Laborok/Gyakorlas/mintafeladat.hs",
-    "II. év/II. félév/Operációs Rendszerek II/Összefoglaló a fájlrendszerekről.md",
     "II. év/I. félév/Számítógépes Architektúra/Images/virt_ind_cache_fiz_tag.png",
     "II. év/I. félév/Számítógépes Architektúra/Images/virt_cache_virt_tag.png",
     "II. év/I. félév/Számítógépes Architektúra/Images/vektortabla.png",

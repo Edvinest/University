@@ -1,4 +1,5 @@
 {
   "accentColor": "#4c00ff",
-  "cssTheme": "Atom"
+  "cssTheme": "Atom",
+  "theme": "obsidian"
 }
