@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I. év/II. félév/Elméleti Villamosságtan/Vizsgára készülés.md",
+                "file": "I. év/II. félév/Fizika II/Elméleti feladat kidolgozás.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vizsgára készülés"
+              "title": "Elméleti feladat kidolgozás"
             }
           },
           {
@@ -225,9 +225,11 @@
   },
   "active": "45bb3795447b0f57",
   "lastOpenFiles": [
+    "I. év/II. félév/Fizika II/Optika.md",
+    "I. év/II. félév/Elméleti Villamosságtan/Vizsgára készülés.md",
+    "Pasted image 20260812175022.png",
     "I. év/II. félév/Elméleti Villamosságtan/Millman, Thévenin, Norton tétel.md",
     "I. év/II. félév/Fizika II/Elméleti feladat kidolgozás.md",
-    "Pasted image 20260812175022.png",
     "I. év/II. félév/Fizika II/Images/polar_koordinata.png",
     "I. év/II. félév/Fizika II/Images/polar_koordinata.svg",
     "I. év/II. félév/Fizika II/Images/gemini-svg.svg",
@@ -242,12 +244,10 @@
     "III. év/II. félév/Adatbázisok II/Vizsga készülés.md",
     "III. év/II. félév/Információ Keresés/Vizsga feladatok.md",
     "III. év/II. félév/Mikrovezérlők/Gyakorlati feladatok.md",
-    "I. év/II. félév/Fizika II/Optika.md",
     "I. év/II. félév/Fizika II/Images",
     "III. év/II. félév/Mikrovezérlők/Vizsga kérdések és válaszok.md",
     "III. év/II. félév/Webtech/Vizsgára készülés.md",
     "III. év/II. félév/Webtech",
-    "I. év/II. félév/Elméleti Villamosságtan/Vizsgára készülés.md",
     "III. év/II. félév/Mesterséges Intelligencia/Uborka felismerő konvolúciós neuronháló.md",
     "III. év/II. félév/Adatbázisok II",
     "I. év/II. félév/Analóg Elektronika/Műveleti Erősítő.md",
@@ -269,7 +269,6 @@
     "II. év/I. félév/Számítógépes Architektúra/CPU tervezés.md",
     "II. év/I. félév/Számítógépes Architektúra/Laborhoz.md",
     "II. év/I. félév/Számítógépes Architektúra/Virtuális memória.md",
-    "II. év/I. félév/Számítógépes Architektúra/Vizsga feladatok.md",
-    "III. év/I. félév/Valószínűség és statisztika/Valószínűség.md"
+    "II. év/I. félév/Számítógépes Architektúra/Vizsga feladatok.md"
   ]
 }
