@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 680 420"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="lorentz-ero-szarmaztatas.svg"
+   inkscape:export-filename="lorentz-ero-szarmaztatas.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.32647059"
+     inkscape:cx="340"
+     inkscape:cy="211.35135"
+     inkscape:window-width="928"
+     inkscape:window-height="497"
+     inkscape:window-x="965"
+     inkscape:window-y="556"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30" />
+  <!-- Háttér -->
+  <rect
+     width="680"
+     height="420"
+     fill="#121212"
+     rx="10"
+     id="rect1" />
+  <!-- Cím -->
+  <text
+     x="340"
+     y="32"
+     fill="#FFFFFF"
+     font-family="sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text1">Végtelen áramvezető l szakaszára ható Lorentz-erő</text>
+  <defs
+     id="defs4">
+    <!-- Nyílhegyek -->
+    <marker
+       id="arrowI"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 1.5 L 10 5 L 0 8.5 z"
+         fill="#81C784"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrowV"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 1.5 L 10 5 L 0 8.5 z"
+         fill="#64B5F6"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrowF"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 1.5 L 10 5 L 0 8.5 z"
+         fill="#FFD54F"
+         id="path3" />
+    </marker>
+    <!-- Mágneses tér B (síkba bemutató cross "⊗") -->
+    <g
+       id="bCross">
+      <circle
+         cx="0"
+         cy="0"
+         r="10"
+         fill="none"
+         stroke="#29B6F6"
+         stroke-width="1.5"
+         opacity="0.4"
+         id="circle3" />
+      <line
+         x1="-5"
+         y1="-5"
+         x2="5"
+         y2="5"
+         stroke="#29B6F6"
+         stroke-width="1.5"
+         opacity="0.6"
+         id="line3" />
+      <line
+         x1="5"
+         y1="-5"
+         x2="-5"
+         y2="5"
+         stroke="#29B6F6"
+         stroke-width="1.5"
+         opacity="0.6"
+         id="line4" />
+    </g>
+  </defs>
+  <!-- Mágneses indukció (B) mező szimbólumok -->
+  <g
+     id="g18">
+    <use
+       href="#bCross"
+       x="120"
+       y="75"
+       id="use4" />
+    <use
+       href="#bCross"
+       x="230"
+       y="75"
+       id="use5" />
+    <use
+       href="#bCross"
+       x="340"
+       y="75"
+       id="use6" />
+    <use
+       href="#bCross"
+       x="450"
+       y="75"
+       id="use7" />
+    <use
+       href="#bCross"
+       x="560"
+       y="75"
+       id="use8" />
+    <use
+       href="#bCross"
+       x="120"
+       y="145"
+       id="use9" />
+    <use
+       href="#bCross"
+       x="230"
+       y="145"
+       id="use10" />
+    <use
+       href="#bCross"
+       x="340"
+       y="145"
+       id="use11" />
+    <use
+       href="#bCross"
+       x="450"
+       y="145"
+       id="use12" />
+    <use
+       href="#bCross"
+       x="560"
+       y="145"
+       id="use13" />
+    <use
+       href="#bCross"
+       x="120"
+       y="275"
+       id="use14" />
+    <use
+       href="#bCross"
+       x="230"
+       y="275"
+       id="use15" />
+    <use
+       href="#bCross"
+       x="340"
+       y="275"
+       id="use16" />
+    <use
+       href="#bCross"
+       x="450"
+       y="275"
+       id="use17" />
+    <use
+       href="#bCross"
+       x="560"
+       y="275"
+       id="use18" />
+  </g>
+  <text
+     x="590"
+     y="80"
+     fill="#29B6F6"
+     font-family="sans-serif"
+     font-size="15"
+     font-weight="bold"
+     id="text18">B (síkba be)</text>
+  <!-- Végtelen vezeték (szaggatott végekkel) -->
+  <line
+     x1="30"
+     y1="210"
+     x2="80"
+     y2="210"
+     stroke="#78909C"
+     stroke-width="3"
+     stroke-dasharray="4,4"
+     id="line18" />
+  <line
+     x1="80"
+     y1="210"
+     x2="600"
+     y2="210"
+     stroke="#ECEFF1"
+     stroke-width="3"
+     id="line19" />
+  <line
+     x1="600"
+     y1="210"
+     x2="650"
+     y2="210"
+     stroke="#78909C"
+     stroke-width="3"
+     stroke-dasharray="4,4"
+     id="line20" />
+  <!-- Áramirány (I) -->
+  <line
+     x1="90"
+     y1="180"
+     x2="570"
+     y2="180"
+     stroke="#81C784"
+     stroke-width="2.5"
+     marker-end="url(#arrowI)"
+     id="line21" />
+  <text
+     x="330"
+     y="170"
+     fill="#81C784"
+     font-family="sans-serif"
+     font-size="14"
+     font-weight="bold"
+     id="text21">I = Q / Δt</text>
+  <!-- Kijelölt l szakasz -->
+  <line
+     x1="220"
+     y1="245"
+     x2="460"
+     y2="245"
+     stroke="#FFD54F"
+     stroke-width="1.5"
+     id="line22" />
+  <line
+     x1="220"
+     y1="237"
+     x2="220"
+     y2="253"
+     stroke="#FFD54F"
+     stroke-width="1.5"
+     id="line23" />
+  <line
+     x1="460"
+     y1="237"
+     x2="460"
+     y2="253"
+     stroke="#FFD54F"
+     stroke-width="1.5"
+     id="line24" />
+  <text
+     x="340"
+     y="265"
+     fill="#FFD54F"
+     font-family="sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text24">l hosszúságú szakasz</text>
+  <!-- Q össztöltés a kijelölt szakaszban -->
+  <circle
+     cx="340"
+     cy="210"
+     r="14"
+     fill="#64B5F6"
+     stroke="#FFFFFF"
+     stroke-width="1.5"
+     id="circle24" />
+  <text
+     x="340"
+     y="215"
+     fill="#FFFFFF"
+     font-family="sans-serif"
+     font-size="12"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text25">+Q</text>
+  <!-- Töltés sebessége (v) -->
+  <line
+     x1="354"
+     y1="210"
+     x2="410"
+     y2="210"
+     stroke="#64B5F6"
+     stroke-width="2.5"
+     marker-end="url(#arrowV)"
+     id="line25" />
+  <text
+     x="380"
+     y="200"
+     fill="#64B5F6"
+     font-family="sans-serif"
+     font-size="13"
+     font-weight="bold"
+     id="text26">v = l / Δt</text>
+  <!-- Eredő mágneses erő (F) -->
+  <line
+     x1="340"
+     y1="196"
+     x2="340"
+     y2="105"
+     stroke="#FFD54F"
+     stroke-width="3.5"
+     marker-end="url(#arrowF)"
+     id="line26" />
+  <text
+     x="350"
+     y="130"
+     fill="#FFD54F"
+     font-family="sans-serif"
+     font-size="15"
+     font-weight="bold"
+     id="text27">F = Q · v · B</text>
+  <!-- Jelmagyarázat doboz -->
+  <rect
+     x="40"
+     y="315"
+     width="600"
+     height="80"
+     rx="6"
+     fill="#1E1E1E"
+     stroke="#333"
+     id="rect27" />
+  <text
+     x="50"
+     y="338"
+     fill="#FFFFFF"
+     font-family="sans-serif"
+     font-size="12"
+     id="text28">• Az l szakaszban lévő mozgó töltés: Q = I · Δt = I · (l / v)</text>
+  <text
+     x="50"
+     y="358"
+     fill="#FFFFFF"
+     font-family="sans-serif"
+     font-size="12"
+     id="text29">• Lorentz-erő a szakaszra: F = Q · v · B = (I · l / v) · v · B = I · l · B</text>
+  <text
+     x="50"
+     y="378"
+     fill="#FFD54F"
+     font-family="sans-serif"
+     font-size="12"
+     font-weight="bold"
+     id="text30">• Egységnyi hosszra jutó erő: f = F / l = I · B</text>
+</svg>
